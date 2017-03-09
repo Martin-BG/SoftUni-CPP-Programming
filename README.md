@@ -1,2 +1,2 @@
-# SoftUni-C-
+# SoftUni-CPP
 C++ Course at SoftUni
