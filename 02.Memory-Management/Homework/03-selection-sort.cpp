@@ -1,6 +1,6 @@
 /* Write a void selectionSort(int a[], int start, int end)
 function that uses the selection sort algorithm to sort the elements from
-arr[start] to arr[end – 1] in increasing order (the elements outside
+arr[start] to arr[end - 1] in increasing order (the elements outside
 the [start, end) range shouldn't be sorted). This function modifies the
 array, so that the elements between start and end are sorted.
 
@@ -22,18 +22,21 @@ int main()
     int start_index = 0;
     int end_index = 0;
 
-    cout << "Enter array size (elements): ";
-    cin >> array_elements;
+    while (array_elements < 2)
+    {
+        cout << "Enter array size (2+): ";
+        cin >> array_elements;
+    }
 
-    cout << "Enter start element for selection sort (1 - " << array_elements - 1 << "): ";
+    cout << "Enter start index for selection sort (0 - " << array_elements - 2 << "): ";
     cin >> start_index;
 
-    cout << "Enter end index for selection sort (" << start_index + 1 << " - " << array_elements << "): ";
+    cout << "Enter end index for selection sort (" << start_index + 1 << " - " << array_elements - 1 << "): ";
     cin >> end_index;
 
-    start_index--; //Index in arrays starts from 0
+    end_index++; //selection sort should work to index [end - 1]
 
-    if (array_elements < 1 || start_index < 0 || start_index >= end_index || end_index > array_elements)
+    if (start_index < 0 || start_index >= end_index || end_index > array_elements)
     {
         cout << endl << "Invalid input parameters!" << endl;
         return 1;
