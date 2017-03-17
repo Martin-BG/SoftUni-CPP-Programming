@@ -19,18 +19,18 @@ int main()
     int * pArrOne = readArrayOfInt(array_one_size);
     int * pArrTwo = readArrayOfInt(array_two_size);
 
-    bool arrays_are_equal = array_one_size == array_two_size;
+    bool are_arrays_equal = array_one_size == array_two_size;
 
-    if (arrays_are_equal)
+    if (are_arrays_equal)
     {
-        for (int i = 0; arrays_are_equal && i < array_one_size; i++)
+        for (int i = 0; are_arrays_equal && i < array_one_size; i++)
         {
-            arrays_are_equal = compArr(pArrOne[i], pArrTwo[i]);
+            are_arrays_equal = compArr(pArrOne[i], pArrTwo[i]);
         }
     }
 
     std::cout << std::endl << "Elements in both arrays are "
-        << (arrays_are_equal ? "" : "NOT ") << "equal." << std::endl << std::endl;
+        << (are_arrays_equal ? "" : "NOT ") << "equal." << std::endl << std::endl;
 
     printArray(pArrOne, array_one_size);
     printArray(pArrTwo, array_two_size);
