@@ -7,7 +7,7 @@ function, which returns true if they are equal and false if not */
 #include<string>
 #include<sstream>
 
-bool compArr(const int* arr1, const int& length1, int* arr2, const int& length2);
+bool compArr(const int*, const int&, int*, const int&);
 int* readArrayOfInt(int&);
 int countIntegerNumbersInString(const std::string&);
 void printArray(const int[], const int&);
@@ -21,8 +21,10 @@ int main()
 
     bool are_arrays_equal = compArr(pArrOne, array_one_size, pArrTwo, array_two_size);
 
-    std::cout << std::endl << "Elements in both arrays are "
-        << (are_arrays_equal ? "" : "NOT ") << "equal." << std::endl << std::endl;
+    std::cout << std::endl
+        << "Elements in both arrays are "
+        << (are_arrays_equal ? "" : "NOT ")
+        << "equal." << std::endl << std::endl;
 
     printArray(pArrOne, array_one_size);
     printArray(pArrTwo, array_two_size);
