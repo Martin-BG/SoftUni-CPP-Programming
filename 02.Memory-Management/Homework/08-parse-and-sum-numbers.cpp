@@ -26,17 +26,18 @@ string getALineOfNumbers();
 
 int main()
 {
-    int lines;
+    int arrays;
 
-    cout << "Enter line(s) to read: ";
-    cin >> lines;
+    cout << "Enter array(s) count to read: ";
+    cin >> arrays;
 
     int sum_of_all_array_elements = 0;
     int numbers_in_string;
+    int numbers_total = 0;
     string line_of_nums;
     int * pArr;
 
-    for (int i = 0; i < lines; i++)
+    for (int i = 0; i < arrays; i++)
     {
         line_of_nums = getALineOfNumbers();
 
@@ -47,10 +48,17 @@ int main()
             sum_of_all_array_elements += pArr[i];
         }
 
+        numbers_total += numbers_in_string;
+
         delete[] pArr; // Release array memory
     }
 
-    cout << endl << "The sum of all array elements is: "
+    cout << endl
+        << "Sum of ("
+        <<  numbers_total
+        << ") elements of all ("
+        << arrays
+        << ") arrays is: "
         << sum_of_all_array_elements << endl;
 
     return 0;
@@ -78,10 +86,12 @@ int * parseNumbers(const string& str, int& result_length)
 string getALineOfNumbers()
 {
     static int lines = 1;
-    cout << "Enter integer numbers (line " << lines++ << "): ";
+    cout << "Enter integer numbers (array " << lines++ << "): ";
 
     string input_line;
 
+    // alternatively this code could be used:
+    // getline(cin >> ws, input_line);
     while (input_line.size() == 0)
     {
         getline(cin, input_line);
