@@ -32,7 +32,7 @@ int main()
 
 unsigned long long getFibonacciNum(int num)
 {
-    // NOTE: Works for input numbers up to 93 (ULL overflows above this limit).
+    // NOTE: Works for input numbers up to 93 (ULL overflows above that limit).
     // Verify at: http://planetmath.org/listoffibonaccinumbers
 
     static unsigned long long n1 = 0ULL;
