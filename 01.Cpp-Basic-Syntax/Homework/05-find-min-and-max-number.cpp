@@ -19,7 +19,7 @@ int main()
 
     for (int i = 0; i < numbers_to_read; i++)
     {
-        cout << "Enter next number (" << i+1 << " of " << numbers_to_read << "): ";
+        cout << "Enter next number (" << i + 1 << " of " << numbers_to_read << "): ";
 
         cin >> current_num;
 
