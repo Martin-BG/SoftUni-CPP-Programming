@@ -1,19 +1,19 @@
 /* Write a function
-int occurences(const string& text, const string& search)
+int occurrences(const string& text, const string& search)
 which returns the number of times search is contained in text.
 
 Example call:
 
-string text = “Write a function int occurences(const string& text, const
-    string& search) which returns the number of times search is contained in text”
+string text = "Write a function int occurrences(const string& text, const
+    string& search) which returns the number of times search is contained in text"
 
-string search = “on”;
+string search = "on";
 
-occurences(text, search);
+occurrences(text, search);
 
 Expected result: 4
 
-Make a program which reads two lines of text from the console – first the
+Make a program which reads two lines of text from the console - first the
 text, then the search string and prints the number of times search is
 contained in text */
 
