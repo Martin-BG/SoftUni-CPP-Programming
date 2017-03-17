@@ -24,6 +24,7 @@ int main()
     string sentence;
 
     cout << "Enter a sentence: ";
+
     getline(cin, sentence);
 
     makeTitleCase(sentence);
@@ -37,8 +38,9 @@ void makeTitleCase(string& text)
 {
     char upper_case;
     bool make_letter_capital = true;
+    int text_size = text.size();
 
-    for (int i = 0; i < text.size(); i++)
+    for (int i = 0; i < text_size; i++)
     {
         if (isalpha(text[i]))
         {
