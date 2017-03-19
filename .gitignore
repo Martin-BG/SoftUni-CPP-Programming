@@ -1,7 +1,7 @@
-#.gitignore
+.gitignore
 
-**/Demos/
-*.pptx
+#**/Demos/
+#*.pptx
 *.zip
 *.7z
 *.rar
