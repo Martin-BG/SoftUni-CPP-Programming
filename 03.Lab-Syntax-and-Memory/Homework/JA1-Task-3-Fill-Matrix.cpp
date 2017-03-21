@@ -1,3 +1,5 @@
+// https://judge.softuni.bg/Contests/Compete/Index/502#2
+
 #include<iostream>
 
 using namespace std;

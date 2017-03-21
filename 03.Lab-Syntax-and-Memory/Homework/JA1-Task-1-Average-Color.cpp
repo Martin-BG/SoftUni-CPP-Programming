@@ -1,3 +1,5 @@
+// https://judge.softuni.bg/Contests/Compete/Index/502#0
+
 #include<iostream>
 #include<string>
 #include <iomanip>
