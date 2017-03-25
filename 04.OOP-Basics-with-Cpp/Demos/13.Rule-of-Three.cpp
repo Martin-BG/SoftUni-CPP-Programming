@@ -3,20 +3,22 @@ using namespace std;
 
 /// NOTE: This is not a thread-safe and exception-safe implementation of the Rule of Three
 
+typedef int DataType;
+
 class SmartArray {
 private:
-    int * data;
+    DataType * data;
     int currentSize;
 
 public:
     SmartArray() :
-        data(new int[0]),
+        data(new DataType[0]),
         currentSize(0) {
     }
 
     // copy constructor - initializes SmartArray with a copy of another object
     SmartArray(const SmartArray& other) :
-        data(new int[other.currentSize]),
+        data(new DataType[other.currentSize]),
         currentSize(other.currentSize) {
         this->copyDataFrom(other.data, currentSize);
     }
@@ -39,7 +41,7 @@ public:
             delete[] this->data;
 
             this->currentSize = other.currentSize;
-            this->data = new int[other.currentSize];
+            this->data = new DataType[other.currentSize];
 
             this->copyDataFrom(other.data, other.currentSize);
         }
@@ -47,14 +49,18 @@ public:
         return *this;
     }
 
+    DataType& operator[] (int index) {
+        return this->data[index];
+    }
+
     int getSize() {
         return this->currentSize;
     }
 
     void changeSize(int newSize) {
-        int * oldData = this->data;
+        DataType * oldData = this->data;
         // NOTE: using () after the brackets initializes the int array with 0. This is specific syntax only for initializing arrays with new. So this would make the array have 0s as elements for int
-        this->data = new int[newSize]();
+        this->data = new DataType[newSize]();
         this->copyDataFrom(oldData, currentSize);
         this->currentSize = newSize;
         delete[] oldData;
@@ -69,7 +75,7 @@ public:
         throw "index out of bounds";
     }
 
-    int getElement(int index) {
+    DataType getElement(int index) {
         if (index < this->currentSize) {
             return this->data[index];
         }
@@ -78,7 +84,7 @@ public:
     }
 
 private:
-    void copyDataFrom(int * source, int sourceSize) {
+    void copyDataFrom(DataType * source, int sourceSize) {
         for (int i = 0; i < this->currentSize && i < sourceSize; i++) {
             this->data[i] = source[i];
         }
