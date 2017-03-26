@@ -112,7 +112,7 @@ int main()
     vector<int> nums = line_parser.getNumbers();
     cout << line_parser.getInfo(nums);
 
-    line_parser.changeLine("Hello World! I'm your master!");
+    line_parser.changeLine("  Hello       World!  ");
     vector<string> words = line_parser.getStrings();
     cout << line_parser.getInfo(words);
 
@@ -128,7 +128,7 @@ int main()
     cout << line_parser.getInfoForAllTypes();
 
     line_parser.changeLine("6876 786876 6123 667 66 -12312 \
-        -123213444      6876 666    131 1111 1111            7");
+        -123213444      6876 666    131 1111 1116876868    7");
     cout << line_parser.getInfoForAllTypes();
 
     line_parser.changeLine("Lorem ipsum dolor sit amet, consectetur \
