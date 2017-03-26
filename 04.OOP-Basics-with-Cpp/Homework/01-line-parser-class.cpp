@@ -25,9 +25,23 @@ private:
     string line;
 
 public:
+    // Constructor
     LineParser(const string& line): line(line) {}
 
+    // Destructor
     ~LineParser() {}
+
+    // Copy constructor
+    LineParser(const LineParser& other) : line(other.line) { }
+
+    // Copy-assignment operator
+    LineParser& operator= (const LineParser& other) {
+        if (this != &other) {
+            this->line = other.line;
+        }
+
+        return *this;
+    }
 
     vector<int> getNumbers() const
     {
