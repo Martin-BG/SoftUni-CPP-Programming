@@ -194,7 +194,7 @@ private:
     static vector<Car*> registeredCars;
     static vector<Person*> personsList;
 
-    static clearRegisteredCars()
+    static void clearRegisteredCars()
     {
         while (!registeredCars.empty())
         {
@@ -205,7 +205,7 @@ private:
         CarsRegister::registeredCars.clear();
     }
 
-    static clearPersonsList()
+    static void clearPersonsList()
     {
         while (!personsList.empty())
         {
@@ -369,7 +369,7 @@ public:
         }
     }
 
-    static clearGlobalData()
+    static void clearGlobalData()
     {
         clearPersonsList();
         clearRegisteredCars();
