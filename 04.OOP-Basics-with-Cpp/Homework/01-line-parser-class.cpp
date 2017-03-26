@@ -27,6 +27,8 @@ private:
 public:
     LineParser(const string& line): line(line) {}
 
+    ~LineParser() {}
+
     vector<int> getNumbers() const
     {
         vector<int> nums {};
@@ -108,7 +110,7 @@ public:
 
 int main()
 {
-    LineParser line_parser = LineParser("1 2 3");
+    LineParser line_parser = LineParser(" 1  2 3 ");
     vector<int> nums = line_parser.getNumbers();
     cout << line_parser.getInfo(nums);
 
@@ -140,6 +142,14 @@ int main()
        Excepteur sint occaecat cupidatat non proident, sunt in culpa \
        qui officia deserunt mollit anim id est laborum.");
     cout << line_parser.getInfoForAllTypes();
+
+    LineParser * ptr_line_parser = new LineParser("I'm in the dynamic memory!");
+    cout << ptr_line_parser->getInfoForAllTypes();
+
+    ptr_line_parser->changeLine(" 1 2 3 4 5 -89");
+    cout << ptr_line_parser->getInfoForAllTypes();
+
+    delete ptr_line_parser;
 
     return 0;
 }
