@@ -32,10 +32,11 @@ public:
     ~LineParser() {}
 
     // Copy constructor
-    LineParser(const LineParser& other) : line(other.line) { }
+    LineParser(const LineParser& other) : line(other.line) {}
 
     // Copy-assignment operator
-    LineParser& operator= (const LineParser& other) {
+    LineParser& operator= (const LineParser& other)
+    {
         if (this != &other) {
             this->line = other.line;
         }

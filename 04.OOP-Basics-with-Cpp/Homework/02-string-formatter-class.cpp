@@ -93,10 +93,11 @@ public:
     StringFormatter(const StringFormatter& other) :
         stringToFormat(other.stringToFormat),
         formatPrefix(other.formatPrefix),
-        enableMultipleUseOfReplaceString(other.enableMultipleUseOfReplaceString) { }
+        enableMultipleUseOfReplaceString(other.enableMultipleUseOfReplaceString) {}
 
     // Copy-assignment operator
-    StringFormatter& operator= (const StringFormatter& other) {
+    StringFormatter& operator= (const StringFormatter& other)
+    {
         if (this != &other) {
             this->stringToFormat = other.stringToFormat;
             this->formatPrefix = other.formatPrefix;
