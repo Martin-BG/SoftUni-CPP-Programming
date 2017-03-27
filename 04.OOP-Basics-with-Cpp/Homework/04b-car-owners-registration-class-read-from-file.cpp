@@ -253,12 +253,13 @@ public:
         static string family_names[5] {" White", " Black", " Gray", " Green", " Pink"};
         for (int i = 0; i < persons; i++)
         {
-            personsList.push_back(new Person(names[rand()%5] + family_names[rand()%5], 16 + rand()%50));
+            personsList.push_back(new Person(names[rand()%5] + family_names[rand()%5],
+                                             16 + rand()%50));
         }
     }
 
     static Car * addCarRegistration(const string & manufacturer, const string & model,
-                                   int horsepower, Person * owner, const string & registration_number)
+                        int horsepower, Person * owner, const string & registration_number)
     {
         Car * car = new Car(manufacturer, model, horsepower, owner, registration_number);
         registeredCars.push_back(car);
@@ -274,9 +275,11 @@ public:
         {
             for (int i = 0; i < cars; i++)
             {
-                registeredCars.push_back(new Car(manufacrurers[i%5], models[i%5],
-                                                 20 + rand()%50, personsList[rand() % personsList.size()],
-                                                  "AU-" + to_string(rand()%99999)));
+                registeredCars.push_back(new Car(manufacrurers[i%5],
+                                                 models[i%5],
+                                                 20 + rand()%50,
+                                                 personsList[rand() % personsList.size()],
+                                                 "AU-" + to_string(rand()%99999)));
             }
         }
     }
@@ -444,7 +447,8 @@ public:
             int index = findPersonIndexByID(id);
             if (index != -1) // There's a person with that ID
             {
-                CarsRegister::addCarRegistration(manufacturer, model, horsepower, &getPersonByIndex(index), registration_number);
+                CarsRegister::addCarRegistration(manufacturer, model,
+                    horsepower, &getPersonByIndex(index), registration_number);
             }
             else
             {
@@ -522,6 +526,7 @@ void testCreateSaveRestore()
     bool string_match = database_persons_string.compare(CarsRegister::getPersonsInfo()) == 0;
     cout << boolalpha << string_match << endl
         << "Restored registrations and snapshot are equal... ";
+
     string_match = database_registrations_string.compare(CarsRegister::getCarsInfo()) == 0;
     cout << boolalpha << string_match << endl << endl
         << "Test done!" << endl << endl;
