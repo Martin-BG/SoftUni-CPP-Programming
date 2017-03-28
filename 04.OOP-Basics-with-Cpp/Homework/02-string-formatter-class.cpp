@@ -98,7 +98,8 @@ public:
     // Copy-assignment operator
     StringFormatter& operator= (const StringFormatter& other)
     {
-        if (this != &other) {
+        if (this != &other)
+        {
             this->stringToFormat = other.stringToFormat;
             this->formatPrefix = other.formatPrefix;
             this->enableMultipleUseOfReplaceString = other.enableMultipleUseOfReplaceString;

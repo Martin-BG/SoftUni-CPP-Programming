@@ -37,7 +37,8 @@ public:
     // Copy-assignment operator
     LineParser& operator= (const LineParser& other)
     {
-        if (this != &other) {
+        if (this != &other)
+        {
             this->line = other.line;
         }
 

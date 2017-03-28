@@ -58,7 +58,8 @@ public:
     // Copy-assignment operator
     Person& operator= (const Person& other)
     {
-        if (this != &other) {
+        if (this != &other)
+        {
             this->name = other.name;
             this->age = other.age;
             this->id = other.id;
