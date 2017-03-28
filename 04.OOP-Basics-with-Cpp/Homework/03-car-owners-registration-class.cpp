@@ -198,40 +198,48 @@ private:
     {
         while (!registeredCars.empty())
         {
-            delete CarsRegister::registeredCars.back();
-            CarsRegister::registeredCars.erase(registeredCars.end()-1);
+            delete registeredCars.back();
+            registeredCars.erase(registeredCars.end()-1);
         }
 
-        CarsRegister::registeredCars.clear();
+        registeredCars.clear();
     }
 
     static void clearPersonsList()
     {
         while (!personsList.empty())
         {
-            delete CarsRegister::personsList.back();
-            CarsRegister::personsList.erase(personsList.end()-1);
+            delete personsList.back();
+            personsList.erase(personsList.end()-1);
         }
 
-        CarsRegister::personsList.clear();
+        personsList.clear();
     }
 
+    static void registerPerson(Person * person)
+    {
+        personsList.push_back(person);
+    }
 public:
     static Person * addPerson(const string & name, const int & age)
     {
         Person * person = new Person(name, age);
-        personsList.push_back(person);
+        registerPerson(person);
         return person;
     }
 
     static void generatePersons(const int & persons)
     {
-        static string names[5] {"Alex", "John", "Peter", "Ronald", "Ivan" };
-        static string family_names[5] {" White", " Black", " Gray", " Green", " Pink"};
+        static string names[26] {"Alex", "Bob", "Cindy", "Dick", "Elsa", "Fritz", "Glen",
+                    "Harry", "Ivan", "John", "Karen", "Larry", "Martin", "Ned", "Olivia",
+                    "Peter", "Queen", "Ronald", "Sam", "Tiffany", "Ulrich", "Victor",
+                    "Will", "Xena", "Yoko", "Zed" };
+        static string family_names[10] {" White", " Black", " Gray", " Green", " Pink",
+                                    " Red", " Brown", " Purple", " Yellow", " Blue"};
         for (int i = 0; i < persons; i++)
         {
-            personsList.push_back(new Person(names[rand()%5] + family_names[rand()%5],
-                                             16 + rand()%50));
+            registerPerson(new Person(names[rand()%26] + family_names[rand()%10],
+                                        16 + rand()%50));
         }
     }
 
