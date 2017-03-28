@@ -618,7 +618,10 @@ int main()
                     getline(cin >> ws, file_name);
                     CarsRegister::saveAllDataToFile(file_name);
                 }   break;
-            default:    break;
+            default:
+                {
+                    cout << "Invalid selection" << endl;
+                }   break;
         }
     }
 

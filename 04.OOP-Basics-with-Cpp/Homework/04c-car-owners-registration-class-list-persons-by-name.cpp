@@ -817,7 +817,7 @@ int main()
             case 17:
                 {
                     char start_name_letter;
-                    cout << "Enter first name letter: ";
+                    cout << "Enter start letter of name: ";
                     cin >> start_name_letter;
                     cout << CarsRegister::listAllPersonsByFirstNameLetter(start_name_letter);
                 }   break;
@@ -825,7 +825,10 @@ int main()
                 {
                     cout << CarsRegister::listPersonsSummaryByNameStartingLetter();
                 }   break;
-            default:    break;
+            default:
+                {
+                    cout << "Invalid selection" << endl;
+                }   break;
         }
     }
 

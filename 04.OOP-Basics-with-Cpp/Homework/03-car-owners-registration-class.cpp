@@ -577,7 +577,10 @@ int main()
                     CarsRegister::clearGlobalData();
                     cout << "Cleared Persons and Registrations data." << endl;
                 }   break;
-            default:    break;
+            default:
+                {
+                    cout << "Invalid selection" << endl;
+                }   break;
         }
     }
 

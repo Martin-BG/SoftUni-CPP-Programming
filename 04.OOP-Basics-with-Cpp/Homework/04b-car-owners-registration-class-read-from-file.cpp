@@ -748,7 +748,10 @@ int main()
                 {
                     testCreateSaveRestore();
                 }   break;
-            default:    break;
+            default:
+                {
+                    cout << "Invalid selection" << endl;
+                }   break;
         }
     }
 
