@@ -1,0 +1,13 @@
+5 4 3 2 1
+4
+avg 1
+sum 0
+min 2
+max 3
+max 0 5
+sum 0 5
+sum 0 1
+min 0 5
+avg 0 2
+sum 0 5
+end

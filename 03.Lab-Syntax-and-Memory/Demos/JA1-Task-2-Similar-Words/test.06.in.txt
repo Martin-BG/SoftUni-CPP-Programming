@@ -1,0 +1,2 @@
+we will consider two words w1 and w2 similar if they have the same length, start with the same letter, and a minimum percentage p of their letters match . a letter in w1 matches a letter in w2 if the two letters are the same symbol and are at the same position in both words
+letter 30

@@ -1,0 +1,32 @@
+13 69 42
+19
+one 1
+two 1
+three 1
+four 1
+five 1
+six 1
+seven 1
+eight 1
+nine 1
+ten 1
+eleven 1
+twelve 1
+thirteen 1
+fourteen 1
+fifteen 1
+sixteen 1
+seventeen 1
+eighteen 1
+nineteen 1
+one 0 2
+two 2 3
+three 0 2
+four 2 3
+five 0 2
+sixteen 2 3
+seventeen 0 2
+eighteen 2 3
+nineteen 0 2
+nineteen 2 3
+end

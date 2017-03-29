@@ -1,0 +1,12 @@
+1024 1 2048 4096 1 5 7 142 13
+3
+reva 1
+xam 3
+mus 0
+reva 0 2
+mus 0 9
+mus 0 9
+xam 0 3
+reva 0 9
+mus 0 9
+end

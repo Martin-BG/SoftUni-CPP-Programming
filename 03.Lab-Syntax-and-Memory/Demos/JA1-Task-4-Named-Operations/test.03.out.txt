@@ -1,0 +1,1 @@
+[10]{one(0,2)=41,two(2,3)=42,three(0,2)=41,four(2,3)=42,five(0,2)=41,sixteen(2,3)=42,seventeen(0,2)=41,eighteen(2,3)=42,nineteen(0,2)=41,nineteen(2,3)=42}
