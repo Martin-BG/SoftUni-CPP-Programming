@@ -33,13 +33,13 @@
  into the console to demonstrate creating astronomical objects and searching
  for astronomical objects.
 
- !!!INCOMPLETE IMPLEMENTAION!!!
- These tasks are still not finished:
- 1. Backup and restore not implemented
- 2. Display system information (data statistics about universe)
- 3. Create random star systems
- 4. Create random astronomical objects for existing star systems
- 5. More unit and load tests could be added to auto testing suite
+
+ TODO
+* Display system information (data statistics about universe)
+* Create random star systems
+* Create random astronomical objects for existing star systems
+* More unit and load tests could be added to auto testing suite
+* Better save to file implementation
 
  Known issues/bugs:
  1. Change/set nickname option currently allows only one word names
@@ -50,6 +50,7 @@
 #include<vector>
 #include<algorithm>
 #include <iomanip>
+#include<fstream>
 
 using namespace std;
 
@@ -448,6 +449,84 @@ public:
 
         return star_system;
     }
+
+    void saveDataToFile(const string & file_name) const
+    {
+        ofstream fs(file_name);
+
+        int star_systems_count = universe.size();
+
+        fs << star_systems_count << endl;
+
+        for (int i = 0; i < star_systems_count; i++)
+        {
+            int star_system_size = universe[i]->getObjects().size();
+
+            fs << star_system_size << " " << universe[i]->getName() << endl;
+
+            for (int j = 0; j < star_system_size; j++)
+            {
+                fs << j << " "                                              // int index
+                    << universe[i]->getObjects()[j]->getMass() << " "       // long double mass
+                    << universe[i]->getObjects()[j]->getRadius() << " "     // long long unsigned radius
+                    << (int)universe[i]->getObjects()[j]->getType() << " "  // ObjectType type
+                    << universe[i]->getObjects()[j]->getNickname() << endl; // string nickname
+                universe[i]->getObjects()[j];
+            }
+        }
+
+        fs.close();
+    }
+
+    void restoreDataFromFile(const string & file_name)
+    {
+        resetUniverse(); // Clear current data
+
+        ifstream fs(file_name);
+
+        int star_systems_count, star_system_size, index, temp;
+        string star_system_name, object_nickname, line;
+        long double mass;
+        long long unsigned radius;
+        ObjectType type;
+
+        getline(fs, line);
+        stringstream ss(line);
+        ss >> star_systems_count;
+
+        for (int i = 0; i < star_systems_count; i++)
+        {
+            getline(fs, line);
+
+            stringstream ss(line);
+            ss >> star_system_size;
+            getline(ss >> ws, star_system_name);
+
+            addStarSystem(star_system_name);
+
+            StarSystem * star_system = getStarSystem(star_system_name);
+
+            if (star_system != nullptr)
+            {
+                for (int j = 0; j < star_system_size; j++)
+                {
+                    object_nickname = "";
+                    getline(fs, line);
+                    stringstream ss(line);
+                    ss >> ws >> index;
+                    ss >> ws >> mass;
+                    ss >> ws >> radius;
+                    ss >> ws >> temp;
+                    type = (ObjectType)temp;
+                    getline(ss >> ws, object_nickname);
+
+                    star_system->addObject(index, mass, radius, type, object_nickname);
+                }
+            }
+        }
+
+        fs.close();
+    }
 }KnownUniverse;
 
 struct  // Data validate
@@ -730,14 +809,18 @@ public:
     void saveUniverseToFile() const
     {
         cout << "Saving universe data to [" << file_name << "]...";
-        // TODO add the code
+
+        KnownUniverse.saveDataToFile(file_name);
+
         cout << " done" << endl;
     }
 
     void loadUniverseFromFile() const
     {
         cout << "Restoring universe data from [" << file_name << "]...";
-        // TODO add the code
+
+        KnownUniverse.restoreDataFromFile(file_name);
+
         cout << " done" << endl;
     }
 }FileWorker;
