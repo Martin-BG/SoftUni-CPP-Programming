@@ -40,16 +40,13 @@
 * Create random astronomical objects for existing star systems
 * More unit and load tests could be added to auto testing suite
 * Better save to file implementation
-
- Known issues/bugs:
- 1. Change/set nickname option currently allows only one word names
 */
 
 #include<iostream>
 #include<sstream>
 #include<vector>
 #include<algorithm>
-#include <iomanip>
+#include<iomanip>
 #include<fstream>
 
 using namespace std;
@@ -836,7 +833,7 @@ private:
         if (!input.empty())
         {
             istringstream istr(input);
-            istr >> name;
+            getline(istr >> ws, name);
         }
 
         return name;
