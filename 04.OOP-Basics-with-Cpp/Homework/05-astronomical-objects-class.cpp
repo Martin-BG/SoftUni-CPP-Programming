@@ -58,6 +58,8 @@ const string ObjectTypeName[OT_NUM_OF]
     "Unknown"
 };
 
+const string separator("---------------------------------------");
+
 class StarSystem;
 
 class AstronomicalObject
@@ -268,9 +270,21 @@ public:
         this->name = name;
     }
 
-    vector<AstronomicalObject*> getObjects() const
+    vector<AstronomicalObject*> & getObjects()
     {
         return this->objects;
+    }
+
+    AstronomicalObject & getObject(const int & index) const
+    {
+        if (index > 0 && index < this->getNumberOfObjects())
+        {
+            return *this->objects[index];
+        }
+        else
+        {
+            throw "Invalid index";
+        }
     }
 
     int getNumberOfStars() const
@@ -365,7 +379,7 @@ public:
           return this->universe[distance(this->universe.begin(), it)];
         }
 
-        return NULL;
+        return nullptr;
     }
 
     void removeStarSystem(const string & name)
@@ -378,6 +392,50 @@ public:
             this->universe.erase(it);
             delete star_system;
         }
+    }
+
+    StarSystem * findAstonomicalObjectByDesignation(const string & designation, int & index) const
+    {
+        size_t found = designation.find_last_of("-");
+        string name = designation.substr(0, found);
+
+        StarSystem * star_system = getStarSystem(name);
+
+        if(star_system != nullptr)
+        {
+            if (star_system->getNumberOfStars() > 1)
+            {cout << designation[designation.size()-1] << endl;
+                if (designation[designation.size()-1] >= 'a')
+                {
+                    index = designation[designation.size()-1] - 'a';
+                    index += stoi(designation.substr(found + 1, designation.size()-1));
+                }
+                else
+                {
+                    index = star_system->getNumberOfStars() - 1;
+                    index += stoi(designation.substr(found + 1));
+                }
+            }
+            else
+            {
+                index += stoi(designation.substr(found + 1));
+            }
+
+            index--; // Normalize index from user input (1, 2, 3 etc)
+
+            if (index >= star_system->getObjects().size() && index < 0)
+            {
+                star_system = nullptr;
+            }
+        }
+
+        if (star_system == nullptr)
+        {
+            index = -1;
+            cout << "Invalid astronomical object name" << endl;
+        }
+
+        return star_system;
     }
 }KnownUniverse;
 
@@ -398,7 +456,7 @@ public:
 
     bool canCreateStarSystem(const string & name) const
     {
-        if (KnownUniverse.getStarSystem(name) != NULL)
+        if (KnownUniverse.getStarSystem(name) != nullptr)
         {   // Star system with this name already exists
             return false;
         }
@@ -664,35 +722,18 @@ public:
 struct // User interaction
 {
 private:
-    AstronomicalObject * selectAstronomicalObjectByName() const
+    string getString() const
     {
-        string designation;
-        cout << "Enter astronomical object designation (StarSystem-Index): ";
-        cin >> designation;
-        cout << endl;
-
-        size_t found = designation.find_last_of("-");
-        string name = designation.substr(0, found);
-
-        int index = stoi(designation.substr(found + 1));
-
-        StarSystem * star_system = KnownUniverse.getStarSystem(name);
-
-        if(star_system == NULL || star_system->getNumberOfObjects() < index)
+        string name, input;
+        cin.get();
+        getline(cin, input);
+        if (!input.empty())
         {
-            cout << "Invalid astronomical object name" << endl;
-            return NULL;
+            istringstream istr(input);
+            istr >> name;
         }
 
-        cout << designation << " found in " << star_system->getName() << endl;
-
-        index--; // Normalize index
-
-        AstronomicalObject * object = star_system->getObjects()[index];
-
-        cout << InfoBuilder.getFullObjectInfo(object) << endl;
-
-        return object;
+        return name;
     }
 
     StarSystem * selectStarSystemByName() const
@@ -704,7 +745,7 @@ private:
 
         StarSystem * star_system = KnownUniverse.getStarSystem(name);
 
-        if(star_system == NULL)
+        if(star_system == nullptr)
         {
             cout << "Invalid star system name" << endl;
         }
@@ -731,7 +772,7 @@ private:
     {
         StarSystem * star_system = selectStarSystemByName();
 
-        if(star_system != NULL)
+        if(star_system != nullptr)
         {
             cout << InfoBuilder.getStarSystemDetailedInfo(star_system) << endl;
         }
@@ -786,86 +827,98 @@ private:
         cout << "Enter mass for the new object (real number): ";
         cin >> mass;
 
-        string name;
-        cout << "Enter name for the new object (could be blank too): ";
-        cin >> name;
+        cout << "Enter nickname for the new object (could be blank too): ";
+        string name = getString();
 
         star_system->addObject(index, mass, radius, type, name);
+
+        cout << endl << "Created " << InfoBuilder.getFullObjectInfo(star_system->getObjects()[index]) << endl;
     }
 
     void editAstronomicalObject(StarSystem * star_system, const int & index) const
     {
         AstronomicalObject * object = star_system->getObjects()[index];
 
-        cout << endl << InfoBuilder.getFullObjectInfo(object) << endl << endl
-            << "Editable fields: " << endl
-            << " 1 - Mass (" << object->getMass() << ")" << endl
-            << " 2 - Radius (" << object->getRadius() << ")" << endl
-            << " 3 - Nickname (" << object->getNickname() << ")" << endl;
-
-        if (object->getType() == OT_UNKNOWN)
+        while (true)
         {
-            cout << " 4 - Change type to " << ObjectTypeName[OT_GAS_GIANT] << endl
-                << " 5 - Change type to " << ObjectTypeName[OT_ROCKY_PLANET] << endl;
-        }
-
-        cout << "Enter your selection (0 to exit): ";
-
-        int selection;
-        cin >> selection;
-        cout << endl;
-        switch (selection)
-        {
-            case 0:
-            {
-                cout << "Cancel selected" << endl;
-                return;
-            } break;
-            case 1: // Mass
-            {
-                long double mass;
-                cout << "Enter new mass (real number): ";
-                cin >> mass;
-                object->setMass(mass);
-             } break;
-            case 2: // Radius
-            {
-                unsigned long long radius;
-                cout << "Enter new radius (positive int): ";
-                cin >> radius;
-                object->setRadius(radius);
-            } break;
-            case 3: // Nickname
-            {
-                string name;
-                cout << "Enter new nickname: ";
-                cin >> name;
-                object->setNickName(name);
-            } break;
+            cout << endl << separator << endl
+                << "Edit astronomical object" << endl << endl
+                << InfoBuilder.getFullObjectInfo(object) << endl << endl
+                << " 0 - Exit object edit" << endl
+                << " 1 - Change mass (" << object->getMass() << ")" << endl
+                << " 2 - Change radius (" << object->getRadius() << ")" << endl
+                << " 3 - Change nickname (" << object->getNickname() << ")" << endl;
 
             if (object->getType() == OT_UNKNOWN)
             {
+                cout << " 4 - Change type to " << ObjectTypeName[OT_GAS_GIANT] << endl
+                    << " 5 - Change type to " << ObjectTypeName[OT_ROCKY_PLANET] << endl;
+            }
+
+            cout << endl << "Enter your selection: ";
+
+            int selection;
+            cin >> selection;
+            cout << endl;
+            switch (selection)
+            {
+                case 0:
+                {
+                    cout << "Cancel selected" << endl;
+                    return;
+                } break;
+                case 1: // Mass
+                {
+                    long double mass;
+                    cout << "Enter new mass (real number): ";
+                    cin >> mass;
+                    object->setMass(mass);
+                 } break;
+                case 2: // Radius
+                {
+                    unsigned long long radius;
+                    cout << "Enter new radius (positive int): ";
+                    cin >> radius;
+                    object->setRadius(radius);
+                } break;
+                case 3: // Nickname
+                {
+                    cout << "Enter new nickname (could be empty): ";
+                    string name = getString();
+                    object->setNickName(name);
+                } break;
                 case 4: // Change type to Gas giant
                 {
-                    cout << "Changing object type to " << ObjectTypeName[OT_GAS_GIANT] << "...";
-                    object->setType(OT_GAS_GIANT);
-                    cout << " done" << endl;
+                    if (object->getType() == OT_UNKNOWN)
+                    {
+                        cout << "Changing object type to " << ObjectTypeName[OT_GAS_GIANT] << "...";
+                        object->setType(OT_GAS_GIANT);
+                        cout << " done" << endl;
+                    }
+                    else
+                    {
+                        cout << "Invalid selection!" << endl;
+                    }
                 } break;
                 case 5: // Change type to Rocky planet
                 {
-                    cout << "Changing object type to " << ObjectTypeName[OT_ROCKY_PLANET] << "...";
-                    object->setType(OT_ROCKY_PLANET);
-                    cout << " done" << endl;
+                    if (object->getType() == OT_UNKNOWN)
+                    {
+                        cout << "Changing object type to " << ObjectTypeName[OT_ROCKY_PLANET] << "...";
+                        object->setType(OT_ROCKY_PLANET);
+                        cout << " done" << endl;
+                    }
+                    else
+                    {
+                        cout << "Invalid selection!" << endl;
+                    }
+                } break;
+                default :
+                {
+                    cout << "Invalid selection!" << endl;
                 } break;
             }
-
-            default :
-            {
-                cout << "Invalid selection!" << endl;
-            } break;
         }
-
-        cout << endl << InfoBuilder.getFullObjectInfo(object) << endl;
     }
 
     // Star System menu
@@ -873,7 +926,7 @@ private:
     {
         StarSystem * star_system = selectStarSystemByName();
 
-        if(star_system != NULL)
+        if(star_system != nullptr)
         {
             cout << InfoBuilder.getStarSystemDetailedInfo(star_system) << endl;
 
@@ -881,10 +934,10 @@ private:
             bool quit_program = false;
             while (!quit_program)
             {
-                cout << "---------------------------------------" << endl;
+                cout << separator << endl;
                 cout << editStarSystemOptionsMenu(star_system);
                 cin >> selection;
-                cout << "---------------------------------------" << endl;
+                cout << separator << endl;
 
                 quit_program = actOnUserInputStarSystem(selection, star_system);
             }
@@ -1016,7 +1069,7 @@ private:
 
         StarSystem * star_system = KnownUniverse.getStarSystem(name);
 
-        if (star_system == NULL)
+        if (star_system == nullptr)
         {
             cout << "Star system creation failed" << endl;
             return;
@@ -1035,15 +1088,23 @@ private:
     // Edit astronomical object
     void editAstronomicalObjectMain() const
     {
-        AstronomicalObject * object = selectAstronomicalObjectByName();
+        string designation;
+        cout << "Enter astronomical object designation (StarSystem-Index): ";
+        cin >> designation;
+        cout << endl;
 
-        if (object = NULL)
+        int index;
+        StarSystem * star_system = KnownUniverse.findAstonomicalObjectByDesignation(designation, index);
+
+        if(star_system == nullptr || index == -1)
         {
+            cout << "Invalid astronomical object name" << endl;
             return;
         }
-cout << InfoBuilder.getFullObjectInfo(object);
-      //  cout << InfoBuilder.getFullObjectInfo(selectAstronomicalObjectByName());
-     //   editAstronomicalObject(object->getStarSystem(), object->getIndex());
+
+        cout << designation << " found in " << star_system->getName() << endl;
+
+        editAstronomicalObject(star_system, index);
     }
 public:
     string optionsMenu() const
@@ -1134,19 +1195,14 @@ public:
 
 int main()
 {
-
-//    cout << InfoBuilder.getStarSystemDetailedInfo(KnownUniverse.getUniverse()[rand() % KnownUniverse.getCountOfStarSystems()]);
-//
-//    cout << InfoBuilder.getStarSystemInfo(KnownUniverse.getUniverse()[rand() % KnownUniverse.getCountOfStarSystems()]);
-
     int selection;
     bool quit_program = false;
     while (!quit_program)
     {
-        cout << "---------------------------------------" << endl;
+        cout << separator << endl;
         cout << UserInteraction.optionsMenu();
         cin >> selection;
-        cout << "---------------------------------------" << endl;
+        cout << separator << endl;
 
         quit_program = UserInteraction.actOnUserInput(selection);
     }
