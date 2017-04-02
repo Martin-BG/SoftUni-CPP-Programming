@@ -31,7 +31,19 @@
  const methods for the above task. You should submit your program in a single
  .cpp file, but also add a file which contains input which can be copy-pasted
  into the console to demonstrate creating astronomical objects and searching
- for astronomical objects. */
+ for astronomical objects.
+
+ !!!INCOMPLETE IMPLEMENTAION!!!
+ These tasks are still not finished:
+ 1. Backup and restore not implemented
+ 2. Display system information (data statistics about universe)
+ 3. Create random star systems
+ 4. Create random astronomical objects for existing star systems
+ 5. More unit and load tests could be added to auto testing suite
+
+ Known issues/bugs:
+ 1. Change/set nickname option currently allows only one word names
+*/
 
 #include<iostream>
 #include<sstream>
@@ -404,7 +416,7 @@ public:
         if(star_system != nullptr)
         {
             if (star_system->getNumberOfStars() > 1)
-            {cout << designation[designation.size()-1] << endl;
+            {
                 if (designation[designation.size()-1] >= 'a')
                 {
                     index = designation[designation.size()-1] - 'a';
@@ -423,7 +435,7 @@ public:
 
             index--; // Normalize index from user input (1, 2, 3 etc)
 
-            if (index >= star_system->getObjects().size() && index < 0)
+            if (index >= star_system->getObjects().size() || index < 0)
             {
                 star_system = nullptr;
             }
@@ -432,7 +444,6 @@ public:
         if (star_system == nullptr)
         {
             index = -1;
-            cout << "Invalid astronomical object name" << endl;
         }
 
         return star_system;
@@ -714,9 +725,21 @@ public:
 struct  // File master
 {
 private:
-
+    const string file_name = "universe.txt";
 public:
+    void saveUniverseToFile() const
+    {
+        cout << "Saving universe data to [" << file_name << "]...";
+        // TODO add the code
+        cout << " done" << endl;
+    }
 
+    void loadUniverseFromFile() const
+    {
+        cout << "Restoring universe data from [" << file_name << "]...";
+        // TODO add the code
+        cout << " done" << endl;
+    }
 }FileWorker;
 
 struct // User interaction
@@ -1106,6 +1129,28 @@ private:
 
         editAstronomicalObject(star_system, index);
     }
+
+    // Edit astronomical object
+    void findAstronomicalObjectMain() const
+    {
+        string designation;
+        cout << "Enter astronomical object designation (StarSystem-Index): ";
+        cin >> designation;
+        cout << endl;
+
+        int index;
+        StarSystem * star_system = KnownUniverse.findAstonomicalObjectByDesignation(designation, index);
+
+        if(star_system == nullptr || index == -1)
+        {
+            cout << "Invalid astronomical object name" << endl;
+            return;
+        }
+
+        cout << designation << " found in " << star_system->getName() << endl;
+
+        cout << endl << InfoBuilder.getFullObjectInfo(star_system->getObjects()[index]) << endl;
+    }
 public:
     string optionsMenu() const
     {
@@ -1120,14 +1165,14 @@ public:
             <<" 6 - Edit astronomical object..." << endl
             <<" 7 - Search for star system by name..." << endl
             <<" 8 - Search for astronomical object..." << endl
-            <<" 9 - Backup universe data to file..." << endl
-            <<"10 - Restore data form a backup file..." << endl
-            <<"11 - Display system information" << endl
+            <<" 9 - Backup universe data to file" << endl
+            <<"10 - Restore data form backup file" << endl
+         //   <<"11 - Display system information" << endl
             <<"12 - Delete all data from memory" << endl
             <<"13 - Run automated tests" << endl
-            <<"14 - Create random star systems" << endl
-            <<"15 - Create random astronomical objects" << endl
-            <<"     for existing star systems..." << endl
+         //   <<"14 - Create random star systems" << endl
+         //   <<"15 - Create random astronomical objects" << endl
+         //   <<"     for existing star systems..." << endl
             << endl
             <<"Enter your selection: ";
 
@@ -1153,15 +1198,15 @@ public:
                 cout << "List all astronomical objects selected" << endl
                     << InfoBuilder.getAstronomicalObjectsInfo();
             } break;
-            case 4: // Define a new star system
-            {
-                cout << "Define a new star system selected" << endl;
-                createNewStarSystem();
-            } break;
             case 3: // List objects in a star system
             {
                 cout << "List objects in a star system selected" << endl;
                 getAllObjectsInStarSystem();
+            } break;
+            case 4: // Define a new star system
+            {
+                cout << "Define a new star system selected" << endl;
+                createNewStarSystem();
             } break;
             case 5: // Edit star system
             {
@@ -1172,6 +1217,33 @@ public:
             {
                 cout << "Edit astronomical object selected" << endl;
                 editAstronomicalObjectMain();
+            } break;
+            case 7: // Search for star system by name
+            {
+                cout << "Search for star system by name selected" << endl;
+
+                StarSystem * star_system = selectStarSystemByName();
+
+                if (star_system != nullptr)
+                {
+                    cout << InfoBuilder.getStarSystemDetailedInfo(star_system);
+                }
+            } break;
+            case 8: // Search for astronomical object
+            {
+                cout << "Search for astronomical object" << endl;
+
+                findAstronomicalObjectMain();
+            } break;
+            case 9: // Backup universe data to file
+            {
+                cout << "Backup universe data to file" << endl;
+                FileWorker.saveUniverseToFile();
+            } break;
+            case 10: // Restore data form backup file
+            {
+                cout << "Restore data form backup file" << endl;
+                FileWorker.loadUniverseFromFile();
             } break;
             case 12: // Delete all data from memory
             {
@@ -1195,6 +1267,8 @@ public:
 
 int main()
 {
+    FileWorker.loadUniverseFromFile();  // Load previously saved data
+
     int selection;
     bool quit_program = false;
     while (!quit_program)
@@ -1207,6 +1281,7 @@ int main()
         quit_program = UserInteraction.actOnUserInput(selection);
     }
 
+    FileWorker.saveUniverseToFile();// Save data to file
     KnownUniverse.resetUniverse();  // Remove all objects from memory
     return 0;
 }
