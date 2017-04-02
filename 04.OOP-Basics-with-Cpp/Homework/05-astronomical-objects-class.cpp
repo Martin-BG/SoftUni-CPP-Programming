@@ -100,7 +100,6 @@ public:
     // Copy-assignment operator
     AstronomicalObject& operator= (const AstronomicalObject& other)
     {
-        cout << "BOOOOOOOOOOOOM" << endl;
         if (this != &other)
         {
             this->star_system = other.star_system;
@@ -931,7 +930,7 @@ private:
                 {
                     index--; // Normalize index
 
-                    if (DataValidator.canDeleteObject(star_system->getObjects()[index],star_system))
+                    if (DataValidator.canDeleteObject(star_system->getObjects()[index], star_system))
                     {
                         cout << "Deleting "
                             << InfoBuilder.getObjectDesignation(star_system->getObjects()[index])
