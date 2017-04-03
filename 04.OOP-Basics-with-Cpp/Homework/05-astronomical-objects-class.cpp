@@ -75,12 +75,12 @@ class StarSystem;
 class AstronomicalObject
 {
 private:
+    StarSystem * star_system;
     int index;
     long double mass;
     long long unsigned radius;
     ObjectType type;
     string nickname;
-    StarSystem * star_system;
 
 public:
     // Constructor
@@ -199,7 +199,7 @@ class StarSystem
 {
 private:
     string name;
-    vector<AstronomicalObject*> objects;
+    vector<AstronomicalObject*> * objects;
     int stars = 0;
 
     static bool objectCompareByIndex(const AstronomicalObject * obj_one, const AstronomicalObject * obj_two)
@@ -209,36 +209,40 @@ private:
 
     void updateStarSystem()
     {
-        sort(this->objects.begin(), this->objects.end(), objectCompareByIndex);
+        sort(this->objects->begin(), this->objects->end(), objectCompareByIndex);
     //  Alternatively Lambda expression could be used for the sort:
-    //  sort(objects.begin(), objects.end(), [](const AstronomicalObject * a, const AstronomicalObject * b) {return a->getIndex() <= b->getIndex();});
+    //  sort(objects->begin(), objects->end(), [](const AstronomicalObject * a, const AstronomicalObject * b) {return a->getIndex() <= b->getIndex();});
 
         this->stars = 0;
 
-        for (int i = 0; i < this->objects.size(); i++)
+        for (int i = 0; i < this->objects->size(); i++)
         {
-            if (this->objects[i]->getType() == OT_STAR)
+            if (this->objects->at(i)->getType() == OT_STAR)
             {
                 this->stars++;
             }
 
-            this->objects[i]->setIndex(i);
+            this->objects->at(i)->setIndex(i);
         }
     }
 public:
     // Constructor
     StarSystem(const string & name) :
-        name(name) {}
+        name(name),
+        objects(new vector<AstronomicalObject*>(0)),
+        stars(0) {}
 
     // Destructor
     ~StarSystem()
     {
-        while (!this->objects.empty())
+        while (!this->objects->empty())
         {
-            this->objects.erase(this->objects.end()-1);
+            AstronomicalObject * object = *(this->objects->end()-1);
+            delete object;
+            this->objects->erase(this->objects->end()-1);
         }
 
-        this->objects.clear();
+        delete objects;
     }
 
     // Copy constructor
@@ -246,9 +250,9 @@ public:
         name(other.name),
         stars(other.stars)
     {
-        for (int i = 0; i < other.objects.size(); i++)
+        for (int i = 0; i < other.objects->size(); i++)
         {
-            this->objects.push_back(other.objects[i]);
+            this->objects->push_back(other.objects->at(i));
         }
     }
 
@@ -260,9 +264,9 @@ public:
             this->name = other.name;
             this->stars = other.stars;
 
-            for (int i = 0; i < other.objects.size(); i++)
+            for (int i = 0; i < other.objects->size(); i++)
             {
-                this->objects.push_back(other.objects[i]);
+                this->objects->push_back(other.objects->at(i));
             }
         }
 
@@ -280,7 +284,7 @@ public:
         this->name = name;
     }
 
-    vector<AstronomicalObject*> & getObjects()
+    vector<AstronomicalObject*> * getObjects()
     {
         return this->objects;
     }
@@ -289,7 +293,7 @@ public:
     {
         if (index > 0 && index < this->getNumberOfObjects())
         {
-            return *this->objects[index];
+            return *this->objects->at(index);
         }
         else
         {
@@ -304,7 +308,7 @@ public:
 
     int getNumberOfObjects() const
     {
-        return this->objects.size();
+        return this->objects->size();
     }
 
     void addObject(const int & index,
@@ -313,7 +317,7 @@ public:
                    ObjectType type,
                    const string & nickname = "")
     {
-        this->objects.push_back(
+        this->objects->push_back(
             new AstronomicalObject(this, index, mass, radius, type, nickname));
 
         updateStarSystem();
@@ -321,7 +325,7 @@ public:
 
     void removeObject(AstronomicalObject * object)
     {
-        this->objects.erase(this->objects.begin() + object->getIndex());
+        this->objects->erase(this->objects->begin() + object->getIndex());
 
         delete object;
 
@@ -332,7 +336,7 @@ public:
 struct  // Container for all star systems
 {
 private:
-    vector<StarSystem*> universe;
+    vector<StarSystem*> * universe = new vector<StarSystem*>();
 
     struct FindSystem
     {   // Helper class for vector.find() method
@@ -349,44 +353,44 @@ private:
     };
 
 public:
-    vector<StarSystem*> getUniverse() const
+    vector<StarSystem*> * getUniverse() const
     {
         return this->universe;
     }
 
     int getCountOfStarSystems() const
     {
-        return this->universe.size();
+        return this->universe->size();
     }
 
     void addStarSystem(StarSystem * star_system)
     {
-        this->universe.push_back(star_system);
+        this->universe->push_back(star_system);
     }
 
     void addStarSystem(const string & name)
     {
-        this->universe.push_back(new StarSystem(name));
+        this->universe->push_back(new StarSystem(name));
     }
 
     void resetUniverse()
     {
-        for (int i = 0; i < this->universe.size(); i++)
+        for (int i = 0; i < this->universe->size(); i++)
         {
-            delete this->universe.back();
-            this->universe.erase(this->universe.end()-1);
+            delete this->universe->back();
+            this->universe->erase(this->universe->end()-1);
         }
 
-        this->universe.clear();
+        this->universe->clear();
     }
 
     StarSystem * getStarSystem(const string & name) const
     {
-        auto it = find_if(this->universe.begin(), this->universe.end(), FindSystem(name));
+        auto it = find_if(this->universe->begin(), this->universe->end(), FindSystem(name));
 
-        if (it != this->universe.end())
+        if (it != this->universe->end())
         {
-          return this->universe[distance(this->universe.begin(), it)];
+          return this->universe->at(distance(this->universe->begin(), it));
         }
 
         return nullptr;
@@ -394,12 +398,12 @@ public:
 
     void removeStarSystem(const string & name)
     {
-        auto it = find_if(this->universe.begin(), this->universe.end(), FindSystem(name));
+        auto it = find_if(this->universe->begin(), this->universe->end(), FindSystem(name));
 
-        if (it != this->universe.end())
+        if (it != this->universe->end())
         {
-            StarSystem * star_system = this->universe[distance(this->universe.begin(), it)];
-            this->universe.erase(it);
+            StarSystem * star_system = this->universe->at(distance(this->universe->begin(), it));
+            this->universe->erase(it);
             delete star_system;
         }
     }
@@ -433,7 +437,7 @@ public:
 
             index--; // Normalize index from user input (1, 2, 3 etc)
 
-            if (index >= star_system->getObjects().size() || index < 0)
+            if (index >= star_system->getObjects()->size() || index < 0)
             {
                 star_system = nullptr;
             }
@@ -451,24 +455,23 @@ public:
     {
         ofstream fs(file_name);
 
-        int star_systems_count = universe.size();
+        int star_systems_count = universe->size();
 
         fs << star_systems_count << endl;
 
         for (int i = 0; i < star_systems_count; i++)
         {
-            int star_system_size = universe[i]->getObjects().size();
+            int star_system_size = universe->at(i)->getObjects()->size();
 
-            fs << star_system_size << " " << universe[i]->getName() << endl;
+            fs << star_system_size << " " << universe->at(i)->getName() << endl;
 
             for (int j = 0; j < star_system_size; j++)
             {
                 fs << j << " "                                              // int index
-                    << universe[i]->getObjects()[j]->getMass() << " "       // long double mass
-                    << universe[i]->getObjects()[j]->getRadius() << " "     // long long unsigned radius
-                    << (int)universe[i]->getObjects()[j]->getType() << " "  // ObjectType type
-                    << universe[i]->getObjects()[j]->getNickname() << endl; // string nickname
-                universe[i]->getObjects()[j];
+                    << universe->at(i)->getObjects()->at(j)->getMass() << " "       // long double mass
+                    << universe->at(i)->getObjects()->at(j)->getRadius() << " "     // long long unsigned radius
+                    << (int)universe->at(i)->getObjects()->at(j)->getType() << " "  // ObjectType type
+                    << universe->at(i)->getObjects()->at(j)->getNickname() << endl; // string nickname
             }
         }
 
@@ -618,9 +621,9 @@ struct  // Info builder
     {
         stringstream ss;
 
-        for (int i = 0; i < star_system->getObjects().size(); i++)
+        for (int i = 0; i < star_system->getObjects()->size(); i++)
         {
-            ss << getObjectDesignation(star_system->getObjects()[i]) << endl;
+            ss << getObjectDesignation(star_system->getObjects()->at(i)) << endl;
         }
 
         return ss.str();
@@ -634,10 +637,10 @@ struct  // Info builder
             << star_system->getNumberOfObjects()
             << " known astronomical objects:" << endl << endl;
 
-        for (int i = 0; i < star_system->getObjects().size(); i++)
+        for (int i = 0; i < star_system->getObjects()->size(); i++)
         {
             ss << setw(2) << i+1 << " "
-                << getFullObjectInfo(star_system->getObjects()[i]) << endl;
+                << getFullObjectInfo(star_system->getObjects()->at(i)) << endl;
         }
 
         return ss.str();
@@ -647,10 +650,10 @@ struct  // Info builder
     {
         stringstream ss;
 
-        ss << "Star systems : " << KnownUniverse.getUniverse().size() << endl;
-        for (int i = 0; i < KnownUniverse.getUniverse().size(); i++)
+        ss << "Star systems : " << KnownUniverse.getUniverse()->size() << endl;
+        for (int i = 0; i < KnownUniverse.getUniverse()->size(); i++)
         {
-            ss << KnownUniverse.getUniverse()[i]->getName() << endl;
+            ss << KnownUniverse.getUniverse()->at(i)->getName() << endl;
         }
 
         return ss.str();
@@ -661,12 +664,12 @@ struct  // Info builder
         stringstream ss;
 
         StarSystem * star_system;
-        for (int i = 0; i < KnownUniverse.getUniverse().size(); i++)
+        for (int i = 0; i < KnownUniverse.getUniverse()->size(); i++)
         {
-            star_system = KnownUniverse.getUniverse()[i];
+            star_system = KnownUniverse.getUniverse()->at(i);
             for (int j = 0; j < star_system->getNumberOfObjects(); j++)
             {
-                ss << getObjectDesignation(star_system->getObjects()[j]) << endl;
+                ss << getObjectDesignation(star_system->getObjects()->at(j)) << endl;
             }
         }
 
@@ -702,7 +705,7 @@ private:
             {
                 name = "";
                 int name_length = 3 + rand() % 5;
-                for (int i = 0; i < name_length; i++)
+                for (int j = 0; j < name_length; j++)
                 {
                     name += alphanum[rand() % alphanum_length];
                 }
@@ -714,7 +717,7 @@ private:
 
     void createAstronomicalObjects(const int & number)
     {
-        int universe_size = KnownUniverse.getUniverse().size();
+        int universe_size = KnownUniverse.getUniverse()->size();
 
         if (universe_size == 0)
         {
@@ -723,7 +726,7 @@ private:
 
         for (int i = 0; i < number; i++)
         {
-            StarSystem * star_system = KnownUniverse.getUniverse()[rand() % universe_size];
+            StarSystem * star_system = KnownUniverse.getUniverse()->at(rand() % universe_size);
             long double mass = rand() % 100000 + i / 0.333;
             long long unsigned radius = rand() % 1000000;
             ObjectType type;
@@ -935,12 +938,12 @@ private:
 
         star_system->addObject(index, mass, radius, type, name);
 
-        cout << endl << "Created " << InfoBuilder.getFullObjectInfo(star_system->getObjects()[index]) << endl;
+        cout << endl << "Created " << InfoBuilder.getFullObjectInfo(star_system->getObjects()->at(index)) << endl;
     }
 
     void editAstronomicalObject(StarSystem * star_system, const int & index) const
     {
-        AstronomicalObject * object = star_system->getObjects()[index];
+        AstronomicalObject * object = star_system->getObjects()->at(index);
 
         while (true)
         {
@@ -1086,19 +1089,19 @@ private:
                 {
                     index--; // Normalize index
 
-                    if (DataValidator.canDeleteObject(star_system->getObjects()[index], star_system))
+                    if (DataValidator.canDeleteObject(star_system->getObjects()->at(index), star_system))
                     {
                         cout << "Deleting "
-                            << InfoBuilder.getObjectDesignation(star_system->getObjects()[index])
+                            << InfoBuilder.getObjectDesignation(star_system->getObjects()->at(index))
                             << "...";
 
-                        star_system->removeObject(star_system->getObjects()[index]);
+                        star_system->removeObject(star_system->getObjects()->at(index));
 
                         cout << " done" << endl;
                     }
                     else
                     {
-                        cout << InfoBuilder.getObjectDesignation(star_system->getObjects()[index])
+                        cout << InfoBuilder.getObjectDesignation(star_system->getObjects()->at(index))
                             << " cannot be deleted" << endl;
                     }
                 }
@@ -1229,7 +1232,7 @@ private:
 
         cout << designation << " found in " << star_system->getName() << endl;
 
-        cout << endl << InfoBuilder.getFullObjectInfo(star_system->getObjects()[index]) << endl;
+        cout << endl << InfoBuilder.getFullObjectInfo(star_system->getObjects()->at(index)) << endl;
     }
 public:
     string optionsMenu() const
