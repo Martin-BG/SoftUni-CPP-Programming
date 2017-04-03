@@ -31,16 +31,7 @@
  const methods for the above task. You should submit your program in a single
  .cpp file, but also add a file which contains input which can be copy-pasted
  into the console to demonstrate creating astronomical objects and searching
- for astronomical objects.
-
-
- TODO
-* Display system information (data statistics about universe)
-* Create random star systems
-* Create random astronomical objects for existing star systems
-* More unit and load tests could be added to auto testing suite
-* Better save to file implementation
-*/
+ for astronomical objects.*/
 
 #include<iostream>
 #include<sstream>
@@ -69,7 +60,6 @@ const string ObjectTypeName[OT_NUM_OF]
 };
 
 const string separator("---------------------------------------");
-
 class StarSystem;
 
 class AstronomicalObject
@@ -82,6 +72,7 @@ private:
     ObjectType type;
     string nickname;
 
+    static unsigned int objects_counter;
 public:
     // Constructor
     AstronomicalObject(StarSystem * star_system,
@@ -95,10 +86,10 @@ public:
         mass(mass),
         radius(radius),
         type(type),
-        nickname(nickname) {}
+        nickname(nickname) { objects_counter++; }
 
     // Destructor
-    ~AstronomicalObject() {}
+    ~AstronomicalObject() { objects_counter--; }
 
     // Copy constructor
     AstronomicalObject(const AstronomicalObject& other) :
@@ -193,7 +184,15 @@ public:
     {
         this->mass = mass;
     }
+
+    // Helper methods
+    static unsigned int getObjectsCount()
+    {
+        return objects_counter;
+    }
 };
+
+unsigned int AstronomicalObject::objects_counter = 0;
 
 class StarSystem
 {
@@ -201,6 +200,8 @@ private:
     string name;
     vector<AstronomicalObject*> * objects;
     int stars = 0;
+
+    static unsigned int star_systems_counter;
 
     static bool objectCompareByIndex(const AstronomicalObject * obj_one, const AstronomicalObject * obj_two)
     {
@@ -230,7 +231,7 @@ public:
     StarSystem(const string & name) :
         name(name),
         objects(new vector<AstronomicalObject*>(0)),
-        stars(0) {}
+        stars(0) { star_systems_counter++; }
 
     // Destructor
     ~StarSystem()
@@ -243,6 +244,8 @@ public:
         }
 
         delete objects;
+
+        star_systems_counter--;
     }
 
     // Copy constructor
@@ -331,7 +334,15 @@ public:
 
         updateStarSystem();
     }
+
+    // Helper methods
+    static unsigned int getStarSystemsCount()
+    {
+        return star_systems_counter;
+    }
 };
+
+unsigned int StarSystem::star_systems_counter = 0;
 
 struct  // Container for all star systems
 {
@@ -375,7 +386,7 @@ public:
 
     void resetUniverse()
     {
-        for (int i = 0; i < this->universe->size(); i++)
+        while (!this->universe->empty())
         {
             delete this->universe->back();
             this->universe->erase(this->universe->end()-1);
@@ -675,14 +686,115 @@ struct  // Info builder
 
         return ss.str();
     }
+
+    string getUniverseStatistics() const
+    {
+        stringstream ss;
+
+        ss << "Star Systems: " << StarSystem::getStarSystemsCount() << endl
+            << "Astronomical objects: " << AstronomicalObject::getObjectsCount() << endl;
+
+        return ss.str();
+    }
 }InfoBuilder;
+
+struct  // File master
+{
+private:
+    const string file_name = "universe.txt";
+public:
+    void saveUniverseToFile() const
+    {
+        cout << "Saving universe data to [" << file_name << "]...";
+
+        KnownUniverse.saveDataToFile(file_name);
+
+        cout << " done" << endl;
+    }
+
+    void loadUniverseFromFile() const
+    {
+        cout << "Restoring universe data from [" << file_name << "]...";
+
+        KnownUniverse.restoreDataFromFile(file_name);
+
+        cout << " done" << endl;
+    }
+}FileWorker;
 
 struct  // Unit and load tests
 {
 private:
+    void createRandomAstonomicalObjectInStarSystem(StarSystem * star_system) const
+    {
+        if (star_system == nullptr)
+        {
+            return;
+        }
+
+        long double mass = (rand() % 1000000) / 0.333;
+        long long unsigned radius = rand() % 1000000;
+        ObjectType type;
+
+        if (star_system->getNumberOfStars() == 0)
+        {
+            type = OT_STAR;
+        }
+        else
+        {
+            type = ObjectType(rand() % OT_NUM_OF);
+
+            if (type == OT_STAR && rand() % 10 > 0) // 10% chance for 2 or more stars
+            {
+                type = ObjectType(1 + rand() % (OT_NUM_OF - 1));
+            }
+        }
+
+        int index, start_index, end_index;
+
+        if (type == OT_STAR)
+        {
+            start_index = 1;
+            end_index = star_system->getNumberOfStars() + 1;
+        }
+        else
+        {
+            start_index = star_system->getNumberOfStars() + 1;
+            end_index = star_system->getNumberOfObjects() + 1;
+        }
+
+        if (start_index < end_index)
+        {
+            index = start_index + rand() % (end_index - start_index);
+        }
+        else
+        {
+            index = start_index;
+        }
+
+        index--; // Normalize index to simulate console input (1, 2, 3 etc.)
+
+        if (DataValidator.canAddObjectAtIndex(star_system, index, type))
+        {
+            static const string nicknames[] {
+                "Steel World", "Endor",
+                "Pandora", "Dagobah", "Jakku"};
+            static const int nicknames_length = sizeof(nicknames) / sizeof(string) - 1;
+
+            string name("");
+
+            int nickname_index = rand() % 100;
+            if (nickname_index <= nicknames_length)
+            {
+                name = nicknames[nickname_index];
+            }
+
+            star_system->addObject(index, mass, radius, type, name);
+        }
+    }
+public:
     void createStarSystems(const int & number)
     {
-
         static const string system_names[] {
             // http://www.fantasynamegenerators.com/star-names.php#.WOAQJc996Hs
             "Fluaps", "Usla", "Boog", "Ozleil", "Doos",
@@ -712,6 +824,9 @@ private:
             }
 
             KnownUniverse.addStarSystem(name);
+
+            StarSystem * star_system = KnownUniverse.getStarSystem(name);
+            createRandomAstonomicalObjectInStarSystem(star_system);
         }
     }
 
@@ -727,103 +842,125 @@ private:
         for (int i = 0; i < number; i++)
         {
             StarSystem * star_system = KnownUniverse.getUniverse()->at(rand() % universe_size);
-            long double mass = rand() % 100000 + i / 0.333;
-            long long unsigned radius = rand() % 1000000;
-            ObjectType type;
-
-            if (star_system->getNumberOfStars() == 0)
-            {
-                type = OT_STAR;
-            }
-            else
-            {
-                type = ObjectType(rand() % OT_NUM_OF);
-
-                if (type == OT_STAR && rand() % 10 > 0) // 10% chance for 2 or more stars
-                {
-                    type = ObjectType(1 + rand() % (OT_NUM_OF - 1));
-                }
-            }
-
-            int index, start_index, end_index;
-
-            if (type == OT_STAR)
-            {
-                start_index = 1;
-                end_index = star_system->getNumberOfStars() + 1;
-            }
-            else
-            {
-                start_index = star_system->getNumberOfStars() + 1;
-                end_index = star_system->getNumberOfObjects() + 1;
-            }
-
-            if (start_index < end_index)
-            {
-                index = start_index + rand() % (end_index - start_index);
-            }
-            else
-            {
-                index = start_index;
-            }
-
-            index--; // Normalize index to simulate console input (1, 2, 3 etc.)
-
-            if (DataValidator.canAddObjectAtIndex(star_system, index, type))
-            {
-                static const string nicknames[] {
-                    "Steel World", "Endor",
-                    "Pandora", "Dagobah", "Jakku"};
-                static const int nicknames_length = sizeof(nicknames) / sizeof(string) - 1;
-
-                string name("");
-
-                int nickname_index = rand() % 100;
-                if (nickname_index <= nicknames_length)
-                {
-                    name = nicknames[nickname_index];
-                }
-
-                star_system->addObject(index, mass, radius, type, name);
-            }
+            createRandomAstonomicalObjectInStarSystem(star_system);
         }
     }
-public:
-    bool populateUniverse()
+
+    bool runTestSuite()
     {
-        const int TEST_STAR_SYSTEMS = 20;
-        const int TEST_ASTRO_OBJECTS = 200;
+        const int TEST_STAR_SYSTEMS = 1000;
+        const int TEST_ASTRO_OBJECTS = 9000;
+
+        bool test_result = true;
+
+        int old_systems, old_objects;
+
+        old_systems = StarSystem::getStarSystemsCount();
+        old_objects = AstronomicalObject::getObjectsCount();
+
+        cout << endl << "Current universe state:" << endl
+        << InfoBuilder.getUniverseStatistics() << endl;
+
+        string astronomical_objects_details = InfoBuilder.getAstronomicalObjectsInfo();
+        string star_systems_details = InfoBuilder.getUniverseInfo();
+
+        FileWorker.saveUniverseToFile();
+
+        cout << endl << "Erasing all data...";
+
+        KnownUniverse.resetUniverse();
+
+        cout << " done" << endl << endl
+            << InfoBuilder.getUniverseStatistics() << endl;
+
+        int temp_systems = StarSystem::getStarSystemsCount();
+        int temp_objects = AstronomicalObject::getObjectsCount();
+
+        if ( temp_systems != 0 || temp_objects != 0)
+        {
+            cout << "Universe clearing failed!" << endl << endl;
+            test_result = false;
+        }
+
+        cout << "Creating " << TEST_STAR_SYSTEMS
+            << " star systems with one star each...";
+
         createStarSystems(TEST_STAR_SYSTEMS);
+
+        cout << " done" << endl << endl
+            << InfoBuilder.getUniverseStatistics() << endl;
+
+        if (StarSystem::getStarSystemsCount() - temp_systems != TEST_STAR_SYSTEMS
+            || AstronomicalObject::getObjectsCount() - temp_objects != TEST_STAR_SYSTEMS)
+        {
+            cout << "Unexpected result on Star systems creation!" << endl << endl;
+            test_result = false;
+        }
+
+        temp_systems = StarSystem::getStarSystemsCount();
+        temp_objects = AstronomicalObject::getObjectsCount();
+
+        cout << "Creating " << TEST_ASTRO_OBJECTS
+            << " astronomical objects...";
+
         createAstronomicalObjects(TEST_ASTRO_OBJECTS);
 
-        return true;
+        cout << " done" << endl << endl
+            << InfoBuilder.getUniverseStatistics() << endl;
+
+        if (StarSystem::getStarSystemsCount() != temp_systems
+            || AstronomicalObject::getObjectsCount() != temp_objects + TEST_ASTRO_OBJECTS)
+        {
+            cout << "Unexpected result on astronomical objects creation!" << endl << endl;
+            test_result = false;
+        }
+
+        cout << "Erasing all data...";
+
+        KnownUniverse.resetUniverse();
+
+        cout << " done" << endl << endl
+            << InfoBuilder.getUniverseStatistics() << endl;
+
+        if (StarSystem::getStarSystemsCount() != 0
+             || AstronomicalObject::getObjectsCount() != 0)
+        {
+            cout << "Universe clearing failed!" << endl << endl;
+            test_result = false;
+        }
+
+        temp_systems = StarSystem::getStarSystemsCount();
+        temp_objects = AstronomicalObject::getObjectsCount();
+
+        FileWorker.loadUniverseFromFile();
+
+        cout << endl << InfoBuilder.getUniverseStatistics() << endl;
+
+        if (StarSystem::getStarSystemsCount() != temp_systems + old_systems
+             || AstronomicalObject::getObjectsCount() != temp_objects + old_objects)
+        {
+            cout << "Unexpected result on restore from file!" << endl << endl;
+            test_result = false;
+        }
+
+
+        cout << "Compare restored data with initial universe state...";
+
+        if (astronomical_objects_details == InfoBuilder.getAstronomicalObjectsInfo()
+            && star_systems_details == InfoBuilder.getUniverseInfo())
+        {
+            cout << " done" << endl << "Correct" << endl << endl;
+        }
+        else
+        {
+            cout << " done" << endl << "Inconsistencies detected" << endl << endl;
+            test_result = false;
+        }
+
+        return test_result;
     }
 
 }TestUniverse;
-
-struct  // File master
-{
-private:
-    const string file_name = "universe.txt";
-public:
-    void saveUniverseToFile() const
-    {
-        cout << "Saving universe data to [" << file_name << "]...";
-
-        KnownUniverse.saveDataToFile(file_name);
-
-        cout << " done" << endl;
-    }
-
-    void loadUniverseFromFile() const
-    {
-        cout << "Restoring universe data from [" << file_name << "]...";
-
-        KnownUniverse.restoreDataFromFile(file_name);
-
-        cout << " done" << endl;
-    }
-}FileWorker;
 
 struct // User interaction
 {
@@ -1250,12 +1387,12 @@ public:
             <<" 8 - Search for astronomical object..." << endl
             <<" 9 - Backup universe data to file" << endl
             <<"10 - Restore data form backup file" << endl
-         //   <<"11 - Display system information" << endl
+            <<"11 - Display system information" << endl
             <<"12 - Delete all data from memory" << endl
             <<"13 - Run automated tests" << endl
-         //   <<"14 - Create random star systems" << endl
-         //   <<"15 - Create random astronomical objects" << endl
-         //   <<"     for existing star systems..." << endl
+            <<"14 - Create random star systems..." << endl
+            <<"15 - Create random astronomical objects" << endl
+            <<"     for existing star systems..." << endl
             << endl
             <<"Enter your selection: ";
 
@@ -1315,18 +1452,22 @@ public:
             case 8: // Search for astronomical object
             {
                 cout << "Search for astronomical object" << endl;
-
                 findAstronomicalObjectMain();
             } break;
             case 9: // Backup universe data to file
             {
-                cout << "Backup universe data to file" << endl;
+                cout << "Backup universe data to file selected" << endl;
                 FileWorker.saveUniverseToFile();
             } break;
             case 10: // Restore data form backup file
             {
-                cout << "Restore data form backup file" << endl;
+                cout << "Restore data form backup file selected" << endl;
                 FileWorker.loadUniverseFromFile();
+            } break;
+            case 11: // Display system information
+            {
+                cout << "Display system information selected" << endl;
+                cout << InfoBuilder.getUniverseStatistics();
             } break;
             case 12: // Delete all data from memory
             {
@@ -1336,7 +1477,39 @@ public:
             case 13: // Run automated tests
             {
                 cout << "Run automated tests selected" << endl;
-                TestUniverse.populateUniverse();
+
+                if (TestUniverse.runTestSuite())
+                {
+                    cout << "Tests completed successfully" << endl;
+                }
+                else
+                {
+                    cout << "Tests failed!" << endl;
+                }
+            } break;
+            case 14: // Create random star systems
+            {
+                cout << "Create random star systems selected" << endl;
+                cout << "Enter number of star systems to create: ";
+                int num;
+                cin >> num;
+                cout << "Creating " << num << " random star systems plus a star object...";
+
+                TestUniverse.createStarSystems(num);
+
+                cout << " done" << endl;
+            } break;
+            case 15: // Create random astronomical objects
+            {
+                cout << "Create random astronomical objects selected" << endl;
+                cout << "Enter number of astronomical objects to create: ";
+                int num;
+                cin >> num;
+                cout << "Creating " << num << " random astronomical objects...";
+
+                TestUniverse.createAstronomicalObjects(num);
+
+                cout << " done" << endl;
             } break;
             default:
             {
