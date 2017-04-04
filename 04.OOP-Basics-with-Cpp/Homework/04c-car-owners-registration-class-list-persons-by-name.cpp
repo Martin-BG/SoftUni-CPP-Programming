@@ -35,10 +35,8 @@ public:
     // Constructor
     Person(const string& name, const int& age) :
         name(name),
-        age(age)
-    {
-        id = getID();
-    }
+        age(age),
+        id(getID()) {}
 
     // Constructor + ID
     Person(const string& name, const int& age, const int& id) :
@@ -116,8 +114,8 @@ class Car
 private:
     string manufacturer;
     string model;
-    Person * owner;
     int horsepower;
+    Person * owner;
     string registration_number;
 
 public:
