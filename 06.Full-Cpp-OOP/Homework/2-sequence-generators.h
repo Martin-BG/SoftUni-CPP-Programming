@@ -69,19 +69,9 @@ public:
         return this->m_names[index];
     }
 
-    void setName(const std::string & name, const int & index)
-    {
-        this->m_names[index] = name;
-    }
-
     double & getValue(const int & index) const
     {
         return this->m_values[index];
-    }
-
-    void setValue(const double & value, const int & index)
-    {
-        this->m_values[index] = value;
     }
 
     int getElementsCount() const
@@ -110,7 +100,7 @@ public:
 
         return ss.str();
     }
-private:
+protected:
     int m_elements;
     int m_start_num;
     int m_end_num;
@@ -133,18 +123,18 @@ public:
     {
         int index = 0;
 
-        while (index < getElementsCount())
+        while (index < this->m_elements)
         {
             if (index < 2)
             {
-                setValue(getFibonacciNum(getStartNum() + index), index);
+                this->m_values[index] = getFibonacciNum(this->m_start_num + index);
             }
             else
             {
-                setValue(getValue(index - 2) + getValue(index - 1), index);
+                this->m_values[index] = this->m_values[index - 2] + this->m_values[index - 1];
             }
 
-            setName("Fibonacci " + std::to_string(getStartNum() + index), index);
+            this->m_names[index] = "Fibonacci " + std::to_string(this->m_start_num + index);
 
             index++;
         }
@@ -195,10 +185,10 @@ public:
     {
         int index = 0;
 
-        while (index < getElementsCount())
+        while (index < this->m_elements)
         {
-            setName("Sqrt(" + std::to_string(getStartNum() + index) + ")", index);
-            setValue(std::sqrt(getStartNum() + index), index);
+            this->m_values[index] = std::sqrt(this->m_start_num + index);
+            this->m_names[index] = "Sqrt(" + std::to_string(this->m_start_num + index) + ")";
             index++;
         }
     }

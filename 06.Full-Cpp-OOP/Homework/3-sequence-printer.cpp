@@ -154,35 +154,33 @@ struct   // Demo helper class
         {
             for (int j = 0; j < BIG_NUMBER; j++)
             {
-        SqrtGenerator sqrt_gen(0, 100);
-        FibonacciGenerator fibo_gen(1, 100);
                 SequencePrinterToFile seq_file(sqrt_gen);
                 SequencePrinterToString seq_str(sqrt_gen);
                 SequencePrinterToConsole seq_con(sqrt_gen);
-//                seq_file.print();
-//                seq_str.print();
-//                seq_con.print();
+                seq_file.print();
+                seq_str.print();
+                seq_con.print();
 
                 seq_file.setSequence(FibonacciGenerator(0, 10));
                 seq_str.setSequence(SqrtGenerator(0,10));
                 seq_con.setSequence(FibonacciGenerator(0, 10));
-//                seq_file.print();
-//                seq_str.print();
-//                seq_con.print();
+                seq_file.print();
+                seq_str.print();
+                seq_con.print();
 
                 seq_file.setSequence(fibo_gen);
                 seq_str.setSequence(fibo_gen);
                 seq_con.setSequence(fibo_gen);
-//                seq_file.print();
-//                seq_str.print();
-//                seq_con.print();
+                seq_file.print();
+                seq_str.print();
+                seq_con.print();
 
                 SequencePrinterToFile seq_file2 = seq_file;
                 SequencePrinterToString seq_str2 = seq_str;
                 SequencePrinterToConsole seq_con2 = seq_con;
-//                seq_file2.print();
-//                seq_str2.print();
-//                seq_con2.print();
+                seq_file2.print();
+                seq_str2.print();
+                seq_con2.print();
             }
         }
     }

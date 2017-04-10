@@ -31,17 +31,7 @@ public:
 
     virtual void print() = 0;
     virtual void setSequence(const SequenceGenerator & sequence) = 0;
-
-    SequenceGenerator & getSequence() const
-    {
-        return this->m_sequence;
-    }
-
-    void changeSequence(const SequenceGenerator & sequence)
-    {
-        this->m_sequence = sequence;
-    }
-private:
+protected:
     SequenceGenerator & m_sequence;
 };
 
@@ -58,7 +48,7 @@ public:
 
     // Copy constructor
     SequencePrinterToString(const SequencePrinterToString & other) :
-        SequencePrinter(other.getSequence()),
+        SequencePrinter(other.m_sequence),
         m_string(other.m_string) {}
 
     // Copy-assignment operator
@@ -66,7 +56,7 @@ public:
     {
         if (this != &other)
         {
-            this->setSequence(other.getSequence());
+            this->m_sequence = other.m_sequence;
             this->m_string = other.m_string;
         }
 
@@ -77,14 +67,14 @@ public:
     {
         std::stringstream ss;
 
-        for (int i = 0; i < this->getSequence().getElementsCount(); i++)
+        for (int i = 0; i < this->m_sequence.getElementsCount(); i++)
         {
             if (i > 0 || this->m_string.size() > 0)
             {
                 ss << " ";
             }
 
-            ss << this->getSequence().getValue(i);
+            ss << this->m_sequence.getValue(i);
         }
 
         this->m_string += ss.str();
@@ -92,7 +82,7 @@ public:
 
     void setSequence(const SequenceGenerator & sequence)
     {
-        changeSequence(sequence);
+        this->m_sequence = sequence;
     }
 
     std::string getString() const
@@ -112,7 +102,7 @@ public:
 
     void print()
     {
-        SequencePrinterToString sequence_printer_to_string(getSequence());
+        SequencePrinterToString sequence_printer_to_string(this->m_sequence);
         sequence_printer_to_string.print();
 
         std::ofstream fs(this->m_file_name, this->m_file_mode);
@@ -124,7 +114,7 @@ public:
 
     void setSequence(const SequenceGenerator & sequence)
     {
-        changeSequence(sequence);
+        this->m_sequence = sequence;
     }
 
     static void setAppendMode(const bool & new_mode = false)
@@ -164,7 +154,7 @@ public:
 
     void print()
     {
-        SequencePrinterToString sequence_printer_to_string(getSequence());
+        SequencePrinterToString sequence_printer_to_string(this->m_sequence);
         sequence_printer_to_string.print();
 
         std::cout << sequence_printer_to_string.getString() << std::endl;
@@ -172,7 +162,7 @@ public:
 
     void setSequence(const SequenceGenerator & sequence)
     {
-        changeSequence(sequence);
+        this->m_sequence = sequence;
     }
 private:
 };
