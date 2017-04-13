@@ -64,6 +64,8 @@ public:
 
     virtual void generateSequence() = 0;
 
+    virtual SequenceGenerator * getClone() const = 0;
+
     std::string & getName(const int & index) const
     {
         return this->m_names[index];
@@ -113,12 +115,40 @@ class FibonacciGenerator : public SequenceGenerator
 // Note - Calculated Fibonacci numbers for big N will be incorrect because
 // of the requirement to use double type in SequenceGenerator to store values
 public:
+    // Constructor
     FibonacciGenerator(const int & start_num, const int & end_num) :
         SequenceGenerator(start_num, end_num)
     {
         generateSequence();
     }
 
+    // Destructor
+    ~FibonacciGenerator() {}
+
+    // Copy-assignment operator
+    FibonacciGenerator & operator= (const FibonacciGenerator & other)
+    {
+        if (this != &other)
+        {
+            SequenceGenerator::operator=(other);
+            generateSequence();
+        }
+
+        return *this;
+    }
+
+    // Copy constructor
+    FibonacciGenerator(const FibonacciGenerator & other) :
+        SequenceGenerator(other)
+    {
+        generateSequence();
+    }
+
+    FibonacciGenerator * getClone() const
+    {
+        return new FibonacciGenerator(*this);
+    }
+private:
     void generateSequence()
     {
         int index = 0;
@@ -140,7 +170,6 @@ public:
         }
     }
 
-private:
     static double getFibonacciNum(const int & num, bool reset = true)
     {
         if (num == 0)
@@ -181,6 +210,33 @@ public:
         generateSequence();
     }
 
+    // Destructor
+    ~SqrtGenerator() {}
+
+    // Copy-assignment operator
+    SqrtGenerator & operator= (const SqrtGenerator & other)
+    {
+        if (this != &other)
+        {
+            SequenceGenerator::operator=(other);
+            generateSequence();
+        }
+
+        return *this;
+    }
+
+    // Copy constructor
+    SqrtGenerator(const SqrtGenerator & other) :
+        SequenceGenerator(other)
+    {
+        generateSequence();
+    }
+
+    SqrtGenerator * getClone() const
+    {
+        return new SqrtGenerator(*this);
+    }
+private:
     void generateSequence()
     {
         int index = 0;

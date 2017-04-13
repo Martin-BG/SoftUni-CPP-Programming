@@ -37,7 +37,7 @@ This code will call copy-constructors, copy-assignment operators, and destructor
  large enough BIG_NUMBER) - if it keeps increasing, then you've got something wrong*/
 
 #include<iostream>
-#include "2-sequence-generators.h" // Declaration and implementation of SequenceGenerator, FibonacciGenerator and SqrtGenerator classes
+#include "2-sequence-generator.h" // Declaration and implementation of SequenceGenerator, FibonacciGenerator and SqrtGenerator classes
 
 struct // Demo helper class
 {
