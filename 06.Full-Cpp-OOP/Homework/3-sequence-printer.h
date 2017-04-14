@@ -24,6 +24,19 @@ public:
         }
     }
 
+    void setSequence(const SequenceGenerator & sequence)
+    {
+        if (this->m_sequence != nullptr)
+        {
+            delete this->m_sequence;
+        }
+
+        this->m_sequence = sequence.getClone();
+    }
+
+protected:
+    const SequenceGenerator * m_sequence;
+
     // Default constructor
     SequencePrinterBase() :
         m_sequence(nullptr) {}
@@ -58,19 +71,6 @@ public:
         return *this;
     }
 
-    void setSequence(const SequenceGenerator & sequence)
-    {
-        if (this->m_sequence != nullptr)
-        {
-            delete this->m_sequence;
-        }
-
-        this->m_sequence = sequence.getClone();
-    }
-
-protected:
-    const SequenceGenerator * m_sequence;
-
     static std::string generateString(const SequenceGenerator * sequence)
     {
         std::stringstream ss;
@@ -96,26 +96,6 @@ public:
     SequencePrinterToString(const SequenceGenerator & sequence) :
         SequencePrinterBase(sequence),
         m_string() {}
-
-    // Destructor
-    ~SequencePrinterToString() {}
-
-    // Copy constructor
-    SequencePrinterToString(const SequencePrinterToString & other) :
-        SequencePrinterBase(other),
-        m_string(other.m_string) {}
-
-    // Copy-assignment operator
-    SequencePrinterToString & operator= (const SequencePrinterToString & other)
-    {
-        if (this != &other)
-        {
-            SequencePrinterBase::operator=(other);
-            this->m_string = other.m_string;
-        }
-
-        return *this;
-    }
 
     void print()
     {
@@ -145,24 +125,6 @@ public:
     // Constructor
     SequencePrinterToFile(const SequenceGenerator & sequence) :
         SequencePrinterBase(sequence) {}
-
-    // Destructor
-    ~SequencePrinterToFile() {}
-
-    // Copy constructor
-    SequencePrinterToFile(const SequencePrinterToFile & other) :
-        SequencePrinterBase(other) {}
-
-    // Copy-assignment operator
-    SequencePrinterToFile & operator= (const SequencePrinterToFile & other)
-    {
-        if (this != &other)
-        {
-            SequencePrinterBase::operator=(other);
-        }
-
-        return *this;
-    }
 
     void print()
     {
@@ -207,24 +169,6 @@ public:
     // Constructor
     SequencePrinterToConsole(const SequenceGenerator & sequence) :
         SequencePrinterBase(sequence) {}
-
-    // Destructor
-    ~SequencePrinterToConsole() {}
-
-    // Copy constructor
-    SequencePrinterToConsole(const SequencePrinterToConsole & other) :
-        SequencePrinterBase(other) {}
-
-    // Copy-assignment operator
-    SequencePrinterToConsole & operator= (const SequencePrinterToConsole & other)
-    {
-        if (this != &other)
-        {
-            SequencePrinterBase::operator=(other);
-        }
-
-        return *this;
-    }
 
     void print()
     {

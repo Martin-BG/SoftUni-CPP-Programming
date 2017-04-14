@@ -49,6 +49,10 @@ struct   // Demo helper class
         SequencePrinterToConsole print_to_console2(*sqrt_gen);
         print_to_console2.print();
 
+        std::cout << std::endl << "SequencePrinterToConsole print_to_console3(print_to_console2)" << std::endl;
+        SequencePrinterToConsole print_to_console3(print_to_console2);
+        print_to_console3.print();
+
         std::cout << std::endl << "print_to_console2 = print_to_console" << std::endl;
         print_to_console2 = print_to_console;
         print_to_console2.print();
@@ -79,6 +83,10 @@ struct   // Demo helper class
         SequencePrinterToString print_to_string2(*sqrt_gen);
         print_to_string2.print();
         std::cout << print_to_string2.getString() << std::endl;
+
+        std::cout << std::endl << "SequencePrinterToString print_to_string3(print_to_string2)" << std::endl;
+        SequencePrinterToString print_to_string3(print_to_string2);
+        std::cout << print_to_string3.getString() << std::endl;
 
         std::cout << std::endl << "print_to_string2 = print_to_string" << std::endl;
         print_to_string2 = print_to_string;
@@ -118,13 +126,19 @@ struct   // Demo helper class
         print_to_file2.print();
         std::cout << "Saved to " << SequencePrinterToFile::getFileName() << std::endl;
 
+        std::cout << std::endl << "SequencePrinterToFile print_to_file3(print_to_file2)" << std::endl;
+        SequencePrinterToFile print_to_file3(print_to_file2);
+        print_to_file3.print();
+        std::cout << "Saved to " << SequencePrinterToFile::getFileName() << std::endl;
+
         std::cout << std::endl << "print_to_file2 = print_to_file" << std::endl;
         print_to_file2 = print_to_file;
         print_to_file2.print();
         std::cout << "Saved to " << SequencePrinterToFile::getFileName() << std::endl;
 
-        std::cout << "SequencePrinterToFile demo completed, all changes saved to "
-            << SequencePrinterToFile::getFileName() << std::endl << std::endl;
+        std::cout << std::endl  << "SequencePrinterToFile demo completed." << std::endl
+            << "Changes saved to " << SequencePrinterToFile::getFileName() << std::endl
+            << std::endl;
     }
 
     void stressTests() const
@@ -189,5 +203,6 @@ int main()
     Demo.runDemo();
 
     Demo.stressTests();
+
     return 0;
 }
