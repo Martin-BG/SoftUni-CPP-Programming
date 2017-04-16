@@ -153,7 +153,7 @@ struct
         std::cout << std::endl;
     }
 
-    void queenDemo()
+    void demoQueen()
     {
         std::cout << "Queen movements demo" << std::endl;
 
@@ -184,7 +184,7 @@ struct
         std::cout << std::endl;
     }
 
-    void kingDemo()
+    void demoKing()
     {
         std::cout << "King movements demo" << std::endl;
 
@@ -215,6 +215,7 @@ struct
         std::cout << std::endl;
     }
 }testFigures;
+
 int main()
 {
     testFigures.demoPawn();
@@ -225,8 +226,9 @@ int main()
 
     testFigures.demoRook();
 
-    testFigures.queenDemo();
+    testFigures.demoQueen();
 
-    testFigures.kingDemo();
+    testFigures.demoKing();
+
     return 0;
 }
