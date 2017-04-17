@@ -1,0 +1,6 @@
+- multiple + virtual inheritance
+- exceptions and exception handling
+- writing a linked list
+- writing an iterator for the linked list
+- writing a bomberman/dyna-bomber game
+- building and using library files (static & dynamic)

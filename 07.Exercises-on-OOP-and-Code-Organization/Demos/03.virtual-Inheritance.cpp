@@ -1,5 +1,7 @@
 #include<iostream>
 #include<sstream>
+#include<string>
+#include<vector>
 
 class Organism {
 public:
@@ -8,6 +10,8 @@ public:
         weight(weight) {
         std::cout << "Organism ctor" << std::endl;
     }
+
+    virtual std::string getInfo() = 0;
 };
 
 class Animal : public virtual Organism {
@@ -22,6 +26,7 @@ public:
 
     std::string getInfo() {
         std::ostringstream infoStream;
+
         infoStream << "speed: " << this->movementSpeed;
         return infoStream.str();
     }
@@ -59,8 +64,7 @@ public:
 };
 
 int main() {
-    GMO gmo(4.2, true, 6.9);
-
+    GMO gmo(1.3, true, 0.7);
     std::cout << gmo.getInfo() << std::endl;
     std::cout << gmo.weight << std::endl;
 
