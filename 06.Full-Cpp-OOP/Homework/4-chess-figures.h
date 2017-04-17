@@ -4,10 +4,11 @@
 #include<string>
 #include<sstream>
 #include<vector>
+#include<array>
 
 static const int BOARD_SIDE = 8;
 static const int BOARD_SIZE = BOARD_SIDE * BOARD_SIDE;
-typedef char ChessBoard[BOARD_SIZE];
+typedef std::array<char, BOARD_SIZE> ChessBoard;
 
 enum FIGURE_COLOR {WHITE, BLACK};
 enum FIGURE_TYPE {PAWN, KNIGHT, BISHOP, ROOK, QUEEN, KING};
@@ -27,29 +28,10 @@ public:
 
     virtual std::vector<std::string> getAvailableMoves(const ChessBoard & otherFigures) const = 0;
 
-    std::string getFigureDetails(const ChessBoard & otherFigures) const
-    {
-        std::stringstream ss;
-
-        ss << getFigureColorName() << " "
-            << getFigureTypeName() << " ("
-            << getFigureSymbol() << ") at "
-            << getPositionName(this->m_position)
-            << std::endl << "Valid moves: "
-            << getValidMovesList(getAvailableMoves(otherFigures));
-
-        return ss.str();
-    }
-
-protected:
-    int m_position;
-    bool m_moved;
-    const bool m_is_white;
-    const FIGURE_TYPE m_type;
-
     bool move(const std::string & newPosition, const ChessBoard & otherFigures)
     {
         std::vector<std::string> valid_moves = getAvailableMoves(otherFigures);
+
         for (auto valid_move : valid_moves)
         {
             if(valid_move == newPosition)
@@ -63,25 +45,80 @@ protected:
         return false;
     }
 
-    std::string getFigureTypeName() const
+    std::string getFigureDetails(const ChessBoard & otherFigures) const
     {
-        switch (this->m_type)
+        std::stringstream ss;
+
+        ss << getFigureColorName() << " "
+            << getFigureTypeName() << " ("
+            << getFigureSymbol() << ") at "
+            << getPositionName(this->m_position)
+            << std::endl << "  Valid moves: "
+            << getValidMovesList(getAvailableMoves(otherFigures));
+
+        return ss.str();
+    }
+
+    std::string getFigureDetailsCompact(const ChessBoard & otherFigures) const
+    {
+        std::stringstream ss;
+
+        ss << getFigureTypeName() << " ("
+            << getFigureSymbol() << ") at ["
+            << getPositionName(this->m_position)
+            << "] Valid moves: "
+            << getValidMovesList(getAvailableMoves(otherFigures));
+
+        return ss.str();
+    }
+
+    std::string getFigureDetailsShort() const
+    {
+        std::stringstream ss;
+
+        ss << getFigureColorName() << " "
+            << getFigureTypeName() << " ("
+            << getFigureSymbol() << ") at ["
+            << getPositionName(this->m_position)
+            << "]";
+
+        return ss.str();
+    }
+
+    static std::string getPositionName(const int & position)
+    {
+        if (!isPositionValid(position))
         {
-            case PAWN:
-                return "Pawn";
-            case KNIGHT:
-                return "Knight";
-            case BISHOP:
-                return "Bishop";
-            case ROOK:
-                return "Rook";
-            case QUEEN:
-                return "Queen";
-            case KING:
-                return "King";
-            default:
-                throw "Invalid figure type";
+            throw "Invalid figure position";
         }
+
+        std::stringstream ss;
+
+        ss << char(97 + position % 8) << 1 + position / 8;
+
+        return ss.str();
+    }
+
+    static int getPositionFromString(const std::string & position_str)
+    {
+        if (position_str.length() != 2
+            || position_str[0] < 'a' || position_str[0] > 'h'
+            || position_str[1] < '1' || position_str[1] > '8')
+        {
+            throw "Invalid figure position on board";
+        }
+
+        return (position_str[0] - 'a') + (position_str[1] - '0' - 1) * 8;
+    }
+
+    bool isFigureWhite() const
+    {
+        return this->m_is_white;
+    }
+
+    int getPosition() const
+    {
+        return this->m_position;
     }
 
     char getFigureSymbol() const
@@ -111,6 +148,52 @@ protected:
                 throw "Invalid figure type";
         }
     }
+
+    bool isEnemyFigureAtPosition(const int & position, const ChessBoard & otherFigures) const
+    {
+        if (!isPositionEmpty(position, otherFigures))
+        {
+            if (this->m_is_white != isupper(otherFigures[position]))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    FIGURE_TYPE getType() const
+    {
+        return this->m_type;
+    }
+
+protected:
+    int m_position;
+    bool m_moved;
+    const bool m_is_white;
+    const FIGURE_TYPE m_type;
+
+    std::string getFigureTypeName() const
+    {
+        switch (this->m_type)
+        {
+            case PAWN:
+                return "Pawn";
+            case KNIGHT:
+                return "Knight";
+            case BISHOP:
+                return "Bishop";
+            case ROOK:
+                return "Rook";
+            case QUEEN:
+                return "Queen";
+            case KING:
+                return "King";
+            default:
+                throw "Invalid figure type";
+        }
+    }
+
     std::string getValidMovesList(const std::vector<std::string> & valid_moves) const
     {
         std::stringstream ss;
@@ -126,45 +209,6 @@ protected:
     std::string getFigureColorName() const
     {
         return this->m_is_white?"White":"Black";
-    }
-
-    static std::string getPositionName(const int & position)
-    {
-        if (!isPositionValid(position))
-        {
-            throw "Invalid figure position";
-        }
-
-        std::stringstream ss;
-
-        ss << char(97 + position % 8) << 1 + position / 8;
-
-        return ss.str();
-    }
-
-    static int getPositionFromString(const std::string & position_str)
-    {
-        if (position_str.length() != 2
-            || position_str[0] < 'a' || position_str[0] > 'h'
-            || position_str[1] < '1' || position_str[1] > '8')
-        {
-            throw "Invalid figure position on board";
-        }
-
-        return (position_str[0] - 'a') + (position_str[1] - '0' - 1) * 8;
-    }
-
-    bool isEnemyFigureAtPosition(const int & position, const ChessBoard & otherFigures) const
-    {
-        if (!isPositionEmpty(position, otherFigures))
-        {
-            if (this->m_is_white != isupper(otherFigures[position]))
-            {
-                return true;
-            }
-        }
-
-        return false;
     }
 
     bool isPositionEmpty(const int & position, const ChessBoard & otherFigures) const
