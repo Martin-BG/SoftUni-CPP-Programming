@@ -17,6 +17,7 @@ public:
 
         this->m_figures.clear();
     }
+
     // Constructor
     ChessGame() :
         m_chess_board(ChessBoard{
@@ -28,7 +29,7 @@ public:
           '0', '0', '0', '0', '0', '0', '0', '0', // 5
           '0', '0', '0', '0', '0', '0', '0', '0', // 6
           'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p', // 7 Black
-          'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'}),// 8 figures),
+          'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'}),// 8 figures
         m_figures(),
         m_game_ended(false),
         m_white_turn(true)
