@@ -102,13 +102,13 @@ public:
     static int getPositionFromString(const std::string & position_str)
     {
         if (position_str.length() != 2
-            || position_str[0] < 'a' || position_str[0] > 'h'
-            || position_str[1] < '1' || position_str[1] > '8')
+            || position_str[0] < 'a' || position_str[0] >= 'a' + BOARD_SIDE
+            || position_str[1] < '1' || position_str[1] > '0' + BOARD_SIDE)
         {
             throw "Invalid figure position on board";
         }
 
-        return (position_str[0] - 'a') + (position_str[1] - '0' - 1) * 8;
+        return (position_str[0] - 'a') + (position_str[1] - '1') * 8;
     }
 
     bool isFigureWhite() const

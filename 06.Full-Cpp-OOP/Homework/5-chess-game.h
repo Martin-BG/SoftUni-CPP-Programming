@@ -140,12 +140,12 @@ private:
 
                 switch (tolower(this->m_chess_board[i]))
                 {
-                    case 'p' : m_figures.push_back(new Pawn(ChessFigures::getPositionName(i),color)); break;
-                    case 'n' : m_figures.push_back(new Knight(ChessFigures::getPositionName(i),color)); break;
-                    case 'b' : m_figures.push_back(new Bishop(ChessFigures::getPositionName(i),color)); break;
-                    case 'r' : m_figures.push_back(new Rook(ChessFigures::getPositionName(i),color)); break;
-                    case 'q' : m_figures.push_back(new Queen(ChessFigures::getPositionName(i),color)); break;
-                    case 'k' : m_figures.push_back(new King(ChessFigures::getPositionName(i),color)); break;
+                    case 'p' : m_figures.push_back(new Pawn(ChessFigures::getPositionName(i), color)); break;
+                    case 'n' : m_figures.push_back(new Knight(ChessFigures::getPositionName(i), color)); break;
+                    case 'b' : m_figures.push_back(new Bishop(ChessFigures::getPositionName(i), color)); break;
+                    case 'r' : m_figures.push_back(new Rook(ChessFigures::getPositionName(i), color)); break;
+                    case 'q' : m_figures.push_back(new Queen(ChessFigures::getPositionName(i), color)); break;
+                    case 'k' : m_figures.push_back(new King(ChessFigures::getPositionName(i), color)); break;
                     default : throw "Invalid figure type"; break;
                 }
             }
@@ -227,7 +227,7 @@ public:
     }
 };
 
-class ConsoleReader : public ConsoleWriter
+class ConsoleReader
 {
 public:
     std::string getUserInput() const
@@ -239,8 +239,8 @@ public:
             std::cin >> input;
         }
         while (input.length() != 2
-                || input[0] < 'a' || input[0] > 'h'
-                || input[1] < '1' || input[1] > '8');
+                || input[0] < 'a' || input[0] >= 'a' + BOARD_SIDE
+                || input[1] < '1' || input[1] > '0' + BOARD_SIDE);
 
         return input;
     }

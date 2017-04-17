@@ -93,7 +93,9 @@ int main()
         game->switchPlayer();
     }
 
-    std::cout << std::endl << "Game over - " << (game->isWhiteTurn()?"Black":"White") << " victory!" << std::endl;
+    console_writer.printChessBoard(game->getChessBoard());
+
+    std::cout << std::endl << "Checkmate - " << (game->isWhiteTurn()?"Black":"White") << " victory!" << std::endl;
 
     delete game;
 
