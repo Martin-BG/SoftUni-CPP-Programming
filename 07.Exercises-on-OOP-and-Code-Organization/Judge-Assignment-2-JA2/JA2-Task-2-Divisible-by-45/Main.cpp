@@ -41,9 +41,9 @@ int main()
         start_num += BigInt(correction);
     }
 
-
     BigInt five(5);
-    int sum_of_digits = getSumOfDigits(num1);
+    int sum_of_digits = getSumOfDigits(start_num.getDigits());
+
     while (sum_of_digits % 9 != 0)
     {
         start_num += five;

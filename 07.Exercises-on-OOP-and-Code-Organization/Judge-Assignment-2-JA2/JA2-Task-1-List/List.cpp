@@ -170,49 +170,7 @@ std::string List::toString() const
 
 List& List::operator<<(const T& value)
 {
-    bool added = false;
-
-    if (this->head != nullptr && this->head->getValue() >= value)
-    {
-		Node * new_node = new Node(value, nullptr, this->head);
-        this->head = new_node;
-        new_node->getNext()->setPrev(new_node);
-        this->size++;
-        added = true;
-    }
-	else if (this->size > 0 && this->tail->getValue() > value )
-	{
-		Node * new_node = new Node(value, nullptr, nullptr);
-		Node * curr_node = this->head;
-
-		while (curr_node != nullptr)
-		{
-			if (curr_node->getValue() >= value)
-			{
-			    new_node->setPrev(curr_node->getPrev());
-				curr_node->setPrev(new_node);
-				new_node->setNext(curr_node);
-
-				if (new_node->getPrev() != nullptr)
-				{
-					new_node->getPrev()->setNext(new_node);
-				}
-
-				added = true;
-
-				this->size++;
-
-				break;
-			}
-
-			curr_node = curr_node->getNext();
-		}
-	}
-
-	if (!added)
-	{
-		this->add(value);
-	}
+	this->add(value);
 
 	return *this;
 }
