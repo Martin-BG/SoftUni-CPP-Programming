@@ -44,7 +44,10 @@ List::List():
 List::List(const List& other) :
     head(nullptr),
     tail(nullptr),
-    size(0) { addAll(other); }
+    size(0)
+{
+    addAll(other);
+}
 
 T List::first() const
 {
@@ -52,6 +55,7 @@ T List::first() const
 	{
 		throw "Null pointer";
 	}
+
     return this->head->getValue();
 }
 
@@ -93,6 +97,7 @@ void List::removeFirst()
     if (to_delete != nullptr)
     {
         Node * next = to_delete->getNext();
+
         if (next != nullptr)
         {
             next->setPrev(nullptr);
@@ -100,6 +105,7 @@ void List::removeFirst()
         }
 
         delete to_delete;
+
         this->size--;
 
         if (this->size == 0)
@@ -124,6 +130,7 @@ void List::removeAll()
 
     this->head = nullptr;
     this->tail = nullptr;
+
     this->size = 0;
 }
 
@@ -144,6 +151,7 @@ List List::getReversed(List l)
     if (l.size > 0)
     {
         Node * node = l.tail;
+
         while (node != nullptr)
         {
             reversed.add(node->getValue());
@@ -159,6 +167,7 @@ std::string List::toString() const
     std::stringstream ss;
 
     Node * node = this->head;
+
     while (node != nullptr)
     {
         ss << node->getValue() << " ";
@@ -178,13 +187,16 @@ List& List::operator<<(const T& value)
 List& List::operator<<(const List& other)
 {
 	this->addAll(other);
+
 	return *this;
 }
 
 List& List::operator=(const List& other)
 {
     removeAll();
+
     addAll(other);
+
     return *this;
 }
 

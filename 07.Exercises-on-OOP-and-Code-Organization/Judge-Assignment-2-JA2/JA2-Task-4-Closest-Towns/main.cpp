@@ -4,10 +4,7 @@
 #include<limits>
 #include<cmath>
 
-double calculateDistance(const int & x, const int & y)
-{
-    return std::sqrt(x * x + y * y);
-}
+double calculateDistance(const int &, const int &);
 
 int main()
 {
@@ -44,4 +41,9 @@ int main()
     std::cout << cities[shortest_x] << "-" << cities[shortest_y];
 
     return 0;
+}
+
+double calculateDistance(const int & x, const int & y)
+{
+    return std::sqrt(x * x + y * y);
 }

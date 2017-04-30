@@ -3,16 +3,7 @@
 
 #include "BigInt.h"
 
-int getSumOfDigits(const std::string & digits)
-{
-    int sum = 0;
-    int str_size = digits.size();
-    for (int i = 0; i< str_size; i++)
-    {
-        sum += digits[i] - '0';
-    }
-    return sum;
-}
+int getSumOfDigits(const std::string &);
 
 int main()
 {
@@ -58,4 +49,15 @@ int main()
     }
 
     return 0;
+}
+
+int getSumOfDigits(const std::string & digits)
+{
+    int sum = 0;
+    int str_size = digits.size();
+    for (int i = 0; i< str_size; i++)
+    {
+        sum += digits[i] - '0';
+    }
+    return sum;
 }
