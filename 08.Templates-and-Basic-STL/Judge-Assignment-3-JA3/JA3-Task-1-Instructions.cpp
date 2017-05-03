@@ -1,19 +1,11 @@
 #include<iostream>
 #include<string>
 
-const int MAX_NUM = 50;
-int numbers[MAX_NUM];
-int num_pointer;
-
-
-void addNum(const std::string &);
-void sum();
-void subtract();
-void concat();
-void discard();
-
 int main()
 {
+	const int MAX_NUM = 50;
+	int numbers[MAX_NUM] = {};
+	int num_pointer = 0;
     std::string input;
 
     while (true)
@@ -22,19 +14,22 @@ int main()
 
         if (input == "sum")
         {
-            sum();
+			numbers[num_pointer - 2] += numbers[num_pointer - 1];
+			num_pointer--;
         }
         else if (input == "subtract")
         {
-            subtract();
+			numbers[num_pointer - 2] = numbers[num_pointer - 1] - numbers[num_pointer - 2];
+			num_pointer--;
         }
         else if (input == "concat")
         {
-            concat();
+			numbers[num_pointer - 2] = std::stoi(std::to_string(numbers[num_pointer - 2]) + std::to_string(numbers[num_pointer - 1]));
+			num_pointer--;
         }
         else if (input == "discard")
         {
-            discard();
+            num_pointer--;;
         }
         else if (input == "end")
         {
@@ -42,7 +37,7 @@ int main()
         }
         else
         {
-            addNum(input);
+            numbers[num_pointer++] = std::stoi(input);
         }
     }
 
@@ -52,32 +47,4 @@ int main()
     }
 
     return 0;
-}
-
-void addNum(const std::string & input)
-{
-    numbers[num_pointer++] = std::stoi(input);
-}
-
-void sum()
-{
-    numbers[num_pointer - 2] += numbers[num_pointer - 1];
-    num_pointer--;
-}
-
-void subtract()
-{
-    numbers[num_pointer - 2] = numbers[num_pointer - 1] - numbers[num_pointer - 2];
-    num_pointer--;
-}
-
-void concat()
-{
-    numbers[num_pointer - 2] = std::stoi(std::to_string(numbers[num_pointer - 2]) + std::to_string(numbers[num_pointer - 1]));
-    num_pointer--;
-}
-
-void discard()
-{
-    num_pointer--;
 }
