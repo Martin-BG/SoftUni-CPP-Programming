@@ -11,6 +11,10 @@ int main()
 
     char next[DNA_STR_LENGTH] = {};
 
+	// Tweaks for faster cin execution
+    std::cin.sync_with_stdio(false);
+    std::cin.tie(nullptr);
+	
     while (std::cin.get(next, DNA_STR_LENGTH, '.') && !std::cin.eof())
     {
         uniqueDNA.flip(std::stoi(next, nullptr, 16) - 1);
