@@ -1,6 +1,8 @@
 #include<iostream>
 #include<iomanip>
 
+#pragma GCC optimize ("O3")
+
 const int DNA_STR_LENGTH = 6;
 
 int main()
@@ -11,7 +13,7 @@ int main()
 	// Tweaks for faster cin execution
     std::cin.sync_with_stdio(false);
     std::cin.tie(nullptr);
-	
+
     while (std::cin.get(next, DNA_STR_LENGTH, '.') && !std::cin.eof())
     {
         res ^= std::stoi(next, nullptr, 16);

@@ -14,6 +14,8 @@ Algo:
 #include<iostream>
 #include<iomanip>
 
+#pragma GCC optimize ("O3")
+
 const int DNA_STR_LENGTH = 6;
 const int DNA_BITS_COUNT = (DNA_STR_LENGTH - 1) * 8;
 
@@ -60,16 +62,14 @@ int main()
 
     std::cout << std::setw(DNA_STR_LENGTH - 1) << std::setfill('0') << std::hex;
 
-    num = xor_arr_one[index]^res;
-    if (num != 0)
+    if (xor_arr_one[index] != 0)
     {
-        std::cout << num << std::endl;
+        std::cout << xor_arr_one[index] << std::endl;
     }
 
-    num = xor_arr_two[index]^res;
-    if (num != 0)
+    if (xor_arr_two[index] != 0)
     {
-        std::cout << num << std::endl;
+        std::cout << xor_arr_two[index] << std::endl;
     }
 
     return 0;
