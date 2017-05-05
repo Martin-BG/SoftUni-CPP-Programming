@@ -15,9 +15,10 @@ int main()
     std::cin.sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    while (std::cin.get(buffer, BUFFER_SIZE + 1, '.') && !std::cin.eof())
+    while (std::cin.get(buffer, BUFFER_SIZE + 1) && !std::cin.eof())
     {
         read_chars = std::cin.gcount();
+        read_chars -= read_chars % (DNA_STR_LENGTH - 1);
         index = 0;
 
         while (read_chars > index)
