@@ -16,7 +16,7 @@ Algo:
 
 #pragma GCC optimize ("O3")
 
-const int DNA_STR_LENGTH = 6;
+const int DNA_STR_LENGTH = 5 + 1; // +1 for '\0'
 const int DNA_BITS_COUNT = 20; // 0xFFFFF uses 20 bits
 
 int main()

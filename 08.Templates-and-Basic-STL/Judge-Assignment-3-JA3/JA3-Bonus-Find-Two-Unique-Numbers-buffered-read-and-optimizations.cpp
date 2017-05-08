@@ -19,21 +19,21 @@ Algo:
 const int DNA_STR_LENGTH = 5;
 const int BITS_PER_CHAR = 8;
 const int DNA_BITS_COUNT = DNA_STR_LENGTH * BITS_PER_CHAR;
-const int BUFFER_SIZE = DNA_STR_LENGTH * 10000;
+const int BUFFER_SIZE = DNA_STR_LENGTH * 10000 + 1; // +1 for '\0'
 
 int main()
 {
     static char buffer[BUFFER_SIZE];
-    static char res[DNA_STR_LENGTH + 1];
-    static char xor_arr_one[DNA_BITS_COUNT * DNA_STR_LENGTH];
-    static char xor_arr_two[DNA_BITS_COUNT * DNA_STR_LENGTH];
+    static char xor_total[DNA_STR_LENGTH];
+    static char res[DNA_STR_LENGTH + 1]; // +1 for '\0' as it is used for cout
+    static char xor_arr[DNA_BITS_COUNT * DNA_STR_LENGTH];
     int mask, index, index_2, index_3, read_chars;
 
     // Tweaks for faster cin execution
     std::cin.sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    while (std::cin.get(buffer, BUFFER_SIZE + 1, '.') && !std::cin.eof())
+    while (std::cin.get(buffer, BUFFER_SIZE, '.') && !std::cin.eof())
     {
         read_chars = std::cin.gcount();
 
@@ -41,7 +41,7 @@ int main()
         {
             for (index_2 = 0; index_2 < DNA_STR_LENGTH; index_2++)
             {
-                res[index_2] ^= buffer[index + index_2];
+                xor_total[index_2] ^= buffer[index + index_2];
             }
 
             for (index_2 = 0; index_2 < DNA_BITS_COUNT; index_2++)
@@ -52,82 +52,63 @@ int main()
                 {
                     for (index_3 = 0; index_3 < DNA_STR_LENGTH; index_3++)
                     {
-                        xor_arr_one[index_2 * DNA_STR_LENGTH + index_3] ^= buffer[index + index_3];
-                    }
-                }
-                else
-                {
-                    for (index_3 = 0; index_3 < DNA_STR_LENGTH; index_3++)
-                    {
-                        xor_arr_two[index_2 * DNA_STR_LENGTH + index_3] ^= buffer[index + index_3];
+                        xor_arr[index_2 * DNA_STR_LENGTH + index_3] ^= buffer[index + index_3];
                     }
                 }
             }
         }
     }
 
-    index = 0;
+    index = -1;
     mask = 0;
     do
     {
-        mask = res[index]&(~(res[index] - 1));
         index++;
-    } while (mask == 0 && index < DNA_STR_LENGTH);
+        mask = xor_total[index]&(~(xor_total[index] - 1));
+    }
+    while (mask == 0 && index < DNA_STR_LENGTH - 1);
 
     if (mask == 0)
     {
         return 0;
     }
 
-    index = (index -1) * BITS_PER_CHAR;
+    index *= BITS_PER_CHAR;
     while (mask > 0)
     {
         index++;
         mask >>= 1;
     }
 
+    index--;
     index *= DNA_STR_LENGTH;
 
-    bool show = false;
+    bool only_one = true;
     for (index_2 = 0; index_2 < DNA_STR_LENGTH; index_2++)
     {
-        res[index_2] = xor_arr_one[index + index_2];
+        res[index_2] = xor_arr[index + index_2];
 
-        if (res[index_2] != 0)
+        if (res[index_2] != xor_total[index_2])
         {
-            show = true;
+            only_one = false;
         }
     }
 
-    if (show)
-    {
-        for (index_2 = 0; index_2 < DNA_STR_LENGTH; index_2++)
-        {
-            std::cout << res[index_2];
-        }
-
-        std::cout << std::endl;
-    }
-
-    show = false;
     for (index_2 = 0; index_2 < DNA_STR_LENGTH; index_2++)
     {
-        res[index_2] = xor_arr_two[index + index_2];
-
-        if (res[index_2] != 0)
-        {
-            show = true;
-        }
+        std::cout << res[index_2];
     }
 
-    if (show)
+    if (!only_one)
     {
+        std::cout << std::endl;
+
         for (index_2 = 0; index_2 < DNA_STR_LENGTH; index_2++)
         {
+            res[index_2] ^= xor_total[index_2];
             std::cout << res[index_2];
-        }
 
-        std::cout << std::endl;
+        }
     }
 
     return 0;

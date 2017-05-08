@@ -3,7 +3,7 @@
 #pragma GCC optimize ("O3")
 
 const int DNA_STR_LENGTH = 6;
-const int BUFFER_SIZE = 10000 * (DNA_STR_LENGTH - 1);
+const int BUFFER_SIZE = 10000 * (DNA_STR_LENGTH - 1) + 1; // +1 for '\0'
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
     std::cin.sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    while (std::cin.get(buffer, BUFFER_SIZE + 1) && !std::cin.eof())
+    while (std::cin.get(buffer, BUFFER_SIZE) && !std::cin.eof())
     {
         read_chars = std::cin.gcount();
         read_chars -= read_chars % (DNA_STR_LENGTH - 1);
