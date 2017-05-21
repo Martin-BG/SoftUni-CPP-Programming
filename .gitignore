@@ -2,7 +2,7 @@
 
 #**/Demos/
 #*.pptx
-*.zip
+#*.zip
 *.7z
 *.rar
 
