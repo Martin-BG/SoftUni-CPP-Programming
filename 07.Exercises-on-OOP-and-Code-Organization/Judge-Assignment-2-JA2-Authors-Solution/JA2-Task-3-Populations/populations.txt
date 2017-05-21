@@ -1,0 +1,6343 @@
+name	country	population
+"Ras al-Khaimah"	"AE"	115949
+"Ajman"	"AE"	226172
+"Al Ain"	"AE"	408733
+"Sharjah"	"AE"	543733
+"Abu Dhabi"	"AE"	603492
+"Dubai"	"AE"	1137347
+"Khanabad"	"AF"	71531
+"Maymana"	"AF"	75900
+"Khost"	"AF"	96123
+"Gardez"	"AF"	103601
+"Baghlan"	"AF"	108449
+"Balkh"	"AF"	114883
+"Ghazni"	"AF"	141000
+"Kunduz"	"AF"	161902
+"Jalalabad"	"AF"	200331
+"Herat"	"AF"	272806
+"Mazar-e Sharif"	"AF"	303282
+"Kandahar"	"AF"	391190
+"Kabul"	"AF"	3043532
+"Shkoder"	"AL"	88245
+"Vlore"	"AL"	89546
+"Elbasan"	"AL"	100903
+"Durres"	"AL"	122034
+"Tirana"	"AL"	374801
+"Vanadzor"	"AM"	101098
+"Gyumri"	"AM"	148381
+"Yerevan"	"AM"	1093485
+"Soio"	"AO"	67491
+"Namibe"	"AO"	80149
+"Malanje"	"AO"	87046
+"Lubango"	"AO"	102541
+"Cuito"	"AO"	113624
+"Benguela"	"AO"	151226
+"Lobito"	"AO"	207932
+"Huambo"	"AO"	226145
+"N'dalatando"	"AO"	383100
+"Luanda"	"AO"	2776168
+"Concepcion del Uruguay"	"AR"	67895
+"Villa Carlos Paz"	"AR"	69451
+"Goya"	"AR"	70245
+"Venado Tuerto"	"AR"	72340
+"General Roca"	"AR"	73212
+"Chimbas"	"AR"	73829
+"San Ramon de la Nueva Oran"	"AR"	74059
+"Gobernador Galvez"	"AR"	74650
+"Cipolletti"	"AR"	75078
+"Gualeguaychu"	"AR"	78676
+"Necochea"	"AR"	80478
+"Campana"	"AR"	81612
+"Lujan"	"AR"	81749
+"Presidencia Roque Saenz Pena"	"AR"	81879
+"San Martin"	"AR"	82549
+"Junin"	"AR"	85007
+"Rio Gallegos"	"AR"	85700
+"Olavarria"	"AR"	86320
+"Pergamino"	"AR"	87652
+"Rafaela"	"AR"	88713
+"Zarate"	"AR"	88781
+"Reconquista"	"AR"	90184
+"Villa Maria"	"AR"	92453
+"Trelew"	"AR"	93442
+"San Carlos de Bariloche"	"AR"	95394
+"Villa Mercedes"	"AR"	96781
+"Tandil"	"AR"	104325
+"San Rafael"	"AR"	109163
+"Santa Rosa"	"AR"	111424
+"Villa Lugano"	"AR"	114000
+"San Nicolas de los Arroyos"	"AR"	127742
+"Comodoro Rivadavia"	"AR"	140850
+"Concordia"	"AR"	145210
+"Rio Cuarto"	"AR"	153757
+"La Rioja"	"AR"	162620
+"San Luis"	"AR"	183982
+"San Fernando del Valle de Catamarca"	"AR"	188812
+"Formosa"	"AR"	221383
+"Neuquen"	"AR"	242092
+"Parana"	"AR"	262295
+"Bahia Blanca"	"AR"	276546
+"San Salvador de Jujuy"	"AR"	305891
+"Moron"	"AR"	319934
+"Posadas"	"AR"	323739
+"Corrientes"	"AR"	339067
+"Santiago del Estero"	"AR"	354692
+"Resistencia"	"AR"	387158
+"San Juan"	"AR"	447048
+"Santa Fe de la Vera Cruz"	"AR"	489505
+"Salta"	"AR"	512686
+"Quilmes"	"AR"	518788
+"Mar del Plata"	"AR"	553935
+"La Plata"	"AR"	694167
+"San Miguel de Tucuman"	"AR"	781023
+"Mendoza"	"AR"	876884
+"Rosario"	"AR"	1173533
+"Cordoba"	"AR"	1428214
+"Buenos Aires"	"AR"	13076300
+"Klagenfurt am Woerthersee"	"AT"	90610
+"Innsbruck"	"AT"	112467
+"Salzburg"	"AT"	150269
+"Linz"	"AT"	181162
+"Graz"	"AT"	222326
+"Vienna"	"AT"	1691468
+"Maitland"	"AU"	67132
+"Bunbury"	"AU"	68248
+"Bundaberg"	"AU"	70826
+"Mackay"	"AU"	74219
+"Mandurah"	"AU"	83294
+"Ballarat"	"AU"	97937
+"Bendigo"	"AU"	100617
+"Launceston"	"AU"	106153
+"Rockingham"	"AU"	108022
+"Darwin"	"AU"	129062
+"Toowoomba"	"AU"	131258
+"Cairns"	"AU"	153075
+"Townsville"	"AU"	196219
+"Hobart"	"AU"	216656
+"Geelong"	"AU"	226034
+"Logan City"	"AU"	282673
+"Wollongong"	"AU"	292190
+"Newcastle"	"AU"	308308
+"Canberra"	"AU"	367752
+"Gold Coast"	"AU"	591473
+"Adelaide"	"AU"	1225235
+"Perth"	"AU"	1896548
+"Brisbane"	"AU"	2189878
+"Melbourne"	"AU"	4246375
+"Sydney"	"AU"	4627345
+"Bakixanov"	"AZ"	66686
+"Sirvan"	"AZ"	70220
+"Qaracuxur"	"AZ"	72989
+"Saatli"	"AZ"	87000
+"Mingelchaur"	"AZ"	95453
+"Lankaran"	"AZ"	240300
+"Sumqayit"	"AZ"	265150
+"Ganja"	"AZ"	313300
+"Baku"	"AZ"	1116513
+"Bihac"	"BA"	75641
+"Mostar"	"BA"	104518
+"Tuzla"	"BA"	142486
+"Zenica"	"BA"	164423
+"Banja Luka"	"BA"	221106
+"Sarajevo"	"BA"	696731
+"Bridgetown"	"BB"	98511
+"Palang"	"BD"	67652
+"Thakurgaon"	"BD"	71096
+"Joypur Hat"	"BD"	73068
+"Netrakona"	"BD"	79016
+"Sarishabari"	"BD"	81325
+"Ishurdi"	"BD"	81995
+"Laksham"	"BD"	82290
+"Feni"	"BD"	84028
+"Madaripur"	"BD"	84789
+"Habiganj"	"BD"	88760
+"Kishorganj"	"BD"	90690
+"Azimpur"	"BD"	96641
+"Bhola"	"BD"	99079
+"Shahzadpur"	"BD"	102420
+"Bhairab Bazar"	"BD"	105457
+"Sherpur"	"BD"	107419
+"Faridpur"	"BD"	112187
+"Sirajganj"	"BD"	127481
+"Satkhira"	"BD"	128918
+"Kushtia"	"BD"	135724
+"Nawabganj"	"BD"	142361
+"Jamalpur"	"BD"	167900
+"Tangail"	"BD"	180144
+"Paltan"	"BD"	184492
+"Pabna"	"BD"	186781
+"Par Naogaon"	"BD"	192464
+"Saidpur"	"BD"	199422
+"Barisal"	"BD"	202242
+"Dinajpur"	"BD"	206234
+"Bogra"	"BD"	210000
+"Narayanganj"	"BD"	223622
+"Mymensingh"	"BD"	225126
+"Sylhet"	"BD"	237000
+"Nagarpur"	"BD"	238422
+"Jessore"	"BD"	243987
+"Cox's Bazar"	"BD"	253788
+"Narsingdi"	"BD"	281080
+"Tungi"	"BD"	337579
+"Rangpur"	"BD"	343122
+"Comilla"	"BD"	389411
+"Rajshahi"	"BD"	700133
+"Khulna"	"BD"	1342339
+"Chittagong"	"BD"	3920222
+"Dhaka"	"BD"	10356500
+"Tournai"	"BE"	67721
+"Sint-Niklaas"	"BE"	69010
+"Ostend"	"BE"	69011
+"Hasselt"	"BE"	69222
+"Kortrijk"	"BE"	73879
+"La Louviere"	"BE"	76668
+"Mechelen"	"BE"	77530
+"Aalst"	"BE"	77534
+"Mons"	"BE"	91277
+"Leuven"	"BE"	92892
+"Namur"	"BE"	106284
+"Brugge"	"BE"	116709
+"Liege"	"BE"	182597
+"Charleroi"	"BE"	200132
+"Gent"	"BE"	231493
+"Antwerpen"	"BE"	459805
+"Brussels"	"BE"	1019022
+"Koudougou"	"BF"	87347
+"Bobo-Dioulasso"	"BF"	360106
+"Ouagadougou"	"BF"	1086505
+"Gabrovo"	"BG"	66175
+"Veliko Turnovo"	"BG"	66217
+"Blagoevgrad"	"BG"	71306
+"Pazardzhik"	"BG"	75977
+"Haskovo"	"BG"	79699
+"Yambol"	"BG"	80116
+"Pernik"	"BG"	82467
+"Shumen"	"BG"	87283
+"Dobrich"	"BG"	94831
+"Sliven"	"BG"	96368
+"Pleven"	"BG"	118675
+"Stara Zagora"	"BG"	143431
+"Ruse"	"BG"	156238
+"Burgas"	"BG"	195966
+"Varna"	"BG"	312770
+"Plovdiv"	"BG"	340494
+"Sofia"	"BG"	1152556
+"Ar Rifa'"	"BH"	79550
+"Al Muharraq"	"BH"	97458
+"Manama"	"BH"	147074
+"Muyinga"	"BI"	71076
+"Bujumbura"	"BI"	331700
+"Save"	"BJ"	75970
+"Natitingou"	"BJ"	80892
+"Abomey"	"BJ"	82154
+"Ouidah"	"BJ"	83503
+"Lokossa"	"BJ"	86971
+"Kandi"	"BJ"	109701
+"Bohicon"	"BJ"	125092
+"Parakou"	"BJ"	163753
+"Porto-Novo"	"BJ"	234168
+"Djougou"	"BJ"	237040
+"Abomey-Calavi"	"BJ"	385755
+"Cotonou"	"BJ"	780000
+"Riberalta"	"BO"	74014
+"Yacuiba"	"BO"	82803
+"Trinidad"	"BO"	84259
+"Montero"	"BO"	88616
+"Potosi"	"BO"	141251
+"Tarija"	"BO"	159269
+"Oruro"	"BO"	208684
+"Sucre"	"BO"	224838
+"La Paz"	"BO"	812799
+"Cochabamba"	"BO"	900414
+"Santa Cruz de la Sierra"	"BO"	1364389
+"Tubarao"	"BR"	67245
+"Santa Ines"	"BR"	67424
+"Itatiba"	"BR"	67934
+"Balsas"	"BR"	68056
+"Sao Sebastiao do Paraiso"	"BR"	68654
+"Vicosa"	"BR"	68680
+"Jaboticabal"	"BR"	69394
+"Paragominas"	"BR"	69613
+"Votuporanga"	"BR"	69863
+"Iguatu"	"BR"	70380
+"Carpina"	"BR"	70689
+"Paracatu"	"BR"	70753
+"Altamira"	"BR"	70888
+"Ijui"	"BR"	71202
+"Alfenas"	"BR"	71406
+"Sao Cristovao"	"BR"	71539
+"Bebedouro"	"BR"	71862
+"Tres Rios"	"BR"	71944
+"Patrocinio"	"BR"	71963
+"Cruzeiro"	"BR"	72022
+"Aruja"	"BR"	72077
+"Bacabal"	"BR"	72372
+"Matao"	"BR"	72468
+"Joao Monlevade"	"BR"	72762
+"Paranavai"	"BR"	72848
+"Santo Antonio de Jesus"	"BR"	73957
+"Cachoeira do Sul"	"BR"	74694
+"Campo Mourao"	"BR"	75401
+"Para de Minas"	"BR"	75786
+"Sapiranga"	"BR"	76051
+"Embu Guacu"	"BR"	76310
+"Tucurui"	"BR"	76337
+"Sao Sebastiao"	"BR"	76367
+"Santa Cruz do Capibaribe"	"BR"	76450
+"Lorena"	"BR"	76506
+"Sao Joao da Boa Vista"	"BR"	76540
+"Jatai"	"BR"	76547
+"Sao Mateus"	"BR"	77117
+"Itauna"	"BR"	77400
+"Sao Bento do Sul"	"BR"	77597
+"Abaetetuba"	"BR"	78050
+"Mogi Mirim"	"BR"	78244
+"Sao Joao del Rei"	"BR"	78592
+"Tres Lagoas"	"BR"	78712
+"Ubatuba"	"BR"	79007
+"Marica"	"BR"	79551
+"Itumbiara"	"BR"	79582
+"Cruzeiro do Sul"	"BR"	79819
+"Leme"	"BR"	81209
+"Formosa"	"BR"	81232
+"Avare"	"BR"	81285
+"Lavras"	"BR"	81472
+"Itajuba"	"BR"	81870
+"Abreu e Lima"	"BR"	81959
+"Araxa"	"BR"	82595
+"Codo"	"BR"	83288
+"Santana"	"BR"	83927
+"Itaperuna"	"BR"	84435
+"Sarandi"	"BR"	84697
+"Esteio"	"BR"	84902
+"Ituiutaba"	"BR"	85345
+"Paulo Afonso"	"BR"	85350
+"Igarassu"	"BR"	86457
+"Caieiras"	"BR"	87188
+"Alegrete"	"BR"	87236
+"Barra do Pirai"	"BR"	87668
+"Brusque"	"BR"	88284
+"Nova Lima"	"BR"	88399
+"Sao Lourenco da Mata"	"BR"	88416
+"Valinhos"	"BR"	88630
+"Crato"	"BR"	88786
+"Planaltina"	"BR"	88853
+"Almirante Tamandare"	"BR"	89499
+"Santana do Livramento"	"BR"	89694
+"Itanhaem"	"BR"	90385
+"Caraguatatuba"	"BR"	90843
+"Bento Goncalves"	"BR"	90852
+"Bayeux"	"BR"	91056
+"Cambe"	"BR"	91080
+"Muriae"	"BR"	91173
+"Timoteo"	"BR"	91722
+"Patos"	"BR"	92575
+"Tatui"	"BR"	93580
+"Campo Largo"	"BR"	94668
+"Vespasiano"	"BR"	94749
+"Japeri"	"BR"	95101
+"Erechim"	"BR"	96087
+"Corumba"	"BR"	96520
+"Araguari"	"BR"	96565
+"Arapongas"	"BR"	97512
+"Trindade"	"BR"	97521
+"Ourinhos"	"BR"	97799
+"Uba"	"BR"	97828
+"Salto"	"BR"	98387
+"Passos"	"BR"	98752
+"Bage"	"BR"	98940
+"Santana de Parnaiba"	"BR"	98989
+"Sertaozinho"	"BR"	99211
+"Votorantim"	"BR"	99390
+"Itabira"	"BR"	99496
+"Rio das Ostras"	"BR"	100000
+"Itaguai"	"BR"	100752
+"Coronel Fabriciano"	"BR"	100916
+"Guarapari"	"BR"	100925
+"Guaiba"	"BR"	101024
+"Teofilo Otoni"	"BR"	101170
+"Colatina"	"BR"	101190
+"Barretos"	"BR"	101220
+"Assis"	"BR"	101597
+"Birigui"	"BR"	102277
+"Esmeraldas"	"BR"	103206
+"Araguaina"	"BR"	105019
+"Linhares"	"BR"	105075
+"Guaratingueta"	"BR"	105880
+"Santa Cruz do Sul"	"BR"	106113
+"Apucarana"	"BR"	107085
+"Umuarama"	"BR"	107319
+"Vitoria de Santo Antao"	"BR"	107383
+"Poa"	"BR"	107432
+"Araras"	"BR"	107463
+"Ji Parana"	"BR"	107697
+"Cabo Frio"	"BR"	108239
+"Franco da Rocha"	"BR"	108858
+"Catanduva"	"BR"	109612
+"Araruama"	"BR"	109637
+"Garanhuns"	"BR"	110085
+"Varzea Paulista"	"BR"	110936
+"Atibaia"	"BR"	110968
+"Araucaria"	"BR"	111302
+"Resende"	"BR"	111514
+"Conselheiro Lafaiete"	"BR"	111596
+"Ribeirao Pires"	"BR"	111888
+"Jandira"	"BR"	113605
+"Botucatu"	"BR"	113862
+"Eunapolis"	"BR"	114275
+"Pouso Alegre"	"BR"	115201
+"Sinop"	"BR"	116013
+"Varginha"	"BR"	116571
+"Simoes Filho"	"BR"	116662
+"Pinhais"	"BR"	117000
+"Cubatao"	"BR"	118410
+"Jau"	"BR"	119206
+"Toledo"	"BR"	119313
+"Santa Rita"	"BR"	119893
+"Cachoeirinha"	"BR"	121084
+"Barbacena"	"BR"	122211
+"Palhoca"	"BR"	122423
+"Alagoinhas"	"BR"	122688
+"Porto Seguro"	"BR"	123173
+"Uruguaiana"	"BR"	123480
+"Teresopolis"	"BR"	123979
+"Sao Jose dos Pinhais"	"BR"	124224
+"Timon"	"BR"	124427
+"Braganca Paulista"	"BR"	125096
+"Patos de Minas"	"BR"	126234
+"Itapetininga"	"BR"	126243
+"Jequie"	"BR"	127475
+"Mogi Guacu"	"BR"	128865
+"Jaragua do Sul"	"BR"	130130
+"Sapucaia"	"BR"	130937
+"Pindamonhangaba"	"BR"	132218
+"Queimados"	"BR"	135741
+"Sao Caetano do Sul"	"BR"	136453
+"Castanhal"	"BR"	137406
+"Itu"	"BR"	137586
+"Parnaiba"	"BR"	138008
+"Paranagua"	"BR"	141013
+"Lauro de Freitas"	"BR"	141280
+"Ibirite"	"BR"	141374
+"Macae"	"BR"	143029
+"Cabo"	"BR"	143105
+"Luziania"	"BR"	143601
+"Maraba"	"BR"	145860
+"Pocos de Caldas"	"BR"	146588
+"Nilopolis"	"BR"	147281
+"Caxias"	"BR"	148072
+"Parnamirim"	"BR"	150343
+"Guarapuava"	"BR"	150850
+"Itapecerica da Serra"	"BR"	151605
+"Rondonopolis"	"BR"	152912
+"Nova Friburgo"	"BR"	153361
+"Angra dos Reis"	"BR"	153635
+"Ilheus"	"BR"	155499
+"Itajai"	"BR"	155716
+"Sobral"	"BR"	157996
+"Barreiras"	"BR"	158292
+"Chapeco"	"BR"	160157
+"Criciuma"	"BR"	161954
+"Dourados"	"BR"	162202
+"Nossa Senhora do Socorro"	"BR"	163993
+"Barra Mansa"	"BR"	164052
+"Lages"	"BR"	164676
+"Arapiraca"	"BR"	166562
+"Araraquara"	"BR"	168468
+"Aracatuba"	"BR"	170024
+"Francisco Morato"	"BR"	171790
+"Cotia"	"BR"	174828
+"Passo Fundo"	"BR"	179529
+"Indaiatuba"	"BR"	179911
+"Rio Claro"	"BR"	180147
+"Itaborai"	"BR"	182498
+"Cachoeiro de Itapemirim"	"BR"	187019
+"Rio Grande"	"BR"	187838
+"Santa Barbara d'Oeste"	"BR"	188000
+"Camacari"	"BR"	188758
+"Santarem"	"BR"	189047
+"Planaltina"	"BR"	189412
+"Maracanau"	"BR"	193529
+"Divinopolis"	"BR"	193832
+"Petrolina"	"BR"	194650
+"Americana"	"BR"	196022
+"Palmas"	"BR"	196272
+"Sao Jose"	"BR"	200000
+"Sete Lagoas"	"BR"	201334
+"Itapevi"	"BR"	201748
+"Mossoro"	"BR"	202005
+"Hortolandia"	"BR"	203533
+"Sao Carlos"	"BR"	205035
+"Itabuna"	"BR"	205660
+"Sao Leopoldo"	"BR"	209229
+"Presidente Prudente"	"BR"	209502
+"Marilia"	"BR"	212218
+"Jacarei"	"BR"	213110
+"Taboao da Serra"	"BR"	214523
+"Colombo"	"BR"	217000
+"Imperatriz"	"BR"	218106
+"Embu"	"BR"	221733
+"Juazeiro do Norte"	"BR"	225230
+"Sumare"	"BR"	227977
+"Ipatinga"	"BR"	228746
+"Boa Vista"	"BR"	235150
+"Caruaru"	"BR"	235371
+"Gravatai"	"BR"	238778
+"Santa Luzia"	"BR"	243503
+"Santa Maria"	"BR"	249219
+"Volta Redonda"	"BR"	249580
+"Varzea Grande"	"BR"	249752
+"Praia Grande"	"BR"	250027
+"Governador Valadares"	"BR"	250878
+"Taubate"	"BR"	251641
+"Barueri"	"BR"	251994
+"Vitoria da Conquista"	"BR"	253137
+"Novo Hamburgo"	"BR"	253841
+"Cascavel"	"BR"	257172
+"Rio Branco"	"BR"	257642
+"Uberaba"	"BR"	260843
+"Petropolis"	"BR"	272691
+"Caucaia"	"BR"	275019
+"Suzano"	"BR"	283314
+"Viamao"	"BR"	285269
+"Limeira"	"BR"	289665
+"Paulista"	"BR"	289971
+"Ponta Grossa"	"BR"	292177
+"Foz do Iguacu"	"BR"	293523
+"Blumenau"	"BR"	293949
+"Franca"	"BR"	305041
+"Porto Velho"	"BR"	306180
+"Guaruja"	"BR"	310424
+"Maringa"	"BR"	311724
+"Vitoria"	"BR"	312656
+"Anapolis"	"BR"	319587
+"Pelotas"	"BR"	320674
+"Jundiai"	"BR"	321589
+"Sao Vicente"	"BR"	324457
+"Mogi das Cruzes"	"BR"	325746
+"Canoas"	"BR"	328291
+"Montes Claros"	"BR"	332379
+"Bauru"	"BR"	335024
+"Itaquaquecetuba"	"BR"	336679
+"Macapa"	"BR"	338936
+"Piracicaba"	"BR"	342209
+"Campina Grande"	"BR"	348936
+"Carapicuiba"	"BR"	361112
+"Olinda"	"BR"	366754
+"Sao Jose do Rio Preto"	"BR"	374699
+"Caxias do Sul"	"BR"	381270
+"Betim"	"BR"	384000
+"Maua"	"BR"	386069
+"Campos dos Goytacazes"	"BR"	387417
+"Diadema"	"BR"	390633
+"Serra"	"BR"	394153
+"Vila Velha"	"BR"	394930
+"Ribeirao das Neves"	"BR"	406802
+"Santos"	"BR"	411403
+"Florianopolis"	"BR"	412724
+"Ananindeua"	"BR"	433956
+"Sao Joao de Meriti"	"BR"	454849
+"Niteroi"	"BR"	456456
+"Joinville"	"BR"	461304
+"Belford Roxo"	"BR"	466096
+"Juiz de Fora"	"BR"	470193
+"Londrina"	"BR"	471832
+"Feira de Santana"	"BR"	481911
+"Aracaju"	"BR"	490175
+"Aparecida de Goiania"	"BR"	510770
+"Cuiaba"	"BR"	521934
+"Sorocaba"	"BR"	558862
+"Uberlandia"	"BR"	563536
+"Sao Jose dos Campos"	"BR"	613764
+"Ribeirao Preto"	"BR"	619746
+"Contagem"	"BR"	627123
+"Jaboatao dos Guararapes"	"BR"	630008
+"Joao Pessoa"	"BR"	650883
+"Santo Andre"	"BR"	662373
+"Osasco"	"BR"	677856
+"Jaboatao"	"BR"	702621
+"Campo Grande"	"BR"	729151
+"Sao Bernardo do Campo"	"BR"	743372
+"Teresina"	"BR"	744512
+"Natal"	"BR"	763043
+"Duque de Caxias"	"BR"	818329
+"Sao Luis"	"BR"	917237
+"Maceio"	"BR"	954991
+"Nova Iguacu"	"BR"	1002118
+"Campinas"	"BR"	1031554
+"Guarulhos"	"BR"	1169577
+"Goiania"	"BR"	1171195
+"Porto Alegre"	"BR"	1372741
+"Belem"	"BR"	1407737
+"Recife"	"BR"	1478098
+"Manaus"	"BR"	1598210
+"Curitiba"	"BR"	1718421
+"Brasilia"	"BR"	2207718
+"Belo Horizonte"	"BR"	2373224
+"Fortaleza"	"BR"	2400000
+"Salvador"	"BR"	2711840
+"Rio de Janeiro"	"BR"	6023699
+"Sao Paulo"	"BR"	10021295
+"Nassau"	"BS"	227940
+"Thimphu"	"BT"	98676
+"Francistown"	"BW"	89979
+"Gaborone"	"BW"	208411
+"Svyetlahorsk"	"BY"	71250
+"Zhlobin"	"BY"	73089
+"Polatsk"	"BY"	82258
+"Lida"	"BY"	98036
+"Navapolatsk"	"BY"	100885
+"Maladzyechna"	"BY"	101300
+"Salihorsk"	"BY"	101614
+"Malinovka"	"BY"	105000
+"Mazyr"	"BY"	112137
+"Novoye Medvezhino"	"BY"	120000
+"Orsha"	"BY"	125347
+"Pinsk"	"BY"	130777
+"Baranovichi"	"BY"	168772
+"Babruysk"	"BY"	220517
+"Brest"	"BY"	300715
+"Hrodna"	"BY"	317365
+"Vitebsk"	"BY"	342700
+"Mahilyow"	"BY"	369200
+"Gomel"	"BY"	480951
+"Minsk"	"BY"	1742124
+"White Rock"	"CA"	66450
+"Kamloops"	"CA"	68714
+"Brossard"	"CA"	69575
+"Maple Ridge"	"CA"	70000
+"Lethbridge"	"CA"	70617
+"Saint-Jean-sur-Richelieu"	"CA"	71613
+"Saint-Leonard"	"CA"	73423
+"Red Deer"	"CA"	73593
+"Newmarket"	"CA"	74295
+"Sault Ste. Marie"	"CA"	74948
+"Peterborough"	"CA"	75877
+"Fort McMurray"	"CA"	76000
+"Repentigny"	"CA"	76237
+"Chilliwack"	"CA"	77000
+"Saint-Laurent"	"CA"	77391
+"Willowdale"	"CA"	79440
+"Niagara Falls"	"CA"	82000
+"Sarnia"	"CA"	82998
+"Milton"	"CA"	84362
+"Nanaimo"	"CA"	84905
+"Moncton"	"CA"	87467
+"Brantford"	"CA"	87759
+"Pickering"	"CA"	87838
+"Saint John"	"CA"	87857
+"Ajax"	"CA"	90167
+"Langley"	"CA"	93726
+"Terrebonne"	"CA"	94703
+"Waterloo"	"CA"	97475
+"St. John's"	"CA"	99182
+"Thunder Bay"	"CA"	99334
+"Dartmouth"	"CA"	101343
+"Delta"	"CA"	101668
+"Sydney"	"CA"	105968
+"Kingston"	"CA"	114195
+"Coquitlam"	"CA"	114565
+"East York"	"CA"	115365
+"Guelph"	"CA"	115760
+"Trois-Rivieres"	"CA"	119693
+"Cambridge"	"CA"	120372
+"Kelowna"	"CA"	125109
+"Levis"	"CA"	126396
+"Anmore"	"CA"	126456
+"Sherbrooke"	"CA"	129447
+"St. Catharines"	"CA"	131989
+"Saguenay"	"CA"	143692
+"Abbotsford"	"CA"	151683
+"Greater Sudbury"	"CA"	157857
+"Burlington"	"CA"	164415
+"Oakville"	"CA"	165697
+"Regina"	"CA"	176183
+"Richmond"	"CA"	182000
+"Barrie"	"CA"	182041
+"Richmond Hill"	"CA"	185541
+"Saskatoon"	"CA"	198958
+"Burnaby"	"CA"	202799
+"Longueuil"	"CA"	229330
+"Kitchener"	"CA"	233700
+"Vaughan"	"CA"	238866
+"Gatineau"	"CA"	242124
+"Oshawa"	"CA"	247989
+"Markham"	"CA"	261573
+"Windsor"	"CA"	278013
+"Victoria"	"CA"	289625
+"Okanagan"	"CA"	297601
+"London"	"CA"	346765
+"Etobicoke"	"CA"	347948
+"Halifax"	"CA"	359111
+"Laval"	"CA"	376845
+"Surrey"	"CA"	394976
+"Brampton"	"CA"	433806
+"Hamilton"	"CA"	519949
+"Quebec"	"CA"	528595
+"Vancouver"	"CA"	600000
+"Winnipeg"	"CA"	632063
+"North York"	"CA"	636000
+"Mississauga"	"CA"	668549
+"Edmonton"	"CA"	712391
+"Ottawa"	"CA"	812129
+"Calgary"	"CA"	1019942
+"Montreal"	"CA"	1600000
+"Toronto"	"CA"	2600000
+"Lodja"	"CD"	68244
+"Lisala"	"CD"	70087
+"Kamina"	"CD"	73557
+"Mbanza-Ngungu"	"CD"	86356
+"Beni"	"CD"	89648
+"Bumba"	"CD"	95520
+"Bunia"	"CD"	96764
+"Ilebo"	"CD"	107093
+"Gemena"	"CD"	117639
+"Bandundu"	"CD"	118211
+"Isiro"	"CD"	127076
+"Kindu"	"CD"	135698
+"Goma"	"CD"	144124
+"Kalemie"	"CD"	146974
+"Gandajika"	"CD"	154425
+"Butembo"	"CD"	154621
+"Uvira"	"CD"	170391
+"Matadi"	"CD"	180109
+"Mbandaka"	"CD"	184185
+"Kikwit"	"CD"	186991
+"Mwene-Ditu"	"CD"	189177
+"Bukavu"	"CD"	225389
+"Tshikapa"	"CD"	267462
+"Kolwezi"	"CD"	418000
+"Likasi"	"CD"	422414
+"Kananga"	"CD"	463546
+"Masina"	"CD"	485167
+"Kisangani"	"CD"	539158
+"Mbuji-Mayi"	"CD"	874761
+"Lubumbashi"	"CD"	1373770
+"Kinshasa"	"CD"	7785965
+"Bimbo"	"CF"	129655
+"Bangui"	"CF"	542393
+"Dolisie"	"CG"	103894
+"Pointe-Noire"	"CG"	659084
+"Brazzaville"	"CG"	1284609
+"Sankt Gallen"	"CH"	70572
+"Winterthur"	"CH"	91908
+"Lausanne"	"CH"	116751
+"Bern"	"CH"	121631
+"Basel"	"CH"	164488
+"Geneve"	"CH"	183981
+"Zurich"	"CH"	341730
+"Dimbokro"	"CI"	67349
+"Dabou"	"CI"	69661
+"Grand-Bassam"	"CI"	73772
+"Agboville"	"CI"	81770
+"Anyama"	"CI"	100653
+"Abengourou"	"CI"	104020
+"Gagnoa"	"CI"	123184
+"Divo"	"CI"	127867
+"Man"	"CI"	139341
+"Korhogo"	"CI"	167359
+"Yamoussoukro"	"CI"	194530
+"San-Pedro"	"CI"	196751
+"Daloa"	"CI"	215652
+"Bouake"	"CI"	567481
+"Abobo"	"CI"	900000
+"Abidjan"	"CI"	3677115
+"Quillota"	"CL"	67779
+"Linares"	"CL"	69535
+"Ovalle"	"CL"	77138
+"Chiguayante"	"CL"	82545
+"San Antonio"	"CL"	85651
+"Coronel"	"CL"	92940
+"Villa Alemana"	"CL"	97320
+"Curico"	"CL"	102438
+"Lo Prado"	"CL"	104316
+"Punta Arenas"	"CL"	117430
+"Los Angeles"	"CL"	125430
+"Copiapo"	"CL"	129280
+"Quilpue"	"CL"	130263
+"Valdivia"	"CL"	133419
+"Osorno"	"CL"	135773
+"Calama"	"CL"	143084
+"Chillan"	"CL"	150396
+"La Serena"	"CL"	154521
+"Puerto Montt"	"CL"	160054
+"Coquimbo"	"CL"	161317
+"Arica"	"CL"	185999
+"Talca"	"CL"	197479
+"La Pintana"	"CL"	201178
+"Rancagua"	"CL"	212695
+"Concepcion"	"CL"	215413
+"Iquique"	"CL"	227499
+"Temuco"	"CL"	238129
+"San Bernardo"	"CL"	249858
+"Talcahuano"	"CL"	252968
+"Valparaiso"	"CL"	282448
+"Vina del Mar"	"CL"	294551
+"Antofagasta"	"CL"	309832
+"Puente Alto"	"CL"	510417
+"Santiago"	"CL"	4837295
+"Wum"	"CM"	68836
+"Bafia"	"CM"	69270
+"Limbe"	"CM"	72106
+"Bali"	"CM"	72606
+"Meiganga"	"CM"	80100
+"Mbalmayo"	"CM"	80206
+"Yagoua"	"CM"	80235
+"Bafang"	"CM"	80688
+"Foumbot"	"CM"	84065
+"Guider"	"CM"	84647
+"Ebolowa"	"CM"	87875
+"Foumban"	"CM"	92673
+"Dschang"	"CM"	96112
+"Mbouda"	"CM"	111320
+"Nkongsamba"	"CM"	117063
+"Kumba"	"CM"	144413
+"Loum"	"CM"	177429
+"Edea"	"CM"	203149
+"Bertoua"	"CM"	218111
+"Ngaoundere"	"CM"	231357
+"Mokolo"	"CM"	275239
+"Bafoussam"	"CM"	290768
+"Maroua"	"CM"	319941
+"Bamenda"	"CM"	393835
+"Kousseri"	"CM"	435547
+"Garoua"	"CM"	436899
+"Yaounde"	"CM"	1299369
+"Douala"	"CM"	1338082
+"Luoyang"	"CN"	66188
+"Huinan"	"CN"	66315
+"Wuxi"	"CN"	66442
+"Lianyuan"	"CN"	66501
+"Sanchazi"	"CN"	66576
+"Chengyang"	"CN"	66588
+"Tailai"	"CN"	66623
+"Wacheng"	"CN"	66848
+"Liuhe"	"CN"	66975
+"Fengkou"	"CN"	67139
+"Pingzhuang"	"CN"	67273
+"Caohe"	"CN"	67370
+"Fuqing"	"CN"	67397
+"Wenling"	"CN"	67433
+"Luorong"	"CN"	67593
+"Songjianghe"	"CN"	67672
+"Zhenlai"	"CN"	67760
+"Dongfeng"	"CN"	67820
+"Tangzhai"	"CN"	67936
+"Minggang"	"CN"	67945
+"Chaihe"	"CN"	67963
+"Kuqa"	"CN"	68105
+"Ninghai"	"CN"	68330
+"Mingguang"	"CN"	68351
+"Shima"	"CN"	68375
+"Pengcheng"	"CN"	68442
+"Binhe"	"CN"	68514
+"Heishan"	"CN"	68603
+"Jinjiang"	"CN"	68720
+"Xiaoshi"	"CN"	68994
+"Tantou"	"CN"	69050
+"Linjiang"	"CN"	69149
+"Jiehu"	"CN"	69245
+"Wangkui"	"CN"	69915
+"Mengcheng Chengguanzhen"	"CN"	69916
+"Luxu"	"CN"	70013
+"Xiashi"	"CN"	70171
+"Fuyang"	"CN"	70183
+"Shiguai"	"CN"	70357
+"Jiangyan"	"CN"	70375
+"Baiquan"	"CN"	70472
+"Jimo"	"CN"	70733
+"Gongchangling"	"CN"	70761
+"Yongfeng"	"CN"	70783
+"Poyang"	"CN"	70787
+"Kuandian"	"CN"	70867
+"Chengyang"	"CN"	71053
+"Guiping"	"CN"	71066
+"Yilan"	"CN"	71180
+"Anlu"	"CN"	71198
+"Changtu"	"CN"	71284
+"Lianzhou"	"CN"	71423
+"Xiuyan"	"CN"	71614
+"Caidian"	"CN"	71891
+"Zhoucheng"	"CN"	72070
+"Licheng"	"CN"	72276
+"Xinzhi"	"CN"	72303
+"Beichengqu"	"CN"	72444
+"Miyang"	"CN"	72485
+"Lanxi"	"CN"	72528
+"Lichuan"	"CN"	72653
+"Dingcheng"	"CN"	72663
+"Jiuquan"	"CN"	72732
+"Dongkan"	"CN"	72789
+"Dongdu"	"CN"	72957
+"Shixing"	"CN"	72996
+"Juegang"	"CN"	73317
+"Luocheng"	"CN"	73581
+"Genhe"	"CN"	73631
+"Lanxi"	"CN"	73706
+"Guixi"	"CN"	73732
+"Yunyang"	"CN"	73922
+"Xianshuigu"	"CN"	74028
+"Gucheng Chengguanzhen"	"CN"	74038
+"Xinmin"	"CN"	74139
+"Suixi"	"CN"	74172
+"Nanma"	"CN"	74406
+"Shancheng"	"CN"	74459
+"Yanggu"	"CN"	74725
+"Beidao"	"CN"	74767
+"Huilong"	"CN"	74818
+"Fuyu"	"CN"	75147
+"Shangmei"	"CN"	75233
+"Chaoyang"	"CN"	75347
+"Yinzhu"	"CN"	75656
+"Laixi"	"CN"	75849
+"Lintong"	"CN"	75882
+"Qingquan"	"CN"	76154
+"Yangliuqing"	"CN"	76387
+"Guigang"	"CN"	76430
+"Fenghua"	"CN"	76653
+"Liangxiang"	"CN"	76744
+"Hunchun"	"CN"	77028
+"Jiexiu"	"CN"	77178
+"Yanzhou"	"CN"	77276
+"Shulan"	"CN"	77420
+"Linqu"	"CN"	77472
+"Jishui"	"CN"	77540
+"Songling"	"CN"	77566
+"Feicheng"	"CN"	77606
+"Huangmei"	"CN"	77633
+"Bijie"	"CN"	77645
+"Linkou"	"CN"	77754
+"Linping"	"CN"	78180
+"Pingyi"	"CN"	78254
+"Youhao"	"CN"	78402
+"Tumen"	"CN"	78719
+"Shitanjing"	"CN"	78765
+"Xinzhou"	"CN"	78767
+"Xiongzhou"	"CN"	79050
+"Wuyang"	"CN"	79070
+"Zhuangyuan"	"CN"	79106
+"Yanta"	"CN"	79196
+"Shouguang"	"CN"	79212
+"Tangjiazhuang"	"CN"	79489
+"Taixing"	"CN"	79655
+"Rikaze"	"CN"	80000
+"Panshi"	"CN"	80200
+"Dashiqiao"	"CN"	80223
+"Baoying"	"CN"	80292
+"Loushanguan"	"CN"	80344
+"Zhuanghe"	"CN"	80384
+"Shanting"	"CN"	80843
+"Feicheng"	"CN"	80929
+"Yudong"	"CN"	81408
+"Tangping"	"CN"	81729
+"Shiwan"	"CN"	82031
+"Quzhou"	"CN"	82216
+"Lushun"	"CN"	82345
+"Nangong"	"CN"	82386
+"Shangzhi"	"CN"	82419
+"Shache"	"CN"	82509
+"Xindian"	"CN"	82555
+"Changqing"	"CN"	82598
+"Pizhou"	"CN"	82641
+"Yuanping"	"CN"	82883
+"Jinshi"	"CN"	82906
+"Ningyang"	"CN"	82994
+"Hecun"	"CN"	83009
+"Xucheng"	"CN"	83267
+"Nanzhang Chengguanzhen"	"CN"	83604
+"Lingdong"	"CN"	83636
+"Xiannu"	"CN"	83936
+"Jinxiangzhen"	"CN"	84231
+"Dazhong"	"CN"	84323
+"Zhoushan"	"CN"	84380
+"Laojunmiao"	"CN"	84769
+"Qufu"	"CN"	85144
+"Dengzhou"	"CN"	85279
+"Guozhen"	"CN"	85415
+"Nanding"	"CN"	85495
+"Hailin"	"CN"	85578
+"Helong"	"CN"	85756
+"Zhangjiajie"	"CN"	86083
+"Nanfeng"	"CN"	86129
+"Qamdo"	"CN"	86280
+"Zhaogezhuang"	"CN"	86555
+"Shizilu"	"CN"	86749
+"Mishan"	"CN"	87257
+"Yanjiang"	"CN"	87400
+"Deqing"	"CN"	87576
+"Xiangxiang"	"CN"	87592
+"Qiongshan"	"CN"	87657
+"Hanchuan"	"CN"	87737
+"Yingchuan"	"CN"	87961
+"Wangqing"	"CN"	88732
+"Lengshuitan"	"CN"	88935
+"Hede"	"CN"	89107
+"Lucheng"	"CN"	89119
+"Huaicheng"	"CN"	89294
+"Fujin"	"CN"	89442
+"Jinjiang"	"CN"	89623
+"Yiwu"	"CN"	89629
+"Huaidian"	"CN"	89978
+"Weichanglu"	"CN"	90070
+"Sishui"	"CN"	90175
+"Duobao"	"CN"	90257
+"Xihe"	"CN"	90422
+"Tongren"	"CN"	90593
+"Baise City"	"CN"	90603
+"Hanting"	"CN"	90637
+"Yulinshi"	"CN"	90870
+"Gaoyou"	"CN"	90911
+"Pingdu"	"CN"	91077
+"Duyun"	"CN"	91136
+"Lingyuan"	"CN"	91418
+"Yatou"	"CN"	91517
+"Longquan"	"CN"	91534
+"Huazhou"	"CN"	91701
+"Zhongshu"	"CN"	91750
+"Danjiangkou"	"CN"	92008
+"Dongcun"	"CN"	92282
+"Lianzhou"	"CN"	92827
+"Changping"	"CN"	93174
+"Dalai"	"CN"	93297
+"Zhengjiatun"	"CN"	93666
+"Baijiantan"	"CN"	93697
+"Heyuan"	"CN"	93718
+"Yishui"	"CN"	94115
+"Ximei"	"CN"	94326
+"Yongchuan"	"CN"	94465
+"Wuchang"	"CN"	94786
+"Enshi"	"CN"	95227
+"Xiaoshan"	"CN"	95234
+"Boli"	"CN"	95260
+"Shenjiamen"	"CN"	95433
+"Ducheng"	"CN"	95525
+"Yicheng"	"CN"	95530
+"Jinsha"	"CN"	95647
+"Lubu"	"CN"	95820
+"Zhangye"	"CN"	96228
+"Fangshan"	"CN"	97026
+"Xinyu"	"CN"	97480
+"Hechuan"	"CN"	97575
+"Xishan"	"CN"	98162
+"Chengzihe"	"CN"	98188
+"Xinyi"	"CN"	98259
+"Xinshi"	"CN"	98422
+"Renqiu"	"CN"	98569
+"Lishui"	"CN"	98946
+"Xingcheng"	"CN"	98968
+"Meihekou"	"CN"	99419
+"Dongsheng"	"CN"	99809
+"Linxi"	"CN"	100316
+"Lianjiang"	"CN"	100341
+"Luofeng"	"CN"	100774
+"Qinzhou"	"CN"	100996
+"Qianzhou"	"CN"	102332
+"Yuxi"	"CN"	103829
+"Jishu"	"CN"	103988
+"Wuchuan"	"CN"	104168
+"Pulandian"	"CN"	104277
+"Daxing"	"CN"	104904
+"Chengtangcun"	"CN"	105456
+"Anqiu"	"CN"	105665
+"Xinghua"	"CN"	105918
+"Buhe"	"CN"	106347
+"Longjiang"	"CN"	106384
+"Lianran"	"CN"	106795
+"Shaping"	"CN"	107589
+"Jalai Nur"	"CN"	107828
+"Jiangyin"	"CN"	107918
+"Kunshan"	"CN"	107986
+"Pingliang"	"CN"	108156
+"Nehe"	"CN"	108253
+"Dehui"	"CN"	108818
+"Zhongxiang"	"CN"	108883
+"Hulan"	"CN"	109104
+"Zhaotong"	"CN"	109400
+"Heihe"	"CN"	109427
+"Dongxing"	"CN"	109561
+"Tieli"	"CN"	109636
+"Shilong"	"CN"	109733
+"Hailun"	"CN"	109881
+"Linshui"	"CN"	109955
+"Mizhou"	"CN"	109968
+"Qingnian"	"CN"	110046
+"Zhuji"	"CN"	110721
+"Encheng"	"CN"	110921
+"Dongtai"	"CN"	110988
+"Beibei"	"CN"	112019
+"Kaiyuan"	"CN"	112462
+"Shaowu"	"CN"	112585
+"Haikou"	"CN"	112644
+"Guangming"	"CN"	112819
+"Maba"	"CN"	113609
+"Songyuan"	"CN"	113611
+"Pingshan"	"CN"	113631
+"Yuyao"	"CN"	114177
+"Mingshui"	"CN"	114858
+"Tianfu"	"CN"	115370
+"Lengshuijiang"	"CN"	115399
+"Binzhou"	"CN"	115893
+"Yakeshi"	"CN"	116284
+"Dasha"	"CN"	116307
+"Qingzhou"	"CN"	117056
+"Longjing"	"CN"	117185
+"Shunyi"	"CN"	117623
+"Puning"	"CN"	118023
+"Lhasa"	"CN"	118721
+"Fengcheng"	"CN"	120514
+"Xilin Hot"	"CN"	120965
+"Lianhe"	"CN"	121367
+"Jiayuguan"	"CN"	122396
+"Zhoucun"	"CN"	122402
+"Xiulin"	"CN"	122411
+"Huangzhou"	"CN"	122563
+"Minzhu"	"CN"	123018
+"Luoyang"	"CN"	123144
+"Baoshan"	"CN"	123791
+"Jiupu"	"CN"	123843
+"Laiwu"	"CN"	124108
+"Lecheng"	"CN"	124268
+"Yushu"	"CN"	124736
+"Suining"	"CN"	124924
+"Shahecheng"	"CN"	125132
+"Haimen"	"CN"	125427
+"Xiazhen"	"CN"	125667
+"Huicheng"	"CN"	125919
+"Macheng"	"CN"	126366
+"Danshui"	"CN"	126701
+"Xichang"	"CN"	126787
+"Jiangyou"	"CN"	127225
+"Huaihua"	"CN"	127322
+"Xuanzhou"	"CN"	127758
+"Leiyang"	"CN"	129116
+"Wuda"	"CN"	129922
+"Shangri-La"	"CN"	130000
+"Songjiang"	"CN"	130218
+"Jiazi"	"CN"	130298
+"Dongyang"	"CN"	130387
+"Shuangcheng"	"CN"	130710
+"Dazhou"	"CN"	130749
+"Hepo"	"CN"	131238
+"Majie"	"CN"	131696
+"Dawukou"	"CN"	131880
+"Zhalantun"	"CN"	132224
+"Ankang"	"CN"	132654
+"Puqi"	"CN"	132891
+"Dali"	"CN"	134040
+"Shiqiao"	"CN"	135308
+"Jagdaqi"	"CN"	135760
+"Gejiu"	"CN"	136135
+"Shizuishan"	"CN"	136570
+"Hami"	"CN"	137072
+"Jiashan"	"CN"	137112
+"Jieshi"	"CN"	137444
+"Chaohu"	"CN"	138463
+"Fuyu"	"CN"	138704
+"Huadian"	"CN"	139047
+"Shanhaiguan"	"CN"	140000
+"Gongzhuling"	"CN"	140909
+"Jieshou"	"CN"	141993
+"Jinhua"	"CN"	142206
+"Meizhou"	"CN"	144212
+"Jinchang"	"CN"	144363
+"Acheng"	"CN"	144665
+"Sanya"	"CN"	144753
+"Taishan"	"CN"	145440
+"Xinji"	"CN"	145911
+"Hanzhong"	"CN"	145986
+"Qujing"	"CN"	146015
+"Honggang"	"CN"	147977
+"Sujiatun"	"CN"	148113
+"Chizhou"	"CN"	148375
+"Yulin"	"CN"	148485
+"Dunhua"	"CN"	148844
+"Huangyan"	"CN"	150448
+"Loudi"	"CN"	150684
+"Gaomi"	"CN"	150793
+"Qingyuan"	"CN"	151287
+"Longfeng"	"CN"	152074
+"Yichun"	"CN"	152169
+"Deyang"	"CN"	152194
+"Chenghua"	"CN"	152453
+"Weihai"	"CN"	152595
+"Dingzhou"	"CN"	152934
+"Linhai"	"CN"	152937
+"Yangchun"	"CN"	153547
+"Boshan"	"CN"	153596
+"Sanshui"	"CN"	153714
+"Xinzhou"	"CN"	154003
+"Zhaodong"	"CN"	154406
+"Leshan"	"CN"	154477
+"Guangshui"	"CN"	154771
+"Beipiao"	"CN"	154999
+"Lianghu"	"CN"	155000
+"Yichun"	"CN"	155762
+"Nanpiao"	"CN"	157044
+"Huzhou"	"CN"	158320
+"Zhicheng"	"CN"	159383
+"Xiaogan"	"CN"	160437
+"Anbu"	"CN"	162964
+"Tongzhou"	"CN"	163326
+"Fendou"	"CN"	164844
+"Jiaozhou"	"CN"	165026
+"Shanwei"	"CN"	165699
+"Ulanhot"	"CN"	165846
+"Gaozhou"	"CN"	166069
+"Fuling"	"CN"	166507
+"Jingmen"	"CN"	167750
+"Laiyang"	"CN"	169594
+"Fuyang"	"CN"	170023
+"Dongling"	"CN"	171454
+"Nanping"	"CN"	171674
+"Weinan"	"CN"	172321
+"Licheng"	"CN"	172775
+"Bozhou"	"CN"	174140
+"Jiutai"	"CN"	175115
+"Xindi"	"CN"	175761
+"Zhenzhou"	"CN"	176006
+"Jingzhou"	"CN"	177878
+"Chenzhou"	"CN"	179038
+"Qianjiang"	"CN"	179079
+"Korla"	"CN"	179465
+"Xianning"	"CN"	179494
+"Shangqiu"	"CN"	181218
+"Anda"	"CN"	181271
+"Zaozhuang"	"CN"	183665
+"Baishan"	"CN"	183880
+"Quanzhou"	"CN"	184143
+"Zaoyang"	"CN"	184509
+"Baiyin"	"CN"	188533
+"Donghai"	"CN"	188602
+"Wanxian"	"CN"	188980
+"Zoucheng"	"CN"	190537
+"Haicheng"	"CN"	191651
+"Humen"	"CN"	191891
+"Ezhou"	"CN"	193652
+"Xinhui"	"CN"	195129
+"Mentougou"	"CN"	197772
+"Kaiyuan"	"CN"	198423
+"Changji"	"CN"	198776
+"Yuncheng"	"CN"	201950
+"Linxia Chengguanzhen"	"CN"	202402
+"Yiyang"	"CN"	202608
+"Daqing"	"CN"	203488
+"Gaoping"	"CN"	204368
+"Suzhou"	"CN"	205130
+"Hangu"	"CN"	208369
+"Sanming"	"CN"	209444
+"Daliang"	"CN"	210411
+"Hailar"	"CN"	211066
+"Guangyuan"	"CN"	213365
+"Jinzhou"	"CN"	215386
+"Wuhai"	"CN"	218427
+"Wuxue"	"CN"	220661
+"Xintai"	"CN"	222459
+"Tongchuanshi"	"CN"	223603
+"Jingling"	"CN"	224871
+"Huanggang"	"CN"	225956
+"Fendou"	"CN"	226298
+"Liaocheng"	"CN"	226930
+"Linfen"	"CN"	232566
+"Yuci"	"CN"	235929
+"Xiantao"	"CN"	239406
+"Yibin"	"CN"	242111
+"Huayin"	"CN"	242488
+"Hebi"	"CN"	244662
+"Ji'an"	"CN"	245000
+"Rizhao"	"CN"	246387
+"Wafangdian"	"CN"	250591
+"Nanyang"	"CN"	251532
+"Liupanshui"	"CN"	251900
+"Suihua"	"CN"	252245
+"Laohekou"	"CN"	253112
+"Heze"	"CN"	254602
+"Turpan"	"CN"	254900
+"Jining"	"CN"	258757
+"Jiujiang"	"CN"	258807
+"Aral"	"CN"	260000
+"Tongliao"	"CN"	261110
+"Mianyang"	"CN"	264136
+"Hulan Ergi"	"CN"	265344
+"Wuzhou"	"CN"	265846
+"Chengzhong"	"CN"	265886
+"Linyi"	"CN"	270669
+"Kashgar"	"CN"	274717
+"Chuzhou"	"CN"	280582
+"Huizhou"	"CN"	289201
+"Beihai"	"CN"	289568
+"Xiuying"	"CN"	290000
+"Yangshuo"	"CN"	300000
+"Shengli"	"CN"	306450
+"Jingdezhen"	"CN"	310565
+"Wusong"	"CN"	312588
+"Lianshan"	"CN"	313247
+"Baicheng"	"CN"	316970
+"Shangrao"	"CN"	318769
+"Suizhou"	"CN"	323945
+"Yanji"	"CN"	326957
+"Jincheng"	"CN"	332650
+"Tieling"	"CN"	333907
+"Aksu"	"CN"	340020
+"Shiqi"	"CN"	342306
+"Taihe"	"CN"	345033
+"Chifeng"	"CN"	346654
+"Anshun"	"CN"	351936
+"Anqing"	"CN"	358661
+"Zhaoqing"	"CN"	361969
+"Fenghuang"	"CN"	370000
+"Pingxiang"	"CN"	372123
+"Zhangjiakou Shi Xuanhua Qu"	"CN"	373422
+"Putian"	"CN"	376558
+"Zhoukou"	"CN"	377061
+"Dezhou"	"CN"	379555
+"Xinpu"	"CN"	392444
+"Weifang"	"CN"	394732
+"Yangjiang"	"CN"	399735
+"Jixi"	"CN"	403759
+"Shiyan"	"CN"	408055
+"Chaoyang"	"CN"	410005
+"Yangquan"	"CN"	413394
+"Luohe"	"CN"	417356
+"Shaoxing"	"CN"	421283
+"Chaozhou"	"CN"	424787
+"Luqiao"	"CN"	427890
+"Bei'an"	"CN"	436444
+"Jiangguanchi"	"CN"	449258
+"Chengde"	"CN"	449325
+"Wenshan City"	"CN"	450000
+"Jining"	"CN"	450327
+"Hengshui"	"CN"	456356
+"Dadukou"	"CN"	461513
+"Xiangyang"	"CN"	462956
+"Liaoyuan"	"CN"	465249
+"Jiaxing"	"CN"	466101
+"Zunyi"	"CN"	466292
+"Jiaojiang"	"CN"	470804
+"Yinchuan"	"CN"	475101
+"Yichang"	"CN"	476725
+"Wuwei"	"CN"	493092
+"Shashi"	"CN"	498780
+"Zhuhai"	"CN"	501199
+"Wuhu"	"CN"	507524
+"Jiaozuo"	"CN"	517540
+"Changde"	"CN"	517780
+"Cangzhou"	"CN"	527681
+"Jiangmen"	"CN"	532419
+"Tanggu"	"CN"	535298
+"Guli"	"CN"	536000
+"Yangzhou"	"CN"	539715
+"Neijiang"	"CN"	546854
+"Jiamusi"	"CN"	549549
+"Huai'an"	"CN"	555230
+"Siping"	"CN"	555609
+"Shihezi"	"CN"	572772
+"Bengbu"	"CN"	576648
+"Zhangzhou"	"CN"	589831
+"Yingkou"	"CN"	591159
+"Luancheng"	"CN"	597130
+"Jinzhou"	"CN"	604269
+"Xingtai"	"CN"	611739
+"Taizhou"	"CN"	612356
+"Haikou"	"CN"	615835
+"Panshan"	"CN"	625040
+"Yancheng"	"CN"	628441
+"Shaoguan"	"CN"	628749
+"Dandong"	"CN"	631973
+"Zhenjiang"	"CN"	632552
+"Zhanjiang"	"CN"	637790
+"Guilin"	"CN"	649352
+"Mudanjiang"	"CN"	665915
+"Nantong"	"CN"	666251
+"Puyang Chengguanzhen"	"CN"	666322
+"Xiangtan"	"CN"	674189
+"Liaoyang"	"CN"	687890
+"Huangshi"	"CN"	688090
+"Fuxin"	"CN"	689050
+"Zigong"	"CN"	689961
+"Zhangjiakou"	"CN"	692602
+"Changzhi"	"CN"	699514
+"Zhuzhou"	"CN"	709358
+"Yantai"	"CN"	719332
+"Zhumadian"	"CN"	720000
+"Langfang"	"CN"	720119
+"Hegang"	"CN"	743307
+"Nangandao"	"CN"	743601
+"Hengyang"	"CN"	759602
+"Qinhuangdao"	"CN"	759718
+"Xining"	"CN"	767531
+"Shangyu"	"CN"	770000
+"Hohhot"	"CN"	774477
+"Anyang"	"CN"	781129
+"Nanning"	"CN"	803788
+"Wenzhou"	"CN"	865672
+"Qiqihar"	"CN"	882364
+"Pingdingshan"	"CN"	889675
+"Huaibei"	"CN"	903039
+"Changzhou"	"CN"	949018
+"Benxi"	"CN"	987717
+"Baoding"	"CN"	995652
+"Zhu Cheng City"	"CN"	1000000
+"Jieyang"	"CN"	1001985
+"Huainan"	"CN"	1027655
+"Xianyang"	"CN"	1034081
+"Changshu City"	"CN"	1047700
+"Datong"	"CN"	1052678
+"Lijiang"	"CN"	1137600
+"Guiyang"	"CN"	1171633
+"Fuzhou"	"CN"	1179720
+"Tongshan"	"CN"	1199193
+"Anshan"	"CN"	1199275
+"Yueyang"	"CN"	1200000
+"Baotou"	"CN"	1301768
+"Handan"	"CN"	1358318
+"Guankou"	"CN"	1380000
+"Luoyang"	"CN"	1390581
+"Fushun"	"CN"	1400646
+"Xinyang"	"CN"	1590668
+"Jilin"	"CN"	1881977
+"Ordos"	"CN"	1940653
+"Nanchang"	"CN"	2357839
+"Yunfu"	"CN"	2612800
+"Lanzhou"	"CN"	2628426
+"Shijiazhuang"	"CN"	2834942
+"UEruemqi"	"CN"	3029372
+"Changsha"	"CN"	3093980
+"Zhongshan"	"CN"	3121275
+"Zibo"	"CN"	3129228
+"Hefei"	"CN"	3310268
+"Tangshan"	"CN"	3372102
+"Taiyuan"	"CN"	3426519
+"Shiyan"	"CN"	3460000
+"Ningbo"	"CN"	3491597
+"Tianshui"	"CN"	3500000
+"Xiamen"	"CN"	3531347
+"Wuxi"	"CN"	3543719
+"Puyang"	"CN"	3590000
+"Foshan"	"CN"	3600000
+"Qingdao"	"CN"	3718835
+"Kunming"	"CN"	3855346
+"Dalian"	"CN"	4087733
+"Changchun"	"CN"	4193073
+"Zhengzhou"	"CN"	4253913
+"Jinan"	"CN"	4335989
+"Shantou"	"CN"	5329024
+"Suzhou"	"CN"	5345961
+"Tai'an"	"CN"	5499000
+"Harbin"	"CN"	5878939
+"Hangzhou"	"CN"	6241971
+"Shenyang"	"CN"	6255921
+"Xi'an"	"CN"	6501190
+"Nanchong"	"CN"	7150000
+"Nanjing"	"CN"	7165292
+"Chengdu"	"CN"	7415590
+"Chongqing"	"CN"	7457600
+"Dongguan"	"CN"	8000000
+"Wuhan"	"CN"	9785388
+"Shenzhen"	"CN"	10358381
+"Guangzhou"	"CN"	11071424
+"Tianjin"	"CN"	11090314
+"Beijing"	"CN"	11716620
+"Shanghai"	"CN"	22315474
+"Chinchina"	"CO"	68512
+"Sabanalarga"	"CO"	68535
+"Arauca"	"CO"	69264
+"Yumbo"	"CO"	71436
+"Aguachica"	"CO"	73360
+"Quibdo"	"CO"	75104
+"Ipiales"	"CO"	77729
+"La Dorada"	"CO"	81950
+"Ocana"	"CO"	83511
+"Montelibano"	"CO"	85000
+"Piedecuesta"	"CO"	86387
+"Apartado"	"CO"	86438
+"Tumaco"	"CO"	86713
+"Cienaga"	"CO"	88311
+"Fusagasuga"	"CO"	88820
+"Zipaquira"	"CO"	91235
+"Duitama"	"CO"	92040
+"Riohacha"	"CO"	92431
+"Facatativa"	"CO"	94611
+"Magangue"	"CO"	100313
+"Malambo"	"CO"	101534
+"Giron"	"CO"	108466
+"Tunja"	"CO"	117479
+"Buga"	"CO"	118004
+"Sogamoso"	"CO"	126551
+"Girardot City"	"CO"	130289
+"Florencia"	"CO"	130337
+"Maicao"	"CO"	130348
+"Cartago"	"CO"	134827
+"Envigado"	"CO"	163007
+"Tulua"	"CO"	165501
+"Dos Quebradas"	"CO"	179583
+"Barrancabermeja"	"CO"	191403
+"Buenaventura"	"CO"	240387
+"Palmira"	"CO"	247986
+"Floridablanca"	"CO"	252267
+"Popayan"	"CO"	258653
+"Sincelejo"	"CO"	261187
+"Monteria"	"CO"	272420
+"Itaguei"	"CO"	281853
+"Valledupar"	"CO"	308237
+"Soacha"	"CO"	313945
+"Armenia"	"CO"	315328
+"Villavicencio"	"CO"	321717
+"Soledad"	"CO"	342556
+"Neiva"	"CO"	352855
+"Manizales"	"CO"	357814
+"Pasto"	"CO"	382236
+"Bello"	"CO"	392939
+"Ibague"	"CO"	421685
+"Santa Marta"	"CO"	431781
+"Pereira"	"CO"	440118
+"Bucaramanga"	"CO"	571820
+"Cucuta"	"CO"	721398
+"Cartagena"	"CO"	952024
+"Barranquilla"	"CO"	1380425
+"Medellin"	"CO"	1999979
+"Cali"	"CO"	2392877
+"Bogota"	"CO"	7674366
+"San Jose"	"CR"	335007
+"San Luis"	"CU"	67293
+"Artemisa"	"CU"	68073
+"Gueines"	"CU"	68935
+"Consolacion del Sur"	"CU"	69857
+"Guira de Melena"	"CU"	69879
+"Contramaestre"	"CU"	70438
+"Puerto Padre"	"CU"	76838
+"Moa"	"CU"	92852
+"La Habana Vieja"	"CU"	95383
+"Cardenas"	"CU"	98515
+"Palma Soriano"	"CU"	102826
+"Guanabacoa"	"CU"	112964
+"Sancti Spiritus"	"CU"	127069
+"Manzanillo"	"CU"	128188
+"Cerro"	"CU"	132351
+"Ciego de Avila"	"CU"	142027
+"Matanzas"	"CU"	146733
+"Centro Habana"	"CU"	158151
+"San Miguel del Padron"	"CU"	159273
+"Habana del Este"	"CU"	178041
+"Cienfuegos"	"CU"	186644
+"Pinar del Rio"	"CU"	186990
+"Boyeros"	"CU"	188593
+"Bayamo"	"CU"	192632
+"Las Tunas"	"CU"	203684
+"Arroyo Naranjo"	"CU"	210053
+"Diez de Octubre"	"CU"	227293
+"Santa Clara"	"CU"	250512
+"Guantanamo"	"CU"	272801
+"Holguin"	"CU"	319102
+"Camaguey"	"CU"	347562
+"Santiago de Cuba"	"CU"	555865
+"Havana"	"CU"	2163824
+"Mindelo"	"CV"	70611
+"Praia"	"CV"	113364
+"Willemstad"	"CW"	125000
+"Larnaca"	"CY"	72000
+"Limassol"	"CY"	154000
+"Nicosia"	"CY"	200452
+"Most"	"CZ"	67905
+"Kladno"	"CZ"	70003
+"Zlin"	"CZ"	78759
+"Havirov"	"CZ"	82768
+"Pardubice"	"CZ"	88741
+"Usti nad Labem"	"CZ"	94105
+"Hradec Kralove"	"CZ"	95195
+"Ceske Budejovice"	"CZ"	96053
+"Liberec"	"CZ"	97770
+"Olomouc"	"CZ"	101268
+"Pilsen"	"CZ"	164180
+"Ostrava"	"CZ"	313088
+"Brno"	"CZ"	369559
+"Prague"	"CZ"	1165581
+"Plauen"	"DE"	66412
+"Unna"	"DE"	66734
+"Neuwied"	"DE"	66805
+"Aalen"	"DE"	67085
+"Lippstadt"	"DE"	67219
+"Neubrandenburg"	"DE"	68082
+"Aschaffenburg"	"DE"	68551
+"Bamberg"	"DE"	70047
+"Dinslaken"	"DE"	70573
+"Moabit"	"DE"	70911
+"Celle"	"DE"	71010
+"Lueneburg"	"DE"	71260
+"Norderstedt"	"DE"	71439
+"Steglitz Bezirk"	"DE"	72464
+"Detmold"	"DE"	73680
+"Bocholt"	"DE"	73943
+"Giessen"	"DE"	74411
+"Troisdorf"	"DE"	74749
+"Hellersdorf"	"DE"	74847
+"Bayreuth"	"DE"	75061
+"Reinickendorf"	"DE"	75414
+"Delmenhorst"	"DE"	75893
+"Viersen"	"DE"	76153
+"Rheine"	"DE"	76491
+"Arnsberg"	"DE"	76612
+"Gladbeck"	"DE"	76940
+"Dessau"	"DE"	77315
+"Bogenhausen"	"DE"	77542
+"Castrop-Rauxel"	"DE"	77924
+"Wedding Bezirk"	"DE"	78290
+"Neumuenster"	"DE"	78383
+"Marburg an der Lahn"	"DE"	78895
+"Luedenscheid"	"DE"	79386
+"Dorsten"	"DE"	79981
+"Worms"	"DE"	81099
+"Mitte"	"DE"	81205
+"Konstanz"	"DE"	81275
+"Minden"	"DE"	82879
+"Tuebingen"	"DE"	83416
+"Wilhelmshaven"	"DE"	84393
+"Cottbus"	"DE"	84754
+"Flensburg"	"DE"	85838
+"Ludwigsburg"	"DE"	87603
+"Velbert"	"DE"	87669
+"Hanau am Main"	"DE"	88648
+"Luenen"	"DE"	91009
+"Marl"	"DE"	91398
+"Ratingen"	"DE"	91606
+"Esslingen"	"DE"	92390
+"Dueren"	"DE"	93440
+"Wilmersdorf Bezirk"	"DE"	94113
+"Guetersloh"	"DE"	96180
+"Iserlohn"	"DE"	97910
+"Kaiserslautern"	"DE"	98732
+"Zwickau"	"DE"	98796
+"Trier"	"DE"	100129
+"Witten"	"DE"	101247
+"Erlangen"	"DE"	102675
+"Hildesheim"	"DE"	103052
+"Marzahn"	"DE"	103768
+"Gera"	"DE"	104659
+"Jena"	"DE"	104712
+"Bergisch Gladbach"	"DE"	106184
+"Siegen"	"DE"	107242
+"Moers"	"DE"	107816
+"Furth"	"DE"	112025
+"Reutlingen"	"DE"	112627
+"Nippes"	"DE"	113487
+"Schoneberg Bezirk"	"DE"	115976
+"Berlin Schoeneberg"	"DE"	116286
+"Remscheid"	"DE"	117118
+"Bremerhaven"	"DE"	117446
+"Friedrichshain Bezirk"	"DE"	117829
+"Offenbach"	"DE"	119192
+"Bergedorf"	"DE"	119665
+"Charlottenburg Bezirk"	"DE"	119857
+"Bottrop"	"DE"	119909
+"Ulm"	"DE"	120451
+"Ingolstadt"	"DE"	120658
+"Heilbronn"	"DE"	120733
+"Goettingen"	"DE"	122149
+"Recklinghausen"	"DE"	122438
+"Wolfsburg"	"DE"	123064
+"Regensburg"	"DE"	129151
+"Wuerzburg"	"DE"	133731
+"Darmstadt"	"DE"	140385
+"Paderborn"	"DE"	142161
+"Heidelberg"	"DE"	143345
+"Potsdam"	"DE"	145292
+"Bezirk Kreuzberg"	"DE"	147532
+"Prenzlauer Berg Bezirk"	"DE"	148878
+"Neuss"	"DE"	152457
+"Oldenburg"	"DE"	159218
+"Leverkusen"	"DE"	162738
+"Ludwigshafen am Rhein"	"DE"	163196
+"Solingen"	"DE"	164359
+"Osnabrueck"	"DE"	166462
+"Muelheim"	"DE"	171000
+"Herne"	"DE"	172108
+"Saarbruecken"	"DE"	181227
+"Mainz"	"DE"	184997
+"Hamm"	"DE"	185327
+"Kassel"	"DE"	194501
+"Rostock"	"DE"	198293
+"Hagen"	"DE"	198972
+"Harburg"	"DE"	202571
+"Erfurt"	"DE"	203254
+"Luebeck"	"DE"	212207
+"Freiburg"	"DE"	215966
+"Oberhausen"	"DE"	219176
+"Neue Neustadt"	"DE"	226851
+"Magdeburg"	"DE"	229826
+"Kiel"	"DE"	232758
+"Hamburg-Mitte"	"DE"	233144
+"Halle (Saale)"	"DE"	234107
+"Krefeld"	"DE"	237984
+"Braunschweig"	"DE"	244715
+"Chemnitz"	"DE"	247220
+"Altona"	"DE"	250192
+"Eimsbuettel"	"DE"	251907
+"Augsburg"	"DE"	259196
+"Moenchengladbach"	"DE"	261742
+"Aachen"	"DE"	265208
+"Gelsenkirchen"	"DE"	270028
+"Muenster"	"DE"	270184
+"Wiesbaden"	"DE"	272432
+"Hamburg-Nord"	"DE"	280000
+"Karlsruhe"	"DE"	283799
+"Marienthal"	"DE"	287101
+"Mannheim"	"DE"	307960
+"Bonn"	"DE"	313125
+"Bielefeld"	"DE"	331906
+"Wuppertal"	"DE"	360797
+"Bochum-Hordel"	"DE"	380000
+"Bochum"	"DE"	385729
+"Wandsbek"	"DE"	411422
+"Dresden"	"DE"	486854
+"Nuernberg"	"DE"	499237
+"Duisburg"	"DE"	504358
+"Leipzig"	"DE"	504971
+"Hannover"	"DE"	515140
+"Bremen"	"DE"	546501
+"Duesseldorf"	"DE"	573057
+"Dortmund"	"DE"	588462
+"Stuttgart"	"DE"	589793
+"Essen"	"DE"	593085
+"Frankfurt am Main"	"DE"	650000
+"Koeln"	"DE"	963395
+"Munich"	"DE"	1260391
+"Hamburg"	"DE"	1739117
+"Berlin"	"DE"	3426354
+"Djibouti"	"DJ"	623891
+"Esbjerg"	"DK"	72205
+"Frederiksberg"	"DK"	95029
+"Aalborg"	"DK"	122219
+"Odense"	"DK"	145931
+"Arhus"	"DK"	237551
+"Copenhagen"	"DK"	1153615
+"Bani"	"DO"	66709
+"Bajos de Haina"	"DO"	66784
+"San Juan de la Maguana"	"DO"	72950
+"Bonao"	"DO"	73269
+"Santa Cruz de Barahona"	"DO"	77160
+"Punta Cana"	"DO"	100023
+"Concepcion de La Vega"	"DO"	102426
+"Salvaleon de Higueey"	"DO"	123787
+"San Francisco de Macoris"	"DO"	124763
+"Puerto Plata"	"DO"	146000
+"San Cristobal"	"DO"	154040
+"Bella Vista"	"DO"	175683
+"La Romana"	"DO"	208437
+"San Pedro de Macoris"	"DO"	217899
+"Santo Domingo Este"	"DO"	700000
+"Santo Domingo Oeste"	"DO"	701269
+"Santo Domingo"	"DO"	2201941
+"Besbes"	"DZ"	66287
+"Akbou"	"DZ"	66654
+"Bir el Djir"	"DZ"	68032
+"Es Senia"	"DZ"	68084
+"Tolga"	"DZ"	68246
+"Ain Fakroun"	"DZ"	68433
+"Bir el Ater"	"DZ"	68703
+"Mila"	"DZ"	68831
+"Larbaa"	"DZ"	69298
+"Sidi Aissa"	"DZ"	69740
+"Chelghoum el Aid"	"DZ"	71660
+"Birkhadem"	"DZ"	71722
+"Cheria"	"DZ"	72095
+"Ain Touta"	"DZ"	72280
+"Tamanrasset"	"DZ"	73128
+"Azzaba"	"DZ"	75317
+"Khemis Miliana"	"DZ"	75865
+"Ksar el Boukhari"	"DZ"	77166
+"Berrouaghia"	"DZ"	80573
+"Rouissat"	"DZ"	80784
+"El Khroub"	"DZ"	83746
+"Aflou"	"DZ"	84683
+"Beni Mered"	"DZ"	92749
+"Ghardaia"	"DZ"	93423
+"Barika"	"DZ"	98846
+"Messaad"	"DZ"	99485
+"Oum el Bouaghi"	"DZ"	100821
+"Baraki"	"DZ"	105402
+"Ain Beida"	"DZ"	105765
+"Laghouat"	"DZ"	113872
+"Ain Oussera"	"DZ"	118687
+"Bordj el Kiffan"	"DZ"	123246
+"Guelma"	"DZ"	123590
+"Saida"	"DZ"	127497
+"El Eulma"	"DZ"	128351
+"Ouargla"	"DZ"	129402
+"Relizane"	"DZ"	130094
+"Tlemcen"	"DZ"	132341
+"El Oued"	"DZ"	134699
+"Bechar"	"DZ"	143382
+"Tizi Ouzou"	"DZ"	144000
+"Medea"	"DZ"	147707
+"Jijel"	"DZ"	148000
+"Mascara"	"DZ"	150000
+"Djelfa"	"DZ"	154265
+"Souk Ahras"	"DZ"	156745
+"El Achir"	"DZ"	158333
+"Skikda"	"DZ"	162702
+"Bejaia"	"DZ"	164103
+"Ech Chettia"	"DZ"	167955
+"Bordj Bou Arreridj"	"DZ"	168346
+"Chlef"	"DZ"	178616
+"Tiaret"	"DZ"	178915
+"Blida"	"DZ"	182447
+"Sidi Bel Abbes"	"DZ"	191769
+"Annaba"	"DZ"	206570
+"Bab Ezzouar"	"DZ"	275630
+"Batna"	"DZ"	280798
+"Setif"	"DZ"	288461
+"Biskra"	"DZ"	307987
+"Constantine"	"DZ"	450097
+"Tebessa"	"DZ"	634332
+"Oran"	"DZ"	645984
+"Boumerdas"	"DZ"	786499
+"Algiers"	"DZ"	1977663
+"La Libertad"	"EC"	75881
+"Babahoyo"	"EC"	76279
+"Tulcan"	"EC"	86498
+"Loja"	"EC"	117796
+"Quevedo"	"EC"	119436
+"Riobamba"	"EC"	124478
+"Ibarra"	"EC"	132977
+"Milagro"	"EC"	133508
+"Ambato"	"EC"	154369
+"Esmeraldas"	"EC"	165216
+"Eloy Alfaro"	"EC"	167784
+"Portoviejo"	"EC"	170326
+"Manta"	"EC"	183166
+"Machala"	"EC"	198123
+"Santo Domingo de los Colorados"	"EC"	200421
+"Cuenca"	"EC"	276964
+"Quito"	"EC"	1399814
+"Guayaquil"	"EC"	1952029
+"Narva"	"EE"	66980
+"Tartu"	"EE"	101092
+"Tallinn"	"EE"	394024
+"Al Manzilah"	"EG"	67486
+"Toukh"	"EG"	67599
+"Al Kharijah"	"EG"	67700
+"Dayrut"	"EG"	67788
+"Al Jamaliyah"	"EG"	68381
+"Al Qusiyah"	"EG"	68394
+"Abnub"	"EG"	68749
+"Isna"	"EG"	69335
+"Abu Tij"	"EG"	71257
+"Kafr az Zayyat"	"EG"	73725
+"Damietta"	"EG"	76839
+"Manfalut"	"EG"	78744
+"Ashmun"	"EG"	82507
+"Minuf"	"EG"	83651
+"Hawsh `Isa"	"EG"	85352
+"Bush"	"EG"	86608
+"Samalut"	"EG"	90465
+"Tahta"	"EG"	90591
+"Zifta"	"EG"	92667
+"Hurghada"	"EG"	95622
+"Al Matariyah"	"EG"	99357
+"Akhmim"	"EG"	99446
+"Qalyub"	"EG"	100495
+"Abu Kabir"	"EG"	100684
+"Disuq"	"EG"	102037
+"Bilqas"	"EG"	103596
+"Idku"	"EG"	105599
+"Al Hawamidiyah"	"EG"	106841
+"Jirja"	"EG"	128250
+"Arish"	"EG"	128855
+"Bilbays"	"EG"	129211
+"Idfu"	"EG"	133000
+"Dikirnis"	"EG"	137542
+"Mallawi"	"EG"	142504
+"Kafr ash Shaykh"	"EG"	143970
+"Talkha"	"EG"	157737
+"Banha"	"EG"	167029
+"Shibin al Kawm"	"EG"	186345
+"Bani Suwayf"	"EG"	189624
+"Sohag"	"EG"	209419
+"Al Minya"	"EG"	227150
+"Damanhur"	"EG"	227943
+"Halwan"	"EG"	230000
+"Qina"	"EG"	235362
+"Aswan"	"EG"	241261
+"Kafr ad Dawwar"	"EG"	267370
+"Ismailia"	"EG"	284813
+"Zagazig"	"EG"	285097
+"Al Fayyum"	"EG"	306393
+"Tanda"	"EG"	404901
+"Al Mansurah"	"EG"	420195
+"Asyut"	"EG"	420585
+"Luxor"	"EG"	422407
+"Al Mahallah al Kubra"	"EG"	431052
+"Suez"	"EG"	488125
+"Port Said"	"EG"	538378
+"Giza"	"EG"	2443203
+"Alexandria"	"EG"	3811516
+"Cairo"	"EG"	7734614
+"Dakhla"	"EH"	75000
+"Laayoune"	"EH"	196331
+"Keren"	"ER"	74800
+"Asmara"	"ER"	563930
+"Zamora"	"ES"	66293
+"Vicalvaro"	"ES"	66439
+"Campina"	"ES"	67904
+"Majadahonda"	"ES"	68110
+"Rivas-Vaciamadrid"	"ES"	68405
+"Ponferrada"	"ES"	68736
+"Alcala de Guadaira"	"ES"	70155
+"Benidorm"	"ES"	71034
+"Fuengirola"	"ES"	71482
+"Rubi"	"ES"	72987
+"Melilla"	"ES"	73460
+"Mijas"	"ES"	73787
+"Velez-Malaga"	"ES"	74190
+"Ferrol"	"ES"	74273
+"San Sebastian de los Reyes"	"ES"	75912
+"Manresa"	"ES"	76558
+"Chiclana de la Frontera"	"ES"	77293
+"Torrent"	"ES"	78543
+"Arona"	"ES"	78614
+"Ceuta"	"ES"	78674
+"Sant Cugat del Valles"	"ES"	79253
+"Gandia"	"ES"	80020
+"Getxo"	"ES"	80770
+"Pontevedra"	"ES"	81576
+"Toledo"	"ES"	82291
+"Sant Boi de Llobregat"	"ES"	82428
+"les Corts"	"ES"	82588
+"Algorta"	"ES"	82624
+"Palencia"	"ES"	82651
+"Roquetas de Mar"	"ES"	82665
+"Guadalajara"	"ES"	83039
+"El Ejido"	"ES"	84227
+"Aviles"	"ES"	84242
+"Orihuela"	"ES"	86164
+"Las Rozas de Madrid"	"ES"	86340
+"Cornella de Llobregat"	"ES"	86519
+"El Puerto de Santa Maria"	"ES"	87696
+"Talavera de la Reina"	"ES"	88856
+"Coslada"	"ES"	90280
+"Lorca"	"ES"	91906
+"Caceres"	"ES"	93131
+"Santiago de Compostela"	"ES"	95092
+"Girona"	"ES"	96188
+"San Fernando"	"ES"	96366
+"Lugo"	"ES"	96678
+"Barakaldo"	"ES"	98460
+"Telde"	"ES"	100015
+"Torrevieja"	"ES"	101792
+"Moratalaz"	"ES"	104923
+"Reus"	"ES"	107118
+"Alcobendas"	"ES"	107514
+"Ourense"	"ES"	107742
+"Delicias"	"ES"	110520
+"Ciutat Vella"	"ES"	111290
+"Parla"	"ES"	115611
+"Algeciras"	"ES"	116209
+"Moncloa-Aravaca"	"ES"	116531
+"Jaen"	"ES"	116557
+"Torrejon de Ardoz"	"ES"	118162
+"Santa Coloma de Gramenet"	"ES"	119717
+"Gracia"	"ES"	120087
+"Mataro"	"ES"	121722
+"Dos Hermanas"	"ES"	122943
+"Retiro"	"ES"	126058
+"Cadiz"	"ES"	126766
+"Villaverde"	"ES"	126802
+"Leon"	"ES"	134305
+"Marbella"	"ES"	134623
+"Lleida"	"ES"	135919
+"Tarragona"	"ES"	140323
+"Usera"	"ES"	141189
+"Sant Andreu de Palomar"	"ES"	142598
+"Chamberi"	"ES"	145934
+"Badajoz"	"ES"	148334
+"Arganzuela"	"ES"	148797
+"Huelva"	"ES"	148806
+"City Center"	"ES"	149718
+"La Laguna"	"ES"	150661
+"Logrono"	"ES"	152107
+"Salamanca"	"ES"	155619
+"San Blas"	"ES"	157367
+"Hortaleza"	"ES"	161661
+"Nou Barris"	"ES"	164981
+"Getafe"	"ES"	167164
+"Alcorcon"	"ES"	167967
+"Albacete"	"ES"	169716
+"Horta-Guinardo"	"ES"	169920
+"Sants-Montjuic"	"ES"	177636
+"Burgos"	"ES"	178966
+"Castello de la Plana"	"ES"	180005
+"Santander"	"ES"	182700
+"San Sebastian"	"ES"	185357
+"Leganes"	"ES"	186066
+"Almeria"	"ES"	188810
+"Fuenlabrada"	"ES"	197836
+"Pamplona"	"ES"	198491
+"Alcala de Henares"	"ES"	204574
+"Mostoles"	"ES"	206478
+"Sabadell"	"ES"	206493
+"Jerez de la Frontera"	"ES"	207532
+"Terrassa"	"ES"	210941
+"Cartagena"	"ES"	211996
+"Badalona"	"ES"	219547
+"Fuencarral-El Pardo"	"ES"	220085
+"Sant Marti"	"ES"	221029
+"Santa Cruz de Tenerife"	"ES"	222417
+"Oviedo"	"ES"	224005
+"Ciudad Lineal"	"ES"	228171
+"Elche"	"ES"	230112
+"Granada"	"ES"	234325
+"Gasteiz / Vitoria"	"ES"	235661
+"Puente de Vallecas"	"ES"	244151
+"A Coruna"	"ES"	246056
+"Carabanchel"	"ES"	253678
+"Latina"	"ES"	256644
+"L'Hospitalet de Llobregat"	"ES"	257038
+"Eixample"	"ES"	262485
+"Gijon"	"ES"	277554
+"Vigo"	"ES"	297332
+"Valladolid"	"ES"	317864
+"Cordoba"	"ES"	328428
+"Alicante"	"ES"	334757
+"Bilbao"	"ES"	354860
+"Las Palmas de Gran Canaria"	"ES"	381847
+"Palma"	"ES"	401270
+"Murcia"	"ES"	436870
+"Malaga"	"ES"	568305
+"Zaragoza"	"ES"	674317
+"Sevilla"	"ES"	703206
+"Valencia"	"ES"	814208
+"Barcelona"	"ES"	1621537
+"Madrid"	"ES"	3255944
+"Arba Minch"	"ET"	69622
+"Shashemene"	"ET"	85871
+"Harar"	"ET"	90218
+"Kombolcha"	"ET"	93605
+"Bishoftu"	"ET"	104215
+"Jimma"	"ET"	128306
+"Hawassa"	"ET"	133097
+"Dese"	"ET"	136056
+"Gondar"	"ET"	153914
+"Bahir Dar"	"ET"	168899
+"Nazret"	"ET"	213995
+"Mek'ele"	"ET"	215546
+"Dire Dawa"	"ET"	252279
+"Addis Ababa"	"ET"	2757729
+"Pori"	"FI"	76772
+"Jyvaeskylae"	"FI"	85026
+"Kuopio"	"FI"	89104
+"Lahti"	"FI"	98826
+"Oulu"	"FI"	128618
+"Turku"	"FI"	175945
+"Vantaa"	"FI"	190058
+"Tampere"	"FI"	202687
+"Espoo"	"FI"	256760
+"Helsinki"	"FI"	558457
+"Suva"	"FJ"	77366
+"Saint-Nazaire"	"FR"	67054
+"Bourges"	"FR"	67987
+"Merignac"	"FR"	69791
+"Cannes"	"FR"	70011
+"Aubervilliers"	"FR"	70914
+"Dunkerque"	"FR"	71287
+"Beziers"	"FR"	74081
+"Calais"	"FR"	74433
+"Saint-Maur-des-Fosses"	"FR"	75402
+"Antibes"	"FR"	76393
+"Rueil-Malmaison"	"FR"	76616
+"Champigny-sur-Marne"	"FR"	76726
+"La Rochelle"	"FR"	76810
+"Marseille 09"	"FR"	76868
+"Marseille 15"	"FR"	77770
+"Marseille 08"	"FR"	78837
+"Aulnay-sous-Bois"	"FR"	80615
+"Vitry-sur-Seine"	"FR"	81001
+"Colombes"	"FR"	82300
+"Pau"	"FR"	82697
+"Creteil"	"FR"	84833
+"Courbevoie"	"FR"	85158
+"Versailles"	"FR"	85416
+"Poitiers"	"FR"	85960
+"Nanterre"	"FR"	86719
+"Asnieres-sur-Seine"	"FR"	86742
+"Marseille 13"	"FR"	89316
+"Avignon"	"FR"	89769
+"Montreuil"	"FR"	90652
+"Tourcoing"	"FR"	91574
+"Roubaix"	"FR"	95721
+"Saint-Denis"	"FR"	96128
+"Argenteuil"	"FR"	101475
+"Nancy"	"FR"	105334
+"Boulogne-Billancourt"	"FR"	108782
+"Caen"	"FR"	110624
+"Perpignan"	"FR"	110706
+"Mulhouse"	"FR"	111430
+"Rouen"	"FR"	112787
+"Metz"	"FR"	123914
+"Orleans"	"FR"	124149
+"Besancon"	"FR"	128426
+"Villeurbanne"	"FR"	131445
+"Clermont-Ferrand"	"FR"	138681
+"Limoges"	"FR"	141176
+"Tours"	"FR"	141621
+"Amiens"	"FR"	143086
+"Le Mans"	"FR"	144515
+"Brest"	"FR"	144899
+"Saint-Quentin-en-Yvelines"	"FR"	146598
+"Aix-en-Provence"	"FR"	146821
+"Nimes"	"FR"	148236
+"Dijon"	"FR"	149782
+"Grenoble"	"FR"	158552
+"Angers"	"FR"	168279
+"Toulon"	"FR"	168701
+"Saint-Etienne"	"FR"	176280
+"Cergy-Pontoise"	"FR"	183430
+"Le Havre"	"FR"	185972
+"Reims"	"FR"	196565
+"Rennes"	"FR"	209375
+"Lille"	"FR"	228328
+"Bordeaux"	"FR"	231844
+"Montpellier"	"FR"	248252
+"Strasbourg"	"FR"	274845
+"Nantes"	"FR"	277269
+"Nice"	"FR"	338620
+"Toulouse"	"FR"	433055
+"Lyon"	"FR"	472317
+"Marseille"	"FR"	794811
+"Paris"	"FR"	2138551
+"Libreville"	"GA"	578156
+"Brixton"	"GB"	66300
+"Rossendale"	"GB"	67400
+"Cannock"	"GB"	68067
+"Shrewsbury"	"GB"	69519
+"Mansfield"	"GB"	70447
+"Chesterfield"	"GB"	70679
+"Barnsley"	"GB"	71447
+"Lowestoft"	"GB"	71479
+"Scunthorpe"	"GB"	72514
+"Carlisle"	"GB"	72633
+"Salford"	"GB"	72750
+"Paisley"	"GB"	73074
+"Canary Wharf"	"GB"	73390
+"Burnley"	"GB"	73480
+"Nuneaton"	"GB"	73555
+"Aylesbury"	"GB"	74565
+"Chatham"	"GB"	75509
+"Battersea"	"GB"	75651
+"Newcastle under Lyme"	"GB"	75794
+"Bracknell"	"GB"	76103
+"Chester"	"GB"	77040
+"Redditch"	"GB"	77128
+"Lisburn"	"GB"	77506
+"Wakefield"	"GB"	78978
+"Stockton-on-Tees"	"GB"	79957
+"Wigan"	"GB"	80788
+"Warrington"	"GB"	81238
+"Birkenhead"	"GB"	81805
+"Weston-super-Mare"	"GB"	82903
+"Derry"	"GB"	83652
+"South Shields"	"GB"	83655
+"St Albans"	"GB"	84561
+"Stevenage"	"GB"	84651
+"Bedford"	"GB"	86658
+"Londonderry County Borough"	"GB"	87153
+"Lincoln"	"GB"	89228
+"Maidstone"	"GB"	90894
+"High Peak"	"GB"	92600
+"Southport"	"GB"	93044
+"Bath"	"GB"	93238
+"Solihull"	"GB"	96267
+"Basingstoke"	"GB"	96348
+"Rochdale"	"GB"	97550
+"Worthing"	"GB"	99110
+"Basildon"	"GB"	101362
+"St Helens"	"GB"	102555
+"Chelmsford"	"GB"	102671
+"Cheltenham"	"GB"	103249
+"Woking"	"GB"	103932
+"Oldham"	"GB"	104782
+"Blackburn"	"GB"	106154
+"Irvine"	"GB"	109414
+"Mendip"	"GB"	110000
+"Newport"	"GB"	117326
+"Rotherham"	"GB"	117618
+"Watford"	"GB"	125707
+"Cambridge"	"GB"	128488
+"Slough"	"GB"	134072
+"West Bromwich"	"GB"	135618
+"Telford"	"GB"	138241
+"Brighton"	"GB"	139001
+"Stockport"	"GB"	139052
+"Peterborough"	"GB"	140141
+"Bolton"	"GB"	141331
+"Middlesbrough"	"GB"	142707
+"Blackpool"	"GB"	143101
+"York"	"GB"	144202
+"Poole"	"GB"	150092
+"Oxford"	"GB"	154566
+"Southend-on-Sea"	"GB"	163377
+"Bournemouth"	"GB"	163600
+"Walsall"	"GB"	172141
+"Aberdeen"	"GB"	183790
+"Milton Keynes"	"GB"	184506
+"Preston"	"GB"	190687
+"Newcastle upon Tyne"	"GB"	192382
+"Luton"	"GB"	193669
+"Portsmouth"	"GB"	194150
+"Northampton"	"GB"	197322
+"Bexley"	"GB"	228000
+"Reading"	"GB"	244070
+"Southampton"	"GB"	246201
+"Nottingham"	"GB"	246654
+"Plymouth"	"GB"	247297
+"Wolverhampton"	"GB"	252791
+"Stoke-on-Trent"	"GB"	260419
+"Belfast"	"GB"	274770
+"Bradford"	"GB"	299310
+"Cardiff"	"GB"	302139
+"Hull"	"GB"	302296
+"Islington"	"GB"	319143
+"Leicester"	"GB"	339239
+"Manchester"	"GB"	395515
+"Bristol"	"GB"	430713
+"Sheffield"	"GB"	447047
+"Leeds"	"GB"	455123
+"Liverpool"	"GB"	468945
+"Birmingham"	"GB"	984333
+"City of London"	"GB"	7556900
+"Zugdidi"	"GE"	73006
+"Sokhumi"	"GE"	81546
+"Batumi"	"GE"	121806
+"Kutaisi"	"GE"	178338
+"Tbilisi"	"GE"	1049498
+"Techiman"	"GH"	69720
+"Ho"	"GH"	69998
+"Sunyani"	"GH"	70299
+"Nungua"	"GH"	70483
+"Ejura"	"GH"	70807
+"Wa"	"GH"	78107
+"Koforidua"	"GH"	96266
+"Medina Estates"	"GH"	101207
+"Obuasi"	"GH"	137856
+"Sekondi-Takoradi"	"GH"	138872
+"Cape Coast"	"GH"	143015
+"Teshi Old Town"	"GH"	144013
+"Tema"	"GH"	155782
+"Achiaman"	"GH"	202932
+"Takoradi"	"GH"	232919
+"Tamale"	"GH"	360579
+"Kumasi"	"GH"	1468609
+"Accra"	"GH"	1963264
+"Brikama"	"GM"	77700
+"Coyah"	"GN"	77103
+"Gueckedou"	"GN"	79140
+"Kankan"	"GN"	114009
+"Kindia"	"GN"	117062
+"Nzerekore"	"GN"	132728
+"Conakry"	"GN"	1767200
+"Camayenne"	"GN"	1871242
+"Malabo"	"GQ"	155963
+"Bata"	"GQ"	173046
+"Nea Ionia"	"GR"	67134
+"Aigaleo"	"GR"	69946
+"Zografos"	"GR"	71026
+"Agios Dimitrios"	"GR"	71294
+"Marousi"	"GR"	72333
+"Nea Smyrni"	"GR"	73076
+"Khalandrion"	"GR"	74192
+"Keratsini"	"GR"	77077
+"Ilioupoli"	"GR"	78153
+"Ilion"	"GR"	84793
+"Volos"	"GR"	86048
+"Glyfada"	"GR"	87305
+"Nikaia"	"GR"	89380
+"Kalamaria"	"GR"	91617
+"Acharnes"	"GR"	99346
+"Kallithea"	"GR"	100641
+"Irakleion"	"GR"	137154
+"Peristeri"	"GR"	139981
+"Larisa"	"GR"	144651
+"Piraeus"	"GR"	163688
+"Patra"	"GR"	168034
+"Thessaloniki"	"GR"	354290
+"Athens"	"GR"	664046
+"Santa Catarina Pinula"	"GT"	67994
+"Totonicapan"	"GT"	69734
+"Amatitlan"	"GT"	71836
+"Huehuetenango"	"GT"	79426
+"Chichicastenango"	"GT"	79759
+"Chimaltenango"	"GT"	82370
+"Chinautla"	"GT"	97172
+"Escuintla"	"GT"	103165
+"Villa Canales"	"GT"	122194
+"Quetzaltenango"	"GT"	132230
+"San Juan Sacatepequez"	"GT"	136886
+"Petapa"	"GT"	141455
+"Villa Nueva"	"GT"	406830
+"Mixco"	"GT"	473080
+"Guatemala City"	"GT"	994938
+"Bissau"	"GW"	388028
+"Georgetown"	"GY"	235017
+"Yuen Long Kau Hui"	"HK"	141900
+"Tsuen Wan"	"HK"	288728
+"Kowloon"	"HK"	2019533
+"Hong Kong"	"HK"	7012738
+"Ciudad Choluteca"	"HN"	75872
+"El Progreso"	"HN"	100810
+"Choloma"	"HN"	139100
+"San Pedro Sula"	"HN"	489466
+"Tegucigalpa"	"HN"	850848
+"Zadar"	"HR"	71258
+"Osijek"	"HR"	88140
+"Rijeka"	"HR"	141172
+"Split"	"HR"	176314
+"Zagreb"	"HR"	698966
+"Saint-Marc"	"HT"	66226
+"Gonayiv"	"HT"	84961
+"Miragoane"	"HT"	89202
+"Jeremie"	"HT"	97503
+"Tigwav"	"HT"	117504
+"Les Cayes"	"HT"	125799
+"Leogane"	"HT"	134190
+"Okap"	"HT"	134815
+"Jacmel"	"HT"	137966
+"Croix-des-Bouquets"	"HT"	229127
+"Port-de-Paix"	"HT"	250000
+"Petionville"	"HT"	283052
+"Delmas 73"	"HT"	382920
+"Carrefour"	"HT"	442156
+"Port-au-Prince"	"HT"	1234742
+"Kaposvar"	"HU"	67746
+"Budapest XVI. keruelet"	"HU"	68484
+"Tatabanya"	"HU"	70541
+"Szolnok"	"HU"	75474
+"Budapest XXI. keruelet"	"HU"	76339
+"Budapest XVII. keruelet"	"HU"	78250
+"Budapest X. keruelet"	"HU"	79270
+"Szombathely"	"HU"	79534
+"Budapest XV. keruelet"	"HU"	80218
+"Budapest VIII. keruelet"	"HU"	82222
+"Budapest II. keruelet"	"HU"	88729
+"Budapest XVIII. keruelet"	"HU"	93225
+"Budapest IV. keruelet"	"HU"	98374
+"Szekesfehervar"	"HU"	101600
+"Kecskemet"	"HU"	109847
+"Budapest XIII. keruelet"	"HU"	113531
+"Nyiregyhaza"	"HU"	116298
+"Budapest III. keruelet"	"HU"	123723
+"Gyor"	"HU"	128265
+"Budapest XI. keruelet"	"HU"	139049
+"Pecs"	"HU"	156649
+"Szeged"	"HU"	164883
+"Miskolc"	"HU"	172637
+"Debrecen"	"HU"	204124
+"Budapest"	"HU"	1741041
+"Sokaraja"	"ID"	66482
+"Bima"	"ID"	66970
+"Melati"	"ID"	67090
+"Bondowoso"	"ID"	69783
+"Mertoyudan"	"ID"	69871
+"Pagar Alam"	"ID"	70386
+"Sragen"	"ID"	71522
+"Kuningan"	"ID"	72085
+"Jatibarang"	"ID"	73010
+"Sewon"	"ID"	73585
+"Gresik"	"ID"	73629
+"Petarukan"	"ID"	74188
+"Sungailiat"	"ID"	74719
+"Batu"	"ID"	75631
+"Tarub"	"ID"	75739
+"Karangsembung"	"ID"	75856
+"Kebomas"	"ID"	75982
+"Tuban"	"ID"	76242
+"Ende"	"ID"	77205
+"Ciranjang-hilir"	"ID"	77758
+"Ponorogo"	"ID"	79026
+"Gedangan"	"ID"	79230
+"Genteng"	"ID"	79652
+"Sibolga"	"ID"	79714
+"Serpong"	"ID"	80193
+"Kedungwaru"	"ID"	80257
+"Watampone"	"ID"	81629
+"Galesong"	"ID"	83050
+"Margahayukencana"	"ID"	83119
+"Ambarawa"	"ID"	84379
+"Sumenep"	"ID"	84656
+"Kasihan"	"ID"	86234
+"Bojonegoro"	"ID"	86568
+"Majalengka"	"ID"	87732
+"Klangenan"	"ID"	88378
+"Kartasura"	"ID"	88927
+"Cicurug"	"ID"	88965
+"Lhokseumawe"	"ID"	88974
+"Banjar"	"ID"	89040
+"Caringin"	"ID"	91845
+"Kudus"	"ID"	92156
+"Pariaman"	"ID"	92183
+"Pandeglang"	"ID"	92316
+"Pamekasan"	"ID"	92447
+"Wonosobo"	"ID"	92990
+"Sumber"	"ID"	93420
+"Sungai Penuh"	"ID"	95913
+"Tarakan"	"ID"	97478
+"Dukuhturi"	"ID"	98074
+"Bukittinggi"	"ID"	98746
+"Padangsidempuan"	"ID"	100561
+"Grogol"	"ID"	100613
+"Bontang"	"ID"	101691
+"Ternate"	"ID"	101731
+"Singkawang"	"ID"	101838
+"Belawan"	"ID"	102707
+"Rantauprapat"	"ID"	103009
+"Prabumulih"	"ID"	103470
+"Depok"	"ID"	104527
+"Arjawinangun"	"ID"	105845
+"Cikarang"	"ID"	106479
+"Banyuwangi"	"ID"	108166
+"Citeureup"	"ID"	110155
+"Kresek"	"ID"	110182
+"Magelang"	"ID"	111461
+"Cileunyi"	"ID"	111476
+"Mojokerto"	"ID"	112557
+"Sawangan"	"ID"	114069
+"Pamanukan"	"ID"	114290
+"Batang"	"ID"	115537
+"Kedungwuni"	"ID"	117249
+"Tebingtinggi"	"ID"	117530
+"Sepatan"	"ID"	118439
+"Payakumbuh"	"ID"	121572
+"Pati"	"ID"	122785
+"Indramayu"	"ID"	123263
+"Lumajang"	"ID"	123626
+"Ciamis"	"ID"	123637
+"Padalarang"	"ID"	124946
+"Sorong"	"ID"	125535
+"Pangkalpinang"	"ID"	125933
+"Paseh"	"ID"	126181
+"Jombang"	"ID"	126465
+"Klaten"	"ID"	126831
+"Rangkasbitung"	"ID"	126910
+"Ungaran"	"ID"	127812
+"Teluknaga"	"ID"	128275
+"Palopo"	"ID"	129273
+"Kisaran"	"ID"	129911
+"Martapura"	"ID"	131449
+"Blitar"	"ID"	132416
+"Singaraja"	"ID"	133784
+"Adiwerna"	"ID"	134188
+"Baturaja"	"ID"	134759
+"Jayapura"	"ID"	134895
+"Bitung"	"ID"	137364
+"Weru"	"ID"	139004
+"Sidoarjo"	"ID"	139189
+"Tanjungbalai"	"ID"	142506
+"Dumai"	"ID"	143760
+"Gorontalo"	"ID"	144195
+"Cikampek"	"ID"	145620
+"Astanajapura"	"ID"	148047
+"Palangkaraya"	"ID"	148139
+"Lubuklinggau"	"ID"	148243
+"Metro"	"ID"	149526
+"Purwodadi"	"ID"	150206
+"Soreang"	"ID"	150932
+"Pasarkemis"	"ID"	154234
+"Perbaungan"	"ID"	157174
+"Sunggal"	"ID"	157914
+"Pasuruan"	"ID"	158600
+"Lawang"	"ID"	159380
+"Serang"	"ID"	164767
+"Banjaran"	"ID"	164952
+"Plumbon"	"ID"	167105
+"Salatiga"	"ID"	172645
+"Cikupa"	"ID"	174041
+"Pamulang"	"ID"	174557
+"Probolinggo"	"ID"	181656
+"Lembang"	"ID"	183130
+"Pemalang"	"ID"	184149
+"Madiun"	"ID"	186099
+"Cibinong"	"ID"	188663
+"Labuan Bajo"	"ID"	188724
+"Curug"	"ID"	191406
+"Tanjungpinang"	"ID"	192493
+"Parung"	"ID"	193898
+"Kendari"	"ID"	195006
+"Rengasdengklok"	"ID"	201463
+"Cileungsir"	"ID"	202190
+"Ciampea"	"ID"	207212
+"Ciputat"	"ID"	207858
+"Pematangsiantar"	"ID"	209614
+"Loa Janan"	"ID"	212816
+"Purwakarta"	"ID"	215803
+"Purwokerto"	"ID"	217222
+"Binjai"	"ID"	228763
+"Kediri"	"ID"	235143
+"Tegal"	"ID"	237084
+"Banda Aceh"	"ID"	250757
+"Cirebon"	"ID"	254298
+"Pekalongan"	"ID"	257945
+"Tasikmalaya"	"ID"	271143
+"Sukabumi"	"ID"	276414
+"Kupang"	"ID"	282396
+"Palu"	"ID"	282431
+"Jember"	"ID"	298585
+"Bengkulu"	"ID"	309712
+"Percut"	"ID"	311063
+"Mataram"	"ID"	318674
+"Samarinda"	"ID"	355160
+"Ambon"	"ID"	355596
+"Jambi City"	"ID"	420323
+"Balikpapan"	"ID"	433866
+"Manado"	"ID"	451893
+"Pontianak"	"ID"	455173
+"Cimahi"	"ID"	493698
+"Surakarta"	"ID"	555308
+"Banjarmasin"	"ID"	572837
+"Yogyakarta"	"ID"	636660
+"Pekanbaru"	"ID"	703956
+"Malang"	"ID"	746716
+"Bogor"	"ID"	800000
+"Bandar Lampung"	"ID"	800348
+"Denpasar"	"ID"	834881
+"Padang"	"ID"	840352
+"Depok"	"ID"	1198129
+"Semarang"	"ID"	1288084
+"South Tangerang"	"ID"	1303569
+"Makassar"	"ID"	1321717
+"Tangerang"	"ID"	1372124
+"Palembang"	"ID"	1441500
+"Bekasi"	"ID"	1520119
+"Bandung"	"ID"	1699719
+"Medan"	"ID"	1750971
+"Surabaya"	"ID"	2374658
+"Jakarta"	"ID"	8540121
+"Gaillimh"	"IE"	70686
+"Luimneach"	"IE"	90054
+"Dun Laoghaire"	"IE"	185400
+"Cork"	"IE"	190384
+"Dublin"	"IE"	1024027
+"Lod"	"IL"	66589
+"Bet Shemesh"	"IL"	67100
+"Hadera"	"IL"	75854
+"Modiin"	"IL"	76466
+"Kfar Saba"	"IL"	80773
+"Herzliyya"	"IL"	83600
+"Ashqelon"	"IL"	105995
+"Ramat Gan"	"IL"	128095
+"Bat Yam"	"IL"	128979
+"Bene Beraq"	"IL"	154400
+"Holon"	"IL"	165787
+"Netanya"	"IL"	171676
+"Beersheba"	"IL"	186600
+"Rishon LeZiyyon"	"IL"	220492
+"Ashdod"	"IL"	224656
+"Haifa"	"IL"	267300
+"West Jerusalem"	"IL"	400000
+"Jerusalem"	"IL"	801000
+"Mandamarri"	"IN"	66176
+"Chaibasa"	"IN"	66252
+"Goyerkata"	"IN"	66358
+"Rishikesh"	"IN"	66390
+"Krishnagiri"	"IN"	66419
+"Ratangarh"	"IN"	66625
+"Channapatna"	"IN"	66647
+"Bellampalli"	"IN"	66660
+"Anjar"	"IN"	66888
+"Mettupalayam"	"IN"	66944
+"Buldana"	"IN"	66991
+"Jaora"	"IN"	67203
+"Sangamner"	"IN"	67309
+"Harda Khas"	"IN"	67387
+"Araria"	"IN"	67474
+"Jaisalmer"	"IN"	67604
+"Pattukkottai"	"IN"	67982
+"Chamrajnagar"	"IN"	67992
+"Munnar"	"IN"	68000
+"Pithampur"	"IN"	68051
+"Balotra"	"IN"	68120
+"Attili"	"IN"	68196
+"Tanuku"	"IN"	68290
+"Bisalpur"	"IN"	68355
+"Kannangad"	"IN"	68450
+"Keshod"	"IN"	68518
+"Palwancha"	"IN"	68561
+"Visnagar"	"IN"	68619
+"Washim"	"IN"	68622
+"Bargarh"	"IN"	68670
+"Sindhnur"	"IN"	68793
+"Jorhat"	"IN"	69033
+"Basoda"	"IN"	69278
+"Shirpur"	"IN"	69540
+"Tindivanam"	"IN"	69839
+"Talipparamba"	"IN"	69878
+"Payyannur"	"IN"	70069
+"Bapatla"	"IN"	70117
+"Auraiya"	"IN"	70508
+"Dadri"	"IN"	70609
+"Beypore"	"IN"	70751
+"Fazilka"	"IN"	70887
+"Ranaghat"	"IN"	70984
+"Bolpur"	"IN"	70998
+"Kamareddi"	"IN"	71042
+"Vapi"	"IN"	71395
+"Sirsilla"	"IN"	71499
+"Madhubani"	"IN"	71582
+"Pusad"	"IN"	71588
+"Faridpur"	"IN"	71783
+"Chintamani"	"IN"	71798
+"Dharapuram"	"IN"	72291
+"Palghar"	"IN"	72335
+"Ambikapur"	"IN"	72821
+"Valsad"	"IN"	72929
+"Dausa"	"IN"	73034
+"Virudunagar"	"IN"	73273
+"Sikandarabad"	"IN"	73379
+"Gokak"	"IN"	73478
+"Shahabad"	"IN"	73606
+"Karauli"	"IN"	73717
+"Rabkavi"	"IN"	73835
+"Bodhan"	"IN"	73938
+"Bela"	"IN"	73992
+"Ambajogai"	"IN"	74114
+"Pilkhua"	"IN"	74212
+"Sivakasi"	"IN"	74282
+"Srivilliputhur"	"IN"	74370
+"Tikamgarh"	"IN"	74724
+"Ankleshwar"	"IN"	74742
+"Gudur"	"IN"	74851
+"Paloncha"	"IN"	75224
+"Dhrangadhra"	"IN"	75578
+"Khadki"	"IN"	75654
+"Bodinayakkanur"	"IN"	75680
+"Hingoli"	"IN"	75878
+"Ratnagiri"	"IN"	75986
+"Konnagar"	"IN"	76082
+"Baj Baj"	"IN"	76159
+"Jumri Tilaiya"	"IN"	76341
+"Jagdalpur"	"IN"	76465
+"Badagara"	"IN"	76493
+"Nagina"	"IN"	76593
+"Kannauj"	"IN"	76714
+"Manmad"	"IN"	76722
+"Kundla"	"IN"	76809
+"Karur"	"IN"	76915
+"Mawana"	"IN"	76973
+"Dhulian"	"IN"	77070
+"Balrampur"	"IN"	77396
+"Faridkot"	"IN"	77450
+"Daltonganj"	"IN"	77704
+"Kadayanallur"	"IN"	77772
+"Mancheral"	"IN"	77998
+"Harihar"	"IN"	78034
+"Jamui"	"IN"	78181
+"Katoya"	"IN"	78408
+"Bhadohi"	"IN"	78568
+"Koch Bihar"	"IN"	78737
+"Arakkonam"	"IN"	79080
+"Nawabganj"	"IN"	79246
+"Kottagudem"	"IN"	79247
+"Brajarajnagar"	"IN"	79421
+"Jharsuguda"	"IN"	79492
+"Karaikal"	"IN"	79653
+"Anantnag"	"IN"	79821
+"Mansa"	"IN"	80018
+"Balaghat"	"IN"	80360
+"Kairana"	"IN"	80432
+"Udhampur"	"IN"	80447
+"Kotkapura"	"IN"	80741
+"Jeypore"	"IN"	80837
+"Emmiganur"	"IN"	80933
+"Nirmal"	"IN"	80982
+"Khambhat"	"IN"	81328
+"Rayachoti"	"IN"	81433
+"Dhoraji"	"IN"	81445
+"Kadiri"	"IN"	81498
+"Hansi"	"IN"	82407
+"Dhar"	"IN"	82438
+"Jangipur"	"IN"	82548
+"Fatehpur"	"IN"	83170
+"Kavali"	"IN"	83352
+"Ramgarh"	"IN"	83833
+"Dohad"	"IN"	83966
+"Najibabad"	"IN"	84006
+"Anakapalle"	"IN"	84357
+"Bijnor"	"IN"	84593
+"Baruni"	"IN"	84888
+"Aruppukkottai"	"IN"	85369
+"Osmanabad"	"IN"	85521
+"Paramagudi"	"IN"	85695
+"Paradip Garh"	"IN"	85868
+"Kamthi"	"IN"	86213
+"Mayiladuthurai"	"IN"	86660
+"Sardarshahr"	"IN"	86672
+"Madgaon"	"IN"	86818
+"Rajpura"	"IN"	86820
+"Akot"	"IN"	86917
+"Jharia"	"IN"	86938
+"Chirala"	"IN"	87001
+"Tiruchengode"	"IN"	87123
+"Dhamtari"	"IN"	87151
+"Baran"	"IN"	87478
+"Tanda"	"IN"	88073
+"Neyyattinkara"	"IN"	88104
+"Deoband"	"IN"	88171
+"Pollachi"	"IN"	88214
+"Sangrur"	"IN"	88615
+"Contai"	"IN"	88702
+"Mahoba"	"IN"	89170
+"Manjeri"	"IN"	89201
+"Shahdol"	"IN"	89289
+"Tinsukia"	"IN"	89373
+"Muradnagar"	"IN"	89482
+"Barmer"	"IN"	89487
+"Luckeesarai"	"IN"	89500
+"Muktsar"	"IN"	89833
+"Roha"	"IN"	90000
+"Bhandara"	"IN"	90183
+"Vaniyambadi"	"IN"	90288
+"Kovilpatti"	"IN"	90296
+"Valparai"	"IN"	90353
+"Datia"	"IN"	90628
+"Balangir"	"IN"	91241
+"Bagaha"	"IN"	91383
+"Betul"	"IN"	91953
+"Kohima"	"IN"	92113
+"Ballalpur"	"IN"	92146
+"Disa"	"IN"	92224
+"Kalyani"	"IN"	93184
+"Closepet"	"IN"	93528
+"Baraut"	"IN"	93544
+"Banswara"	"IN"	93648
+"Makrana"	"IN"	93904
+"Gudiyatham"	"IN"	93973
+"Chilakalurupet"	"IN"	94011
+"Nagappattinam"	"IN"	94238
+"Khamgaon"	"IN"	94604
+"Mainpuri"	"IN"	94619
+"Kishanganj"	"IN"	94807
+"Parli Vaijnath"	"IN"	94863
+"Khargone"	"IN"	94985
+"Hindaun"	"IN"	95593
+"Pandharpur"	"IN"	95665
+"Sahibganj"	"IN"	95890
+"Aurangabad"	"IN"	95929
+"Buxar"	"IN"	96120
+"Chalisgaon"	"IN"	96381
+"Jahanabad"	"IN"	96387
+"Nawada"	"IN"	96730
+"Nagaur"	"IN"	96847
+"Narasaraopet"	"IN"	97194
+"Tellicherry"	"IN"	97201
+"Bagalkot"	"IN"	97269
+"Amalner"	"IN"	97369
+"Villupuram"	"IN"	97380
+"Hinganghat"	"IN"	97568
+"Shamli"	"IN"	97966
+"Mughal Sarai"	"IN"	98043
+"Ooty"	"IN"	98238
+"Bhadrakh"	"IN"	98648
+"Jagtial"	"IN"	99035
+"Ranibennur"	"IN"	99105
+"Sehore"	"IN"	99284
+"Kasganj"	"IN"	99462
+"Shikohabad"	"IN"	99678
+"Amreli"	"IN"	99742
+"Phagwara"	"IN"	100146
+"Vasco Da Gama"	"IN"	100485
+"Itarsi"	"IN"	100574
+"Nandurbar"	"IN"	100703
+"Jamalpur"	"IN"	100780
+"Udgir"	"IN"	101064
+"Mirialguda"	"IN"	101234
+"Seoni"	"IN"	101379
+"Gondal"	"IN"	101801
+"Ferozepore"	"IN"	102130
+"Marmagao"	"IN"	102345
+"Dhaulpur"	"IN"	102462
+"Begusarai"	"IN"	103060
+"Ghazipur"	"IN"	103095
+"Kashipur"	"IN"	103138
+"Nagda"	"IN"	103501
+"Churu"	"IN"	103533
+"Hosur"	"IN"	103724
+"Bagaha"	"IN"	103855
+"Soyibug"	"IN"	104000
+"Badlapur"	"IN"	104636
+"Barnala"	"IN"	105016
+"Ponnani"	"IN"	105512
+"Khurja"	"IN"	105909
+"Gangawati"	"IN"	106250
+"Chittaurgarh"	"IN"	106710
+"Jalpaiguri"	"IN"	107832
+"Tadepallegudem"	"IN"	108167
+"Bansbaria"	"IN"	108474
+"Madanapalle"	"IN"	108593
+"Sawai Madhopur"	"IN"	108612
+"Hoshangabad"	"IN"	109358
+"Ambur"	"IN"	109873
+"Sultanpur"	"IN"	110368
+"Barsi"	"IN"	110983
+"Navadwip"	"IN"	111123
+"Achalpur"	"IN"	111278
+"Ashoknagar Kalyangarh"	"IN"	111475
+"Chhatarpur"	"IN"	111594
+"Bangaon"	"IN"	111693
+"Suriapet"	"IN"	111729
+"Port Blair"	"IN"	112050
+"Rewari"	"IN"	112079
+"Pudukkottai"	"IN"	112118
+"Chas"	"IN"	112141
+"Mothihari"	"IN"	112144
+"Chanduasi"	"IN"	112635
+"Satara"	"IN"	112793
+"Jhunjhunun"	"IN"	113193
+"Wardha"	"IN"	113759
+"Maler Kotla"	"IN"	113840
+"Dharmavaram"	"IN"	114050
+"Balasore"	"IN"	114321
+"Basti"	"IN"	115115
+"Baidyabati"	"IN"	115504
+"Gudivada"	"IN"	116161
+"Yelahanka"	"IN"	116447
+"Azamgarh"	"IN"	116644
+"Rishra"	"IN"	117014
+"Botad"	"IN"	117053
+"Khanna"	"IN"	117137
+"Patan"	"IN"	117863
+"Morbi"	"IN"	118022
+"Jetpur"	"IN"	118068
+"Uppal Kalan"	"IN"	118259
+"Chicacole"	"IN"	118299
+"Adilabad"	"IN"	118526
+"Damoh"	"IN"	118776
+"Siwan"	"IN"	119181
+"Gangapur"	"IN"	120115
+"Guntakal Junction"	"IN"	120964
+"Raigarh"	"IN"	121278
+"Chikmagalur"	"IN"	121484
+"Vejalpur"	"IN"	121610
+"Bhadreswar"	"IN"	121662
+"Nalgonda"	"IN"	121826
+"Palwal"	"IN"	121965
+"Dibrugarh"	"IN"	122155
+"Puruliya"	"IN"	122533
+"Hardoi"	"IN"	122635
+"Dam Dam"	"IN"	122719
+"Palanpur"	"IN"	123294
+"Mohali"	"IN"	123484
+"Darjiling"	"IN"	123797
+"Rajapalaiyam"	"IN"	124168
+"Gondia"	"IN"	124897
+"Mandsaur"	"IN"	124988
+"Kolar"	"IN"	126441
+"Lalitpur"	"IN"	126475
+"Hathras"	"IN"	126882
+"Bettiah"	"IN"	127008
+"Cuddapah"	"IN"	127010
+"Titagarh"	"IN"	127751
+"Panvel"	"IN"	128046
+"Halisahar"	"IN"	128172
+"Yavatmal"	"IN"	128175
+"Khardah"	"IN"	128346
+"Hassan"	"IN"	128531
+"Udipi"	"IN"	129113
+"Deoria"	"IN"	129570
+"Dehri"	"IN"	129938
+"Moga"	"IN"	130549
+"Abohar"	"IN"	130603
+"Pilibhit"	"IN"	131008
+"Raniganj"	"IN"	131261
+"Kishangarh"	"IN"	131749
+"Godhra"	"IN"	131913
+"Shillong"	"IN"	132842
+"Hindupur"	"IN"	133298
+"Bhuj"	"IN"	133459
+"Gonda City"	"IN"	133583
+"Hajipur"	"IN"	133606
+"Bankura"	"IN"	133966
+"Mandya"	"IN"	134845
+"Chhindwara"	"IN"	134847
+"Robertsonpet"	"IN"	135218
+"Dimapur"	"IN"	135860
+"Kanchrapara"	"IN"	136954
+"Anand"	"IN"	138009
+"Tiruvannamalai"	"IN"	138243
+"Thanesar"	"IN"	138279
+"Chitradurga"	"IN"	138587
+"Kumbakonam"	"IN"	139264
+"Habra"	"IN"	139297
+"Haldwani"	"IN"	139497
+"Vidisha"	"IN"	140045
+"Hazaribag"	"IN"	140063
+"Lakhimpur"	"IN"	140223
+"Kaithal"	"IN"	140604
+"Balurghat"	"IN"	141404
+"Bhimavaram"	"IN"	142967
+"Batala"	"IN"	145468
+"Saharsa"	"IN"	145764
+"Krishnanagar"	"IN"	145926
+"Ambala"	"IN"	146787
+"Erode"	"IN"	147270
+"Barakpur"	"IN"	148174
+"Shantipur"	"IN"	149983
+"Virar"	"IN"	150357
+"Serilingampalle"	"IN"	150525
+"Raj-Nandgaon"	"IN"	150755
+"Tonk"	"IN"	151331
+"Morena"	"IN"	152004
+"Banda"	"IN"	152218
+"Silchar"	"IN"	152393
+"Dinapore"	"IN"	152940
+"Fyzabad"	"IN"	153047
+"Medinipur"	"IN"	153349
+"Bharuch"	"IN"	153528
+"Bahadurgarh"	"IN"	153613
+"Guna"	"IN"	153689
+"Alandur"	"IN"	153775
+"Kanchipuram"	"IN"	155029
+"Hanumangarh"	"IN"	155687
+"Pallavaram"	"IN"	157145
+"Orai"	"IN"	158265
+"Cuddalore"	"IN"	158569
+"Jaigaon"	"IN"	158664
+"Jamuria"	"IN"	160242
+"Madhyamgram"	"IN"	161126
+"Jind"	"IN"	161260
+"Budaun"	"IN"	161555
+"Unnao"	"IN"	161671
+"Gadag"	"IN"	162569
+"Sambalpur"	"IN"	162887
+"Adoni"	"IN"	163631
+"Bhadravati"	"IN"	163903
+"Shivpuri"	"IN"	164215
+"Sitapur"	"IN"	164435
+"Loni"	"IN"	164810
+"Nandyal"	"IN"	165337
+"Gandhidham"	"IN"	166388
+"Fatehpur"	"IN"	166480
+"Jaunpur"	"IN"	169572
+"Ingraj Bazar"	"IN"	170039
+"Raiganj"	"IN"	170252
+"Khammam"	"IN"	170503
+"Haldia"	"IN"	170695
+"Puri"	"IN"	170841
+"Ongole"	"IN"	172872
+"Shimla"	"IN"	173503
+"Bhind"	"IN"	174035
+"Pathankot"	"IN"	174306
+"Tambaram"	"IN"	174787
+"Amroha"	"IN"	176253
+"Alleppey"	"IN"	176783
+"Hugli"	"IN"	177005
+"Vellore"	"IN"	177081
+"Proddatur"	"IN"	177797
+"Vizianagaram"	"IN"	179358
+"Surendranagar"	"IN"	179628
+"Baharampur"	"IN"	180547
+"Chandannagar"	"IN"	180623
+"Sirsa"	"IN"	181639
+"Bahraigh"	"IN"	182218
+"Khandwa"	"IN"	182841
+"Bhusaval"	"IN"	183001
+"Ellore"	"IN"	183387
+"Sujangarh"	"IN"	183808
+"Junagadh"	"IN"	184447
+"Singrauli"	"IN"	185580
+"Haridwar"	"IN"	186079
+"Raebareli"	"IN"	186433
+"Kultali"	"IN"	187942
+"Bhiwani"	"IN"	190855
+"Katihar"	"IN"	192555
+"Machilipatnam"	"IN"	192827
+"Nangloi Jat"	"IN"	194363
+"Murwara"	"IN"	195856
+"Ghandinagar"	"IN"	195985
+"Sambhal"	"IN"	196109
+"Gurgaon"	"IN"	197340
+"Hospet"	"IN"	197846
+"Purnia"	"IN"	198453
+"Bulandshahr"	"IN"	198612
+"Sikar"	"IN"	199932
+"Dindigul"	"IN"	200797
+"Chapra"	"IN"	201597
+"Nadiad"	"IN"	202067
+"Burhanpur"	"IN"	202695
+"Monghyr"	"IN"	203163
+"Agartala"	"IN"	203264
+"Bidar"	"IN"	204071
+"Secunderabad"	"IN"	204182
+"Rewa"	"IN"	208461
+"Yamunanagar"	"IN"	208931
+"Pali"	"IN"	210103
+"Nagercoil"	"IN"	213858
+"Amarnath"	"IN"	217780
+"Thanjavur"	"IN"	219571
+"Dhanbad"	"IN"	219636
+"Kharagpur"	"IN"	219665
+"Mirzapur"	"IN"	220029
+"Gosaba"	"IN"	222764
+"Imphal"	"IN"	223523
+"Arrah"	"IN"	223676
+"Karnal"	"IN"	225049
+"Quthbullapur"	"IN"	225816
+"Raichur"	"IN"	225962
+"Shrirampur"	"IN"	226317
+"Puducherry"	"IN"	227411
+"Karimnagar"	"IN"	228745
+"Bharatpur"	"IN"	229384
+"Ganganagar"	"IN"	231838
+"Ramagundam"	"IN"	235000
+"Ratlam"	"IN"	236843
+"Barasat"	"IN"	237783
+"Anantapur"	"IN"	240442
+"Farrukhabad"	"IN"	241152
+"Bathinda"	"IN"	242800
+"Hapur"	"IN"	242920
+"Bihar Sharif"	"IN"	244230
+"Mau"	"IN"	246050
+"Saugor"	"IN"	247333
+"Tiruvottiyur"	"IN"	248059
+"Avadi"	"IN"	250044
+"Sonipat"	"IN"	250521
+"Tirupati"	"IN"	250821
+"Naihati"	"IN"	253221
+"Durg"	"IN"	255283
+"Etawah"	"IN"	257448
+"Satna"	"IN"	257778
+"Gajuwaka"	"IN"	258944
+"Baranagar"	"IN"	260072
+"Dewas"	"IN"	261218
+"Lal Bahadur Nagar"	"IN"	261987
+"Jalna"	"IN"	262034
+"Aizawl"	"IN"	265331
+"Bijapur"	"IN"	271064
+"Ichalkaranji"	"IN"	274383
+"Bilaspur"	"IN"	282705
+"Alwar"	"IN"	283228
+"Darbhanga"	"IN"	287150
+"Parbhani"	"IN"	289629
+"Panipat"	"IN"	292808
+"Kakinada"	"IN"	292923
+"Greater Noida"	"IN"	293908
+"Rampur"	"IN"	296418
+"Hisar"	"IN"	296436
+"Bali"	"IN"	296973
+"Barasat"	"IN"	298127
+"Barddhaman"	"IN"	301725
+"Rajahmundry"	"IN"	304804
+"Kulti"	"IN"	305405
+"Nizamabad"	"IN"	305438
+"Firozabad"	"IN"	306409
+"Tumkur"	"IN"	307359
+"Rohtak"	"IN"	317245
+"New Delhi"	"IN"	317797
+"Shimoga"	"IN"	319550
+"Shahjanpur"	"IN"	320434
+"Brahmapur"	"IN"	324726
+"Trichur"	"IN"	325110
+"Bhilwara"	"IN"	326431
+"Chanda"	"IN"	328351
+"Patiala"	"IN"	329224
+"Mathura"	"IN"	330511
+"Kamarhati"	"IN"	332965
+"Muzaffarpur"	"IN"	333200
+"Bellary"	"IN"	336681
+"Ambattur"	"IN"	341049
+"Kukatpalli"	"IN"	341709
+"Latur"	"IN"	348967
+"Muzaffarnagar"	"IN"	349706
+"Punasa"	"IN"	350000
+"Bhagalpur"	"IN"	361548
+"Dhulia"	"IN"	366980
+"Ahmadnagar"	"IN"	367140
+"Panihati"	"IN"	378705
+"Kollam"	"IN"	394163
+"Tiruppur"	"IN"	397521
+"Nellore"	"IN"	404158
+"Jhansi"	"IN"	412927
+"Mangalore"	"IN"	417387
+"Bokaro"	"IN"	418533
+"Korba"	"IN"	419146
+"Udaipur"	"IN"	422784
+"Gaya"	"IN"	423692
+"Belgaum"	"IN"	428720
+"Akola"	"IN"	428857
+"Jalgaon"	"IN"	429298
+"Malegaon"	"IN"	435362
+"Tirunelveli"	"IN"	435844
+"Kozhikode"	"IN"	439922
+"Nangi"	"IN"	440894
+"Shyamnagar"	"IN"	441956
+"Ramgundam"	"IN"	452261
+"Ujjain"	"IN"	457346
+"Jammu"	"IN"	465567
+"Bhatpara"	"IN"	483129
+"Gulbarga"	"IN"	483615
+"Saharanpur"	"IN"	484873
+"Jamnagar"	"IN"	492056
+"Asansol"	"IN"	504271
+"Karol Bagh"	"IN"	505241
+"Bilimora"	"IN"	510879
+"Shiliguri"	"IN"	515574
+"Kolhapur"	"IN"	516142
+"Ulhasnagar"	"IN"	516584
+"Ajmer"	"IN"	517911
+"Durgapur"	"IN"	518872
+"Bhayandar"	"IN"	520301
+"Dehra Dun"	"IN"	522081
+"Guntur"	"IN"	530577
+"Nanded"	"IN"	550564
+"Bhavnagar"	"IN"	554978
+"Warangal"	"IN"	557802
+"Bikaner"	"IN"	576015
+"Cuttack"	"IN"	580000
+"Sangli"	"IN"	601214
+"Amravati"	"IN"	603837
+"Cochin"	"IN"	604696
+"Borivli"	"IN"	609617
+"Jamshedpur"	"IN"	616338
+"Bhilai"	"IN"	625138
+"Gorakhpur"	"IN"	674246
+"Raipur"	"IN"	679995
+"Bhiwandi"	"IN"	707035
+"Moradabad"	"IN"	721139
+"Bareilly"	"IN"	745435
+"Aligarh"	"IN"	753207
+"Bhubaneshwar"	"IN"	762243
+"Kota"	"IN"	763088
+"Tiruchirappalli"	"IN"	775484
+"Salem"	"IN"	778396
+"Thiruvananthapuram"	"IN"	784153
+"Jalandhar"	"IN"	785178
+"Hubli"	"IN"	840214
+"Ranchi"	"IN"	846454
+"Mysore"	"IN"	868313
+"Vijayawada"	"IN"	874587
+"Gwalior"	"IN"	882458
+"Guwahati"	"IN"	899094
+"Madurai"	"IN"	909908
+"Jodhpur"	"IN"	921476
+"Coimbatore"	"IN"	959823
+"Chandigarh"	"IN"	960787
+"Srinagar"	"IN"	975857
+"Solapur"	"IN"	997281
+"Aurangabad"	"IN"	1016441
+"Haora"	"IN"	1027672
+"Jabalpur"	"IN"	1030168
+"Teni"	"IN"	1034724
+"Visakhapatnam"	"IN"	1063178
+"Allahabad"	"IN"	1073438
+"Amritsar"	"IN"	1092450
+"Varanasi"	"IN"	1164404
+"Rajkot"	"IN"	1177362
+"Dombivli"	"IN"	1193000
+"Ghaziabad"	"IN"	1199191
+"Faridabad"	"IN"	1220229
+"Nowrangapur"	"IN"	1220946
+"Meerut"	"IN"	1223184
+"Thane"	"IN"	1261517
+"Kalyan"	"IN"	1262255
+"Pimpri"	"IN"	1284606
+"Nashik"	"IN"	1289497
+"Gorakhpur"	"IN"	1324570
+"Vadodara"	"IN"	1409476
+"Agra"	"IN"	1430055
+"Ludhiana"	"IN"	1545368
+"Bhopal"	"IN"	1599914
+"Patna"	"IN"	1599920
+"Indore"	"IN"	1837041
+"Nagpur"	"IN"	2228018
+"Lucknow"	"IN"	2472011
+"Jaipur"	"IN"	2711758
+"Kanpur"	"IN"	2823249
+"Surat"	"IN"	2894504
+"Pune"	"IN"	2935744
+"Hyderabad"	"IN"	3597816
+"Ahmedabad"	"IN"	3719710
+"Chennai"	"IN"	4328063
+"Kolkata"	"IN"	4631392
+"Bengaluru"	"IN"	5104047
+"Delhi"	"IN"	10927986
+"Mumbai"	"IN"	12691836
+"Khalis"	"IQ"	70046
+"Jamjamal"	"IQ"	75634
+"Al Hayy"	"IQ"	78272
+"Ash Shatrah"	"IQ"	82732
+"Al Harithah"	"IQ"	92395
+"Zaxo"	"IQ"	95052
+"Al Faw"	"IQ"	104569
+"Umm Qasr"	"IQ"	107620
+"Az Zubayr"	"IQ"	122676
+"Sinah"	"IQ"	128776
+"Baqubah"	"IQ"	152550
+"As Samawah"	"IQ"	152890
+"Samarra'"	"IQ"	158508
+"Al Fallujah"	"IQ"	190159
+"Ramadi"	"IQ"	274539
+"Dihok"	"IQ"	284000
+"Al Hillah"	"IQ"	289709
+"Al Kut"	"IQ"	315162
+"Ad Diwaniyah"	"IQ"	318801
+"Al 'Amarah"	"IQ"	323302
+"Nasiriyah"	"IQ"	400249
+"Karbala"	"IQ"	434450
+"Najaf"	"IQ"	482576
+"Kirkuk"	"IQ"	601433
+"As Sulaymaniyah"	"IQ"	723170
+"Erbil"	"IQ"	932800
+"Mosul"	"IQ"	1739800
+"Al Basrah al Qadimah"	"IQ"	2015483
+"Al Mawsil al Jadidah"	"IQ"	2065597
+"Baghdad"	"IQ"	7216000
+"Firuzabad"	"IR"	66558
+"Damghan"	"IR"	67694
+"Langarud"	"IR"	68148
+"Khash"	"IR"	69603
+"Chalus"	"IR"	69638
+"Dehdasht"	"IR"	69726
+"Abhar"	"IR"	69889
+"Minab"	"IR"	70790
+"Nurabad"	"IR"	73528
+"Alvand"	"IR"	74889
+"Nahavand"	"IR"	76250
+"Khomeyn"	"IR"	77425
+"Shushtar"	"IR"	77507
+"Behbahan"	"IR"	79327
+"Bonab"	"IR"	80359
+"Salmas"	"IR"	81606
+"Shirvan"	"IR"	82790
+"Borazjan"	"IR"	86059
+"Qorveh"	"IR"	87953
+"Aligudarz"	"IR"	91041
+"Marivan"	"IR"	91664
+"Behshahr"	"IR"	93500
+"Ahar"	"IR"	94348
+"Kazerun"	"IR"	94511
+"Dogonbadan"	"IR"	94638
+"Kashmar"	"IR"	96151
+"Yasuj"	"IR"	96786
+"Fasa"	"IR"	98061
+"Akbarabad"	"IR"	98342
+"Bam"	"IR"	99268
+"Kuhdasht"	"IR"	100208
+"Shahreza"	"IR"	100790
+"Parsabad"	"IR"	101661
+"Baneh"	"IR"	104799
+"Bandar-e Anzali"	"IR"	110826
+"Masjed Soleyman"	"IR"	111510
+"Quchan"	"IR"	111752
+"Zabol"	"IR"	121989
+"Marand"	"IR"	124191
+"Semnan"	"IR"	124826
+"Torbat-e Heydariyeh"	"IR"	125633
+"Shahr-e Kord"	"IR"	129153
+"Iranshahr"	"IR"	131232
+"Gonbad-e Kavus"	"IR"	131416
+"Shahrud"	"IR"	131889
+"Miandoab"	"IR"	132819
+"Ilam"	"IR"	140940
+"Rafsanjan"	"IR"	147680
+"Saqqez"	"IR"	151237
+"Mahabad"	"IR"	162434
+"Bandar-e Bushehr"	"IR"	165377
+"Khvoy"	"IR"	175370
+"Saveh"	"IR"	175533
+"Malayer"	"IR"	176573
+"Varamin"	"IR"	179603
+"Bojnurd"	"IR"	192041
+"Birjand"	"IR"	196982
+"Amol"	"IR"	199382
+"Babol"	"IR"	202796
+"Sirjan"	"IR"	207645
+"Bukan"	"IR"	213331
+"Nazarabad"	"IR"	213388
+"Nishabur"	"IR"	220929
+"Najafabad"	"IR"	223450
+"Sabzevar"	"IR"	226183
+"Gorgan"	"IR"	244937
+"Qarchak"	"IR"	251834
+"Borujerd"	"IR"	251958
+"Sari"	"IR"	255396
+"Khomeyni Shahr"	"IR"	277334
+"Khorramabad"	"IR"	329825
+"Khorramshahr"	"IR"	330606
+"Qazvin"	"IR"	333635
+"Sanandaj"	"IR"	349176
+"Bandar Abbas"	"IR"	352173
+"Zanjan"	"IR"	357471
+"Abadan"	"IR"	370180
+"Ardabil"	"IR"	410753
+"Yazd"	"IR"	477905
+"Arak"	"IR"	503647
+"Azadshahr"	"IR"	514102
+"Hamadan"	"IR"	528256
+"Zahedan"	"IR"	551980
+"Orumiyeh"	"IR"	577307
+"Kerman"	"IR"	577514
+"Rasht"	"IR"	594590
+"Kermanshah"	"IR"	621100
+"Kahriz"	"IR"	766706
+"Pasragad Branch"	"IR"	787878
+"Ahvaz"	"IR"	841145
+"Shiraz"	"IR"	1249942
+"Tabriz"	"IR"	1424641
+"Karaj"	"IR"	1448075
+"Isfahan"	"IR"	1547164
+"Mashhad"	"IR"	2307177
+"Tehran"	"IR"	7153309
+"Reykjavik"	"IS"	118918
+"Quartu Sant'Elena"	"IT"	66620
+"Guidonia Montecelio"	"IT"	67516
+"Altamura"	"IT"	67821
+"Lamezia Terme"	"IT"	70501
+"Cinisello Balsamo"	"IT"	71109
+"Caserta"	"IT"	72844
+"Pistoia"	"IT"	73832
+"Gela"	"IT"	73854
+"Latina"	"IT"	76305
+"Arezzo"	"IT"	76346
+"Sesto San Giovanni"	"IT"	76509
+"Varese"	"IT"	76851
+"Pisa"	"IT"	77007
+"Pesaro"	"IT"	77241
+"Treviso"	"IT"	77604
+"Marsala"	"IT"	77915
+"Brindisi"	"IT"	78548
+"Catanzaro"	"IT"	78970
+"Cesena"	"IT"	79398
+"Lido di Ostia"	"IT"	79400
+"Busto Arsizio"	"IT"	79519
+"Giugliano in Campania"	"IT"	80269
+"Trento"	"IT"	80425
+"Lecce"	"IT"	80695
+"Ravenna"	"IT"	80868
+"Lucca"	"IT"	81748
+"Como"	"IT"	81975
+"Torre del Greco"	"IT"	85897
+"La Spezia"	"IT"	88491
+"Ancona"	"IT"	89994
+"Sassari"	"IT"	91895
+"Ferrara"	"IT"	92802
+"Piacenza"	"IT"	93228
+"Barletta"	"IT"	93279
+"Novara"	"IT"	93295
+"Forli"	"IT"	93638
+"Terni"	"IT"	97050
+"Siracusa"	"IT"	97472
+"Udine"	"IT"	97761
+"Bolzano"	"IT"	99049
+"Vicenza"	"IT"	107129
+"Bergamo"	"IT"	114162
+"Pescara"	"IT"	116596
+"Rimini"	"IT"	118673
+"Monza"	"IT"	119618
+"Perugia"	"IT"	120137
+"Salerno"	"IT"	125797
+"Acilia-Castel Fusano-Ostia Antica"	"IT"	129362
+"Reggio nell'Emilia"	"IT"	133296
+"Foggia"	"IT"	137032
+"Parma"	"IT"	146299
+"Mestre"	"IT"	147662
+"Cagliari"	"IT"	149257
+"Livorno"	"IT"	153773
+"Modena"	"IT"	158886
+"Reggio Calabria"	"IT"	169140
+"Taranto"	"IT"	181082
+"Prato"	"IT"	181820
+"Brescia"	"IT"	184826
+"Trieste"	"IT"	187056
+"Padova"	"IT"	203725
+"Verona"	"IT"	219103
+"Messina"	"IT"	219948
+"Bari"	"IT"	277387
+"Catania"	"IT"	290927
+"Florence"	"IT"	349296
+"Bologna"	"IT"	366133
+"Genoa"	"IT"	580223
+"Palermo"	"IT"	648260
+"Turin"	"IT"	870456
+"Naples"	"IT"	959470
+"Milan"	"IT"	1236837
+"Rome"	"IT"	2318895
+"Montego Bay"	"JM"	82867
+"Portmore"	"JM"	102861
+"Spanish Town"	"JM"	145018
+"New Kingston"	"JM"	583958
+"Kingston"	"JM"	937700
+"Ar Ramtha"	"JO"	74901
+"As Salt"	"JO"	80189
+"Ma'daba"	"JO"	82335
+"Aqaba"	"JO"	95048
+"'Ajlun"	"JO"	125557
+"Wadi as Sir"	"JO"	181212
+"Russeifa"	"JO"	268237
+"Irbid"	"JO"	307480
+"Zarqa"	"JO"	792665
+"Amman"	"JO"	1275857
+"Sabae"	"JP"	66291
+"Togane"	"JP"	66332
+"Takayama"	"JP"	66636
+"Chiryu"	"JP"	67062
+"Shiojiri"	"JP"	67159
+"Nakatsu"	"JP"	67372
+"Tsushima"	"JP"	67658
+"Tamano"	"JP"	67786
+"Matsuto"	"JP"	68159
+"Tsuruga"	"JP"	68482
+"Moriyama"	"JP"	68584
+"Fukuchiyama"	"JP"	68735
+"Sukagawa"	"JP"	68790
+"Hekinan"	"JP"	68872
+"Saku"	"JP"	68885
+"Omihachiman"	"JP"	69189
+"Tanabe"	"JP"	69563
+"Maebaru-chuo"	"JP"	70339
+"Dazaifu"	"JP"	70587
+"Tenri"	"JP"	71052
+"Yukuhashi"	"JP"	71277
+"Kazo"	"JP"	71291
+"Ito"	"JP"	71578
+"Yawata"	"JP"	71656
+"Hanamaki"	"JP"	73115
+"Satsumasendai"	"JP"	73132
+"Kukichuo"	"JP"	73373
+"Inuyama"	"JP"	73995
+"Miki"	"JP"	74701
+"Okegawa"	"JP"	75062
+"Takefu"	"JP"	75753
+"Shimada"	"JP"	75781
+"Furukawa"	"JP"	76312
+"Tsurusaki"	"JP"	76968
+"Hatsukaichi"	"JP"	77341
+"Wako"	"JP"	77435
+"Obu"	"JP"	77864
+"Iizuka"	"JP"	78206
+"Karatsu"	"JP"	78330
+"Kashihara"	"JP"	79058
+"Mihara"	"JP"	80387
+"Toride"	"JP"	80716
+"Izumiotsu"	"JP"	80772
+"Gamagori"	"JP"	80786
+"Shibata"	"JP"	80793
+"Tatebayashi"	"JP"	81274
+"Yashio-shi"	"JP"	81345
+"Marugame"	"JP"	82090
+"Tanashicho"	"JP"	82112
+"Tochigi"	"JP"	82133
+"Sano"	"JP"	82535
+"Sanjo"	"JP"	82893
+"Kamigyo-ku"	"JP"	83000
+"Katori-shi"	"JP"	83181
+"Yachimata"	"JP"	83322
+"Gotenba"	"JP"	83794
+"Kakegawa"	"JP"	84004
+"Iwamizawa"	"JP"	85107
+"Ryugasaki"	"JP"	85761
+"Kashiwazaki"	"JP"	86183
+"Hanno"	"JP"	86262
+"Gyoda"	"JP"	86343
+"Hamakita"	"JP"	86502
+"Yotsukaido"	"JP"	86701
+"Nabari"	"JP"	88128
+"Konosu"	"JP"	88493
+"Iwata"	"JP"	88509
+"Ashiya"	"JP"	88573
+"Izumo"	"JP"	89286
+"Tsuyama"	"JP"	89717
+"Omura"	"JP"	89918
+"Onomichi"	"JP"	90936
+"Ginowan"	"JP"	91800
+"Kimitsu"	"JP"	92126
+"Maizuru"	"JP"	92465
+"Kaizuka"	"JP"	92632
+"Chitose"	"JP"	92942
+"Kitakami"	"JP"	93854
+"Yonezawa"	"JP"	94486
+"Kanuma"	"JP"	94903
+"Onojo"	"JP"	94957
+"Muroran"	"JP"	96197
+"Sakado"	"JP"	96656
+"Kameoka"	"JP"	97181
+"Ise"	"JP"	97314
+"Mobara"	"JP"	97315
+"Isahaya"	"JP"	97371
+"Ikeda"	"JP"	99476
+"Tsuruoka"	"JP"	99820
+"Chikushino-shi"	"JP"	100353
+"Konan"	"JP"	100389
+"Sakata"	"JP"	100446
+"Tokuyama"	"JP"	101133
+"Nishio"	"JP"	103337
+"Isehara"	"JP"	103401
+"Iwakuni"	"JP"	104004
+"Honmachi"	"JP"	104341
+"Fukayacho"	"JP"	106595
+"Iida"	"JP"	107111
+"Tajimi"	"JP"	107818
+"Iwatsuki"	"JP"	108833
+"Komatsu"	"JP"	109045
+"Kiryu"	"JP"	110219
+"Hikone"	"JP"	110925
+"Kitami"	"JP"	113137
+"Mishima"	"JP"	113479
+"Handa"	"JP"	116119
+"Hofu"	"JP"	116925
+"Ishinomaki"	"JP"	117233
+"Ikoma"	"JP"	117601
+"Kokubunji"	"JP"	118682
+"Shimotoda"	"JP"	118731
+"Toyokawa"	"JP"	120537
+"Yaizu"	"JP"	121057
+"Noda"	"JP"	121411
+"Fujinomiya"	"JP"	121515
+"Nobeoka"	"JP"	121949
+"Kisarazu"	"JP"	122524
+"Niihama"	"JP"	123059
+"Kashihara-shi"	"JP"	124521
+"Beppu"	"JP"	125065
+"Okinawa"	"JP"	125483
+"Ueda"	"JP"	126606
+"Kusatsu"	"JP"	127680
+"Asaka"	"JP"	128058
+"Mino"	"JP"	129127
+"Daitocho"	"JP"	129521
+"Isesaki"	"JP"	130692
+"Matsubara"	"JP"	130855
+"Miyakonojo"	"JP"	130994
+"Kadoma"	"JP"	131727
+"Abiko"	"JP"	131771
+"Omuta"	"JP"	131974
+"Kakamigahara"	"JP"	132241
+"Sandacho"	"JP"	132858
+"Fujieda"	"JP"	132859
+"Tondabayashicho"	"JP"	132873
+"Ebetsu"	"JP"	133953
+"Seto"	"JP"	134246
+"Zama"	"JP"	134671
+"Musashino"	"JP"	137479
+"Kariya"	"JP"	139159
+"Yonago"	"JP"	141368
+"Urayasu"	"JP"	143758
+"Otaru"	"JP"	143792
+"Yamaguchi"	"JP"	145515
+"Moriguchi"	"JP"	148350
+"Ome"	"JP"	149323
+"Higashimurayama-shi"	"JP"	150556
+"Ogaki"	"JP"	150570
+"Komaki"	"JP"	151025
+"Ota"	"JP"	152104
+"Tottori"	"JP"	154098
+"Kumagaya"	"JP"	155813
+"Katsuta"	"JP"	155968
+"Nagareyama"	"JP"	156000
+"Matsue"	"JP"	156811
+"Ashikaga"	"JP"	159671
+"Oyama"	"JP"	159936
+"Kawanishi"	"JP"	160520
+"Sayama"	"JP"	160843
+"Tsu"	"JP"	163461
+"Saga"	"JP"	165236
+"Kamakura"	"JP"	166016
+"Takaoka"	"JP"	170077
+"Hino"	"JP"	171777
+"Ube"	"JP"	173733
+"Obihiro"	"JP"	173890
+"Hadano"	"JP"	174281
+"Tomakomai"	"JP"	174806
+"Hirosaki"	"JP"	174972
+"Tsukuba"	"JP"	175589
+"Anjo"	"JP"	178402
+"Kamirenjaku"	"JP"	178739
+"Sakura"	"JP"	182549
+"Mitaka-shi"	"JP"	182901
+"Kushiro"	"JP"	183612
+"Hitachi"	"JP"	186307
+"Izumi"	"JP"	189085
+"Kofu"	"JP"	190000
+"Suzuka"	"JP"	191477
+"Uji"	"JP"	192925
+"Itami"	"JP"	193524
+"Nishi-Tokyo-shi"	"JP"	195164
+"Nagaoka"	"JP"	195318
+"Kure"	"JP"	196624
+"Odawara"	"JP"	203035
+"Joetsu"	"JP"	204137
+"Numazu"	"JP"	204318
+"Kishiwada"	"JP"	205561
+"Kasukabe"	"JP"	206915
+"Matsumoto"	"JP"	210667
+"Chofugaoka"	"JP"	212977
+"Ageoshimo"	"JP"	219401
+"Takarazuka"	"JP"	219789
+"Minamirinkan"	"JP"	224015
+"Atsugi"	"JP"	229199
+"Soka"	"JP"	231445
+"Chigasaki"	"JP"	231657
+"Sasebo"	"JP"	237444
+"Kurume"	"JP"	238197
+"Neyagawa"	"JP"	238549
+"Hachinohe"	"JP"	239046
+"Fuji"	"JP"	240014
+"Takasaki"	"JP"	240857
+"Shimonoseki"	"JP"	245786
+"Mito"	"JP"	246538
+"Fukui-shi"	"JP"	248707
+"Yamagata"	"JP"	254538
+"Hiratsuka"	"JP"	259052
+"Tokushima"	"JP"	267345
+"Kakogawacho-honmachi"	"JP"	271634
+"Yao"	"JP"	273213
+"Ibaraki"	"JP"	273992
+"Hakodate"	"JP"	275730
+"Ichinomiya"	"JP"	280331
+"Maebashi"	"JP"	282711
+"Ichihara"	"JP"	283531
+"Fukushima"	"JP"	294237
+"Morioka"	"JP"	295172
+"Yokkaichi"	"JP"	295841
+"Akashi"	"JP"	297279
+"Otsu"	"JP"	298164
+"Aomorishi"	"JP"	298394
+"Kasugai"	"JP"	298589
+"Naha"	"JP"	300795
+"Miyazaki"	"JP"	311203
+"Koshigaya"	"JP"	317437
+"Akita"	"JP"	320069
+"Toyama"	"JP"	325532
+"Akita"	"JP"	325837
+"Takamatsu"	"JP"	334223
+"Kochi"	"JP"	335570
+"Kawagoe"	"JP"	337931
+"Tokorozawa"	"JP"	339435
+"Kashiwa"	"JP"	340221
+"Koriyama"	"JP"	340560
+"Wakayama"	"JP"	351000
+"Suita"	"JP"	351630
+"Okazaki"	"JP"	352361
+"Takatsuki"	"JP"	354468
+"Asahikawa"	"JP"	356612
+"Iwaki"	"JP"	357309
+"Nagano"	"JP"	360176
+"Toyota"	"JP"	362383
+"Nara-shi"	"JP"	367353
+"Minato"	"JP"	375339
+"Toyohashi"	"JP"	378374
+"Fukuyama"	"JP"	383298
+"Toyonaka"	"JP"	384459
+"Fujisawa"	"JP"	394624
+"Gifu-shi"	"JP"	397714
+"Machida"	"JP"	399969
+"Hirakata"	"JP"	406331
+"Nagasaki"	"JP"	410204
+"Yokosuka"	"JP"	428992
+"Kurashiki"	"JP"	437581
+"Amagasaki"	"JP"	442173
+"Matsuyama"	"JP"	443322
+"Oita"	"JP"	448907
+"Utsunomiya"	"JP"	449865
+"Kanazawa"	"JP"	458937
+"Kawaguchi"	"JP"	468565
+"Nishinomiya-hama"	"JP"	468925
+"Matsudo"	"JP"	470277
+"Himeji"	"JP"	481493
+"Niigata"	"JP"	505272
+"Kagoshima"	"JP"	555352
+"Honcho"	"JP"	560743
+"Hachioji"	"JP"	579399
+"Hamamatsu"	"JP"	605098
+"Okayama"	"JP"	639652
+"Kumamoto"	"JP"	680423
+"Shizuoka"	"JP"	701561
+"Sakai"	"JP"	782339
+"Chiba"	"JP"	919729
+"Kitakyushu"	"JP"	997536
+"Sendai"	"JP"	1063103
+"Yono"	"JP"	1077730
+"Hiroshima"	"JP"	1143841
+"Saitama"	"JP"	1193350
+"Kawasaki"	"JP"	1306785
+"Fukuoka"	"JP"	1392289
+"Kyoto"	"JP"	1459640
+"Kobe"	"JP"	1528478
+"Sapporo"	"JP"	1883027
+"Nagoya"	"JP"	2191279
+"Osaka"	"JP"	2592413
+"Yokohama"	"JP"	3574443
+"Tokyo"	"JP"	8336599
+"Garissa"	"KE"	67861
+"Kitale"	"KE"	75123
+"Malindi"	"KE"	118265
+"Kisumu"	"KE"	216479
+"Eldoret"	"KE"	218446
+"Nakuru"	"KE"	259903
+"Mombasa"	"KE"	799668
+"Nairobi"	"KE"	2750547
+"Jalal-Abad"	"KG"	75700
+"Osh City"	"KG"	255900
+"Kampong Chhnang"	"KH"	75244
+"Paoy Paet"	"KH"	79000
+"Siem Reap"	"KH"	139458
+"Battambang"	"KH"	150444
+"Sihanoukville"	"KH"	156691
+"Takeo"	"KH"	843931
+"Phnom Penh"	"KH"	1573544
+"Rajin"	"KP"	66224
+"Hongwon"	"KP"	70923
+"Yuktae-dong"	"KP"	76427
+"Hyesan-dong"	"KP"	97794
+"Songnim"	"KP"	152425
+"Hyesan"	"KP"	192680
+"Kanggye"	"KP"	209530
+"Haeju"	"KP"	222396
+"Sinuiju"	"KP"	288112
+"Sariwon"	"KP"	310100
+"Chongjin"	"KP"	327000
+"Wonsan"	"KP"	329207
+"Kaesong"	"KP"	338155
+"Hungnam"	"KP"	346082
+"Namp'o"	"KP"	455000
+"Hamhung"	"KP"	559056
+"Pyongyang"	"KP"	3222000
+"Anseong"	"KR"	69255
+"Yangsan"	"KR"	71936
+"Kyosai"	"KR"	72124
+"Gongju"	"KR"	72435
+"Seosan"	"KR"	74208
+"Changnyeong"	"KR"	74668
+"Hongch'on"	"KR"	75251
+"Muan"	"KR"	75718
+"Naeso"	"KR"	80987
+"Mungyeong"	"KR"	81525
+"Gwangju"	"KR"	81780
+"Sinhyeon"	"KR"	82560
+"Ungsang"	"KR"	83360
+"Yangp'yong"	"KR"	83367
+"Wanju"	"KR"	84009
+"Eisen"	"KR"	84625
+"Sokcho"	"KR"	89047
+"Hongsung"	"KR"	89174
+"Kwangyang"	"KR"	89281
+"Namyangju"	"KR"	90798
+"Wabu"	"KR"	96775
+"Asan"	"KR"	97749
+"Tonghae"	"KR"	101128
+"Hwado"	"KR"	106358
+"Andong"	"KR"	129319
+"Gyeongsan-si"	"KR"	129903
+"Hanam"	"KR"	134902
+"Kyonju"	"KR"	155237
+"Seogwipo"	"KR"	155691
+"Osan"	"KR"	158978
+"Yangju"	"KR"	179923
+"Kang-neung"	"KR"	180611
+"Guri-si"	"KR"	195236
+"Icheon-si"	"KR"	196230
+"Chuncheon"	"KR"	209746
+"Sejong"	"KR"	230327
+"Suncheon"	"KR"	230796
+"Wonju"	"KR"	243387
+"Gunsan"	"KR"	243406
+"Moppo"	"KR"	268402
+"Iksan"	"KR"	283501
+"Gumi"	"KR"	291006
+"Yeosu"	"KR"	295538
+"Chinju"	"KR"	307242
+"Kimhae"	"KR"	356242
+"Kwangmyong"	"KR"	357545
+"Cheonan"	"KR"	365114
+"Jeju City"	"KR"	408364
+"Hwaseong-si"	"KR"	476297
+"Uijeongbu-si"	"KR"	479141
+"Pohang"	"KR"	500000
+"Changwon"	"KR"	550000
+"Anyang-si"	"KR"	634367
+"Cheongju-si"	"KR"	634596
+"Ansan-si"	"KR"	650728
+"Jeonju"	"KR"	711424
+"Bucheon-si"	"KR"	850731
+"Ulsan"	"KR"	962865
+"Seongnam-si"	"KR"	1031935
+"Goyang-si"	"KR"	1073069
+"Suwon-si"	"KR"	1242724
+"Gwangju"	"KR"	1416938
+"Daejeon"	"KR"	1475221
+"Daegu"	"KR"	2566540
+"Incheon"	"KR"	2628000
+"Busan"	"KR"	3678555
+"Seoul"	"KR"	10349312
+"Al Farwaniyah"	"KW"	86525
+"Sabah as Salim"	"KW"	139163
+"As Salimiyah"	"KW"	147649
+"Hawalli"	"KW"	164212
+"Al Ahmadi"	"KW"	637411
+"Sarkand"	"KZ"	76919
+"Balqash"	"KZ"	81364
+"Turkestan"	"KZ"	97360
+"Zhanaozen"	"KZ"	103598
+"Zhezqazghan"	"KZ"	104357
+"Taldykorgan"	"KZ"	116558
+"Ekibastuz"	"KZ"	121470
+"Rudnyy"	"KZ"	124000
+"Kokshetau"	"KZ"	124444
+"Aktau"	"KZ"	147443
+"Temirtau"	"KZ"	170600
+"Atyrau"	"KZ"	180000
+"Petropavl"	"KZ"	200920
+"Aqtobe"	"KZ"	262457
+"Semey"	"KZ"	292780
+"Ust-Kamenogorsk"	"KZ"	319067
+"Pavlodar"	"KZ"	329002
+"Astana"	"KZ"	345604
+"Taraz"	"KZ"	358153
+"Shymkent"	"KZ"	414032
+"Karagandy"	"KZ"	451800
+"Almaty"	"KZ"	2000900
+"Savannakhet"	"LA"	66553
+"Pakse"	"LA"	88332
+"Vientiane"	"LA"	196731
+"Zahle"	"LB"	78145
+"Jounieh"	"LB"	96315
+"Habbouch"	"LB"	98433
+"Tyre"	"LB"	135204
+"Sidon"	"LB"	163554
+"Tripoli"	"LB"	229398
+"Ra's Bayrut"	"LB"	1251739
+"Beirut"	"LB"	1916100
+"Dambulla"	"LK"	66716
+"Battaramulla South"	"LK"	75633
+"Matara"	"LK"	76254
+"Valvedditturai"	"LK"	78205
+"Katunayaka"	"LK"	84643
+"Point Pedro"	"LK"	89810
+"Galle"	"LK"	93118
+"Kalmunai"	"LK"	100171
+"Trincomalee"	"LK"	108420
+"Kandy"	"LK"	111701
+"Sri Jayewardenepura Kotte"	"LK"	115826
+"Pita Kotte"	"LK"	118179
+"Negombo"	"LK"	137223
+"Jaffna"	"LK"	169102
+"Moratuwa"	"LK"	185031
+"Galkissa"	"LK"	215941
+"Dehiwala-Mount Lavinia"	"LK"	219827
+"Colombo"	"LK"	648034
+"Monrovia"	"LR"	939524
+"Maseru"	"LS"	118355
+"Alytus"	"LT"	70747
+"Panevezys"	"LT"	117395
+"Siauliai"	"LT"	130587
+"Klaipeda"	"LT"	192307
+"Kaunas"	"LT"	374643
+"Vilnius"	"LT"	542366
+"Luxembourg"	"LU"	76684
+"Liepaja"	"LV"	85132
+"Daugavpils"	"LV"	111564
+"Riga"	"LV"	742572
+"Yafran"	"LY"	67638
+"Al Bayda'"	"LY"	74594
+"Darnah"	"LY"	78782
+"Gharyan"	"LY"	85219
+"Al Marj"	"LY"	85315
+"Sabratah"	"LY"	102038
+"Zliten"	"LY"	109972
+"Tobruk"	"LY"	121052
+"Al Jadid"	"LY"	126386
+"Sirte"	"LY"	128123
+"Ajdabiya"	"LY"	134358
+"Zawiya"	"LY"	186123
+"Al Khums"	"LY"	201943
+"Tarhuna"	"LY"	210697
+"Misratah"	"LY"	386120
+"Benghazi"	"LY"	650629
+"Tripoli"	"LY"	1150989
+"Oulad Teima"	"MA"	66832
+"Tiflet"	"MA"	70010
+"Essaouira"	"MA"	70634
+"Taroudant"	"MA"	71133
+"Khenifra"	"MA"	73906
+"Sidi Qacem"	"MA"	74755
+"Sidi Slimane"	"MA"	79437
+"Berkane"	"MA"	80721
+"Taourirt"	"MA"	82518
+"Al Fqih Ben Calah"	"MA"	84072
+"Oued Zem"	"MA"	84910
+"Berrechid"	"MA"	93954
+"Guelmim"	"MA"	98229
+"Khemisset"	"MA"	106991
+"Ksar El Kebir"	"MA"	108753
+"Larache"	"MA"	109294
+"Settat"	"MA"	119082
+"Nador"	"MA"	129260
+"Taza"	"MA"	141890
+"El Jadid"	"MA"	147549
+"Beni Mellal"	"MA"	166399
+"Khouribga"	"MA"	167673
+"Mohammedia"	"MA"	187708
+"Safi"	"MA"	288163
+"Tetouan"	"MA"	326261
+"Kenitra"	"MA"	366570
+"Al Hoceima"	"MA"	395644
+"Oujda-Angad"	"MA"	405253
+"Meknes"	"MA"	545705
+"Tangier"	"MA"	688356
+"Agadir"	"MA"	698310
+"Marrakesh"	"MA"	839296
+"Sale"	"MA"	903485
+"Fes"	"MA"	964891
+"Rabat"	"MA"	1655753
+"Casablanca"	"MA"	3144909
+"Bender"	"MD"	110175
+"Tiraspolul"	"MD"	157000
+"Chisinau"	"MD"	635994
+"Podgorica"	"ME"	136473
+"Ambovombe"	"MG"	66818
+"Antanifotsy"	"MG"	70626
+"Antsiranana"	"MG"	82937
+"Toliara"	"MG"	115319
+"Mahajanga"	"MG"	154657
+"Fianarantsoa"	"MG"	167227
+"Antsirabe"	"MG"	186253
+"Toamasina"	"MG"	206373
+"Antananarivo"	"MG"	1391433
+"Tetovo"	"MK"	72944
+"Prilep"	"MK"	73814
+"Kumanovo"	"MK"	76275
+"Bitola"	"MK"	86528
+"Skopje"	"MK"	474889
+"Kayes"	"ML"	78406
+"Segou"	"ML"	92552
+"Koutiala"	"ML"	99353
+"Mopti"	"ML"	108456
+"Sikasso"	"ML"	144786
+"Bamako"	"ML"	1297281
+"Bogale"	"MM"	68938
+"Syriam"	"MM"	69448
+"Taungdwingyi"	"MM"	70094
+"Sagaing"	"MM"	78739
+"Shwebo"	"MM"	88914
+"Mudon"	"MM"	89123
+"Nyaunglebin"	"MM"	89626
+"Magway"	"MM"	96954
+"Pyinmana"	"MM"	97409
+"Thayetmyo"	"MM"	98185
+"Taungoo"	"MM"	106945
+"Yenangyaung"	"MM"	110553
+"Pyin Oo Lwin"	"MM"	117303
+"Thaton"	"MM"	123727
+"Pakokku"	"MM"	126938
+"Lashio"	"MM"	131016
+"Hinthada"	"MM"	134947
+"Dawei"	"MM"	136783
+"Myingyan"	"MM"	141713
+"Taunggyi"	"MM"	160115
+"Myeik"	"MM"	173298
+"Meiktila"	"MM"	177442
+"Sittwe"	"MM"	177743
+"Monywa"	"MM"	182011
+"Pathein"	"MM"	237089
+"Bago"	"MM"	244376
+"Mawlamyine"	"MM"	438861
+"Nay Pyi Taw"	"MM"	925000
+"Mandalay"	"MM"	1208099
+"Yangon"	"MM"	4477638
+"Darhan"	"MN"	74300
+"Erdenet"	"MN"	79647
+"Ulan Bator"	"MN"	844818
+"Macau"	"MO"	520400
+"Fort-de-France"	"MQ"	89995
+"Nouadhibou"	"MR"	72337
+"Nouakchott"	"MR"	661400
+"Quatre Bornes"	"MU"	80961
+"Curepipe"	"MU"	84200
+"Beau Bassin"	"MU"	111355
+"Port Louis"	"MU"	155226
+"Male"	"MV"	103693
+"Zomba"	"MW"	80932
+"Mzuzu"	"MW"	175345
+"Blantyre"	"MW"	584877
+"Lilongwe"	"MW"	646750
+"San Francisco del Rincon"	"MX"	66949
+"Juchitan de Zaragoza"	"MX"	67637
+"Miramar"	"MX"	67689
+"Matehuala"	"MX"	67717
+"Guasave"	"MX"	68449
+"San Mateo Atenco"	"MX"	68602
+"San Miguel de Allende"	"MX"	69811
+"La Piedad"	"MX"	70238
+"Teziutlan"	"MX"	70819
+"El Pueblito"	"MX"	71254
+"Salina Cruz"	"MX"	73648
+"Chiautla"	"MX"	73696
+"San Miguel de Cozumel"	"MX"	73934
+"Fuentes del Valle"	"MX"	74087
+"San Martin Texmelucan de Labastida"	"MX"	75903
+"Amozoc de Mota"	"MX"	77106
+"Kanasin"	"MX"	77240
+"Agua Prieta"	"MX"	77254
+"Guanajuato"	"MX"	78364
+"Heroica Zitacuaro"	"MX"	78950
+"Tecoman"	"MX"	79579
+"Comitan"	"MX"	79944
+"San Andres Cholula"	"MX"	80118
+"Ocotlan"	"MX"	81527
+"Tepatitlan de Morelos"	"MX"	83694
+"Ciudad Lazaro Cardenas"	"MX"	84001
+"Chicoloapan"	"MX"	84440
+"Tlaxcala"	"MX"	84670
+"Lagos de Moreno"	"MX"	84677
+"Cuautitlan"	"MX"	84737
+"Rio Bravo"	"MX"	85481
+"Atlixco"	"MX"	85891
+"Hacienda Santa Fe"	"MX"	86935
+"Cuauhtemoc"	"MX"	90835
+"Temixco"	"MX"	91059
+"Tuxtepec"	"MX"	92121
+"Guadalupe"	"MX"	94089
+"Martinez de la Torre"	"MX"	100377
+"Playa del Carmen"	"MX"	100383
+"Ciudad Guzman"	"MX"	101010
+"Temapache"	"MX"	101558
+"Parral"	"MX"	101768
+"Tulancingo"	"MX"	102383
+"Ciudad Delicias"	"MX"	102969
+"Las Margaritas"	"MX"	103403
+"Heroica Guaymas"	"MX"	103449
+"Tantoyuca"	"MX"	103610
+"Matamoros"	"MX"	104024
+"Fresnillo"	"MX"	105488
+"Ciudad Valles"	"MX"	109504
+"Manzanillo"	"MX"	110735
+"Iguala de la Independencia"	"MX"	112106
+"Texcoco"	"MX"	115378
+"Milpa Alta"	"MX"	115895
+"Ciudad de Villa de Alvarez"	"MX"	117600
+"San Juan del Rio"	"MX"	118173
+"Zacatecas"	"MX"	118562
+"Orizaba"	"MX"	121348
+"San Pedro Garza Garcia"	"MX"	122009
+"Huixquilucan"	"MX"	124846
+"Zamora"	"MX"	124916
+"Colima"	"MX"	127235
+"San Cristobal de las Casas"	"MX"	128996
+"Manzanillo"	"MX"	130035
+"Garza Garcia"	"MX"	130646
+"Tuxpam de Rodriguez Cano"	"MX"	134394
+"Cordoba"	"MX"	134403
+"Chetumal"	"MX"	134412
+"Salamanca"	"MX"	138614
+"San Luis Rio Colorado"	"MX"	139254
+"Ciudad del Carmen"	"MX"	141308
+"Ciudad Acuna"	"MX"	144669
+"Cuautla"	"MX"	146178
+"Piedras Negras"	"MX"	150178
+"Minatitlan"	"MX"	150895
+"Cholula"	"MX"	151667
+"Jiutepec"	"MX"	162427
+"Chalco"	"MX"	163996
+"Chilpancingo"	"MX"	165250
+"La Paz"	"MX"	171485
+"Metepec"	"MX"	172982
+"San Pablo de las Salinas"	"MX"	173557
+"Cuajimalpa"	"MX"	173625
+"Poza Rica de Hidalgo"	"MX"	174526
+"Nogales"	"MX"	185882
+"Puerto Vallarta"	"MX"	187134
+"Ciudad Madero"	"MX"	192736
+"Soledad de Graciano Sanchez"	"MX"	194006
+"Monclova"	"MX"	195764
+"Tapachula"	"MX"	197961
+"Campeche"	"MX"	205212
+"Buenavista"	"MX"	206081
+"Los Mochis"	"MX"	214601
+"Gomez Palacio"	"MX"	228577
+"Magdalena Contreras"	"MX"	228927
+"Coatzacoalcos"	"MX"	230717
+"Uruapan"	"MX"	237308
+"Tehuacan"	"MX"	241429
+"Ojo de Agua"	"MX"	242272
+"Nicolas Romero"	"MX"	245383
+"Los Reyes Acaquilpan"	"MX"	251168
+"Santa Catarina"	"MX"	254472
+"Soledad de Graciano Sanchez"	"MX"	255015
+"Ensenada"	"MX"	256565
+"Ciudad Obregon"	"MX"	258162
+"Oaxaca"	"MX"	262566
+"Ciudad Victoria"	"MX"	269923
+"Tepic"	"MX"	280592
+"Tampico"	"MX"	297284
+"Celaya"	"MX"	305901
+"Ciudad General Escobedo"	"MX"	308206
+"Tampico"	"MX"	309003
+"Coacalco"	"MX"	313405
+"Pachuca de Soto"	"MX"	319581
+"Irapuato"	"MX"	339554
+"Cuernavaca"	"MX"	343769
+"Tlahuac"	"MX"	344106
+"Nuevo Laredo"	"MX"	349550
+"Ixtapaluca"	"MX"	351001
+"Ciudad Apodaca"	"MX"	352064
+"Miguel Hidalgo"	"MX"	353534
+"Mazatlan"	"MX"	354717
+"Benito Juarez"	"MX"	355017
+"Villahermosa"	"MX"	362401
+"San Miguel Xico Viejo"	"MX"	365777
+"Iztacalco"	"MX"	384326
+"Tonala"	"MX"	401509
+"Xochimilco"	"MX"	404458
+"Xalapa de Enriquez"	"MX"	425148
+"Azcapotzalco"	"MX"	425298
+"San Nicolas de los Garza"	"MX"	443273
+"Venustiano Carranza"	"MX"	447459
+"Heroica Matamoros"	"MX"	449815
+"Victoria de Durango"	"MX"	457140
+"Cuautitlan Izcalli"	"MX"	475179
+"Tuxtla"	"MX"	481128
+"Tlaquepaque"	"MX"	493646
+"Reynosa"	"MX"	498654
+"Toluca"	"MX"	505881
+"Ciudad Lopez Mateos"	"MX"	521034
+"Cuauhtemoc"	"MX"	521348
+"Torreon"	"MX"	524066
+"Santa Maria Chimalhuacan"	"MX"	525389
+"Cancun"	"MX"	542043
+"Veracruz"	"MX"	568313
+"Morelia"	"MX"	592797
+"Hermosillo"	"MX"	595811
+"Mexicali"	"MX"	597099
+"Tlalpan"	"MX"	607545
+"Saltillo"	"MX"	621250
+"Santiago de Queretaro"	"MX"	626495
+"Coyoacan"	"MX"	628063
+"Acapulco de Juarez"	"MX"	652136
+"Aguascalientes"	"MX"	658179
+"Culiacan"	"MX"	675000
+"San Luis Potosi"	"MX"	677704
+"Tlalnepantla"	"MX"	715767
+"Merida"	"MX"	717175
+"Guadalupe"	"MX"	724921
+"Alvaro Obregon"	"MX"	727034
+"Chihuahua"	"MX"	809232
+"Naucalpan de Juarez"	"MX"	846185
+"Zapopan"	"MX"	987516
+"Leon de los Aldama"	"MX"	1114626
+"Monterrey"	"MX"	1122874
+"Gustavo A. Madero"	"MX"	1193161
+"Ciudad Nezahualcoyotl"	"MX"	1232220
+"Tijuana"	"MX"	1376457
+"Ciudad Juarez"	"MX"	1512354
+"Puebla"	"MX"	1590256
+"Guadalajara"	"MX"	1640589
+"Ecatepec"	"MX"	1806226
+"Iztapalapa"	"MX"	1820888
+"Mexico City"	"MX"	12294193
+"Kampong Baharu Balakong"	"MY"	69302
+"Segamat"	"MY"	69816
+"Donggongon"	"MY"	71585
+"Taman Senai"	"MY"	73176
+"Victoria"	"MY"	73653
+"Ulu Tiram"	"MY"	75350
+"Keningau"	"MY"	77650
+"Putatan"	"MY"	78340
+"Cukai"	"MY"	82425
+"Port Dickson"	"MY"	89198
+"Semenyih"	"MY"	92491
+"Lahad Datu"	"MY"	105622
+"Butterworth"	"MY"	107591
+"Rawang"	"MY"	120447
+"Muar"	"MY"	127897
+"Tasek Glugor"	"MY"	135786
+"Kampung Sungai Ara"	"MY"	140849
+"Kampung Pasir Gudang Baru"	"MY"	145639
+"Bintulu"	"MY"	151617
+"Batu Pahat"	"MY"	156236
+"Skudai"	"MY"	159733
+"Kluang"	"MY"	169828
+"Kulim"	"MY"	170889
+"Malacca"	"MY"	180671
+"Sibu"	"MY"	198239
+"Sepang"	"MY"	212050
+"Bukit Mertajam"	"MY"	212329
+"Alor Setar"	"MY"	217368
+"Taiping"	"MY"	217647
+"Miri"	"MY"	228212
+"Sungai Petani"	"MY"	228843
+"Kuala Terengganu"	"MY"	285065
+"Tawau"	"MY"	306462
+"Kuantan"	"MY"	366229
+"Seremban"	"MY"	372917
+"Sandakan"	"MY"	392288
+"Kota Kinabalu"	"MY"	457326
+"Shah Alam"	"MY"	481654
+"Petaling Jaya"	"MY"	520698
+"Kuching"	"MY"	570407
+"Ipoh"	"MY"	673318
+"Subang Jaya"	"MY"	708296
+"Johor Bahru"	"MY"	802489
+"Kampung Baru Subang"	"MY"	833571
+"Klang"	"MY"	879867
+"Kuala Lumpur"	"MY"	1453975
+"Kota Bharu"	"MY"	1459994
+"Montepuez"	"MZ"	72279
+"Cuamba"	"MZ"	73268
+"Inhambane"	"MZ"	73884
+"Antonio Enes"	"MZ"	74624
+"Dondo"	"MZ"	78648
+"Pemba"	"MZ"	108737
+"Lichinga"	"MZ"	109839
+"Maxixe"	"MZ"	119868
+"Xai-Xai"	"MZ"	127366
+"Tete"	"MZ"	129316
+"Quelimane"	"MZ"	188964
+"Nacala"	"MZ"	224795
+"Chimoio"	"MZ"	256936
+"Nampula"	"MZ"	388526
+"Beira"	"MZ"	530604
+"Matola"	"MZ"	675422
+"Maputo"	"MZ"	1191613
+"Windhoek"	"NA"	268132
+"Noumea"	"NC"	93060
+"Alaghsas"	"NE"	88561
+"Agadez"	"NE"	124324
+"Maradi"	"NE"	163487
+"Zinder"	"NE"	191424
+"Niamey"	"NE"	774235
+"Ezza-Ohu"	"NG"	67414
+"Agbor"	"NG"	67610
+"Enugu-Ukwu"	"NG"	68785
+"Kaura Namoda"	"NG"	69725
+"Malumfashi"	"NG"	70709
+"Eha Amufu"	"NG"	70779
+"Orita Eruwa"	"NG"	71027
+"Fiditi"	"NG"	71461
+"Afikpo"	"NG"	71866
+"Ohafia-Ifigh"	"NG"	73355
+"Asaba"	"NG"	73374
+"Jega"	"NG"	73495
+"Oyan"	"NG"	73622
+"Aku"	"NG"	73742
+"Ozubulu"	"NG"	73812
+"Igbara-Odo"	"NG"	74121
+"Aramoko-Ekiti"	"NG"	74491
+"Ode"	"NG"	75463
+"Kagoro"	"NG"	77008
+"Numan"	"NG"	77617
+"Daura"	"NG"	78277
+"Agulu"	"NG"	79021
+"Ikom"	"NG"	79103
+"Kafanchan"	"NG"	79522
+"Oke Mesi"	"NG"	79563
+"Bende"	"NG"	79618
+"Ughelli"	"NG"	79986
+"Lalupon"	"NG"	81130
+"Ipoti"	"NG"	82113
+"Ihiala"	"NG"	83265
+"Ogaminana"	"NG"	84373
+"Gamboru"	"NG"	84672
+"Epe"	"NG"	84711
+"Makoko"	"NG"	85840
+"Keffi"	"NG"	85911
+"Potiskum"	"NG"	86002
+"Idanre"	"NG"	86468
+"Effium"	"NG"	86945
+"Igede-Ekiti"	"NG"	87282
+"Ifo"	"NG"	88272
+"Isieke"	"NG"	89990
+"Emure-Ekiti"	"NG"	90645
+"Igbo-Ora"	"NG"	92719
+"Wukari"	"NG"	92933
+"Lere"	"NG"	93290
+"Olupona"	"NG"	95002
+"Biu"	"NG"	95005
+"Yola"	"NG"	96006
+"Kuje"	"NG"	97367
+"Kontagora"	"NG"	98754
+"Lafiagi"	"NG"	102779
+"Ikere-Ekiti"	"NG"	103054
+"Nkpor"	"NG"	103733
+"Azare"	"NG"	105687
+"Pindiga"	"NG"	106322
+"Birnin Kebbi"	"NG"	108164
+"Uromi"	"NG"	108608
+"Ijebu-Igbo"	"NG"	109261
+"Hadejia"	"NG"	110753
+"Nguru"	"NG"	111014
+"Nsukka"	"NG"	111017
+"Esuk Oron"	"NG"	112033
+"Offa"	"NG"	113830
+"Okigwe"	"NG"	115499
+"Jalingo"	"NG"	117757
+"Ilobu"	"NG"	118089
+"Bama"	"NG"	118121
+"Modakeke"	"NG"	119529
+"Gashua"	"NG"	125817
+"Lafia"	"NG"	127236
+"Amaigbo"	"NG"	127300
+"Okrika"	"NG"	133271
+"Abakaliki"	"NG"	134102
+"Ikirun"	"NG"	134240
+"Buguma"	"NG"	135404
+"Igboho"	"NG"	136764
+"Funtua"	"NG"	136811
+"Ejigbo"	"NG"	138357
+"Gbongan"	"NG"	139485
+"Kisi"	"NG"	155510
+"Osogbo"	"NG"	156694
+"Sapele"	"NG"	161686
+"Suleja"	"NG"	162135
+"Inisa"	"NG"	164161
+"Ijero-Ekiti"	"NG"	167632
+"Awka"	"NG"	167738
+"Bida"	"NG"	171656
+"Saki"	"NG"	178677
+"Ila Orangun"	"NG"	179192
+"Ise-Ekiti"	"NG"	190063
+"Nnewi"	"NG"	193987
+"Ugep"	"NG"	200276
+"Ijebu-Ode"	"NG"	209175
+"Shagamu"	"NG"	214558
+"Owerri"	"NG"	215038
+"Ikire"	"NG"	222160
+"Mubi"	"NG"	225705
+"Gusau"	"NG"	226857
+"Jimeta"	"NG"	248148
+"Gombe"	"NG"	250258
+"Iwo"	"NG"	250443
+"Ikot Ekpene"	"NG"	254806
+"Ondo"	"NG"	257005
+"Umuahia"	"NG"	264662
+"Owo"	"NG"	276574
+"Ilesa"	"NG"	277904
+"Efon-Alaaye"	"NG"	279319
+"Minna"	"NG"	291905
+"Makurdi"	"NG"	292645
+"Ikeja"	"NG"	313196
+"Bauchi"	"NG"	316149
+"Akure"	"NG"	420594
+"Ado-Ekiti"	"NG"	424340
+"Katsina"	"NG"	432149
+"Uyo"	"NG"	436606
+"Calabar"	"NG"	461796
+"Okene"	"NG"	479178
+"Ebute Ikorodu"	"NG"	535619
+"Warri"	"NG"	536023
+"Onitsha"	"NG"	561066
+"Sokoto"	"NG"	563861
+"Abuja"	"NG"	590400
+"Abeokuta"	"NG"	593100
+"Enugu"	"NG"	688862
+"Oyo"	"NG"	736072
+"Ilorin"	"NG"	814192
+"Jos"	"NG"	816824
+"Aba"	"NG"	897560
+"Zaria"	"NG"	975153
+"Maiduguri"	"NG"	1112449
+"Benin City"	"NG"	1125058
+"Port Harcourt"	"NG"	1148665
+"Kaduna"	"NG"	1582102
+"Ibadan"	"NG"	3565108
+"Kano"	"NG"	3626068
+"Lagos"	"NG"	9000000
+"Jinotega"	"NI"	72073
+"Granada"	"NI"	89409
+"Esteli"	"NI"	96422
+"Matagalpa"	"NI"	109089
+"Chinandega"	"NI"	126387
+"Tipitapa"	"NI"	127153
+"Masaya"	"NI"	130113
+"Leon"	"NI"	144538
+"Managua"	"NI"	973087
+"Bergen op Zoom"	"NL"	66256
+"Ede"	"NL"	67670
+"Velsen-Zuid"	"NL"	67758
+"Hoorn"	"NL"	68852
+"Alphen aan den Rijn"	"NL"	70251
+"Lelystad"	"NL"	70741
+"Zaandam"	"NL"	71708
+"Gouda"	"NL"	71952
+"Almelo"	"NL"	72725
+"Vlaardingen"	"NL"	73798
+"Helmond"	"NL"	74740
+"Spijkenisse"	"NL"	74988
+"Schiedam"	"NL"	75438
+"Purmerend"	"NL"	76745
+"Roosendaal"	"NL"	77725
+"Amstelveen"	"NL"	79639
+"Hengelo"	"NL"	80809
+"Hilversum"	"NL"	83640
+"Amsterdam-Zuidoost"	"NL"	84811
+"Leeuwarden"	"NL"	91424
+"Venlo"	"NL"	92403
+"Heerlen"	"NL"	93084
+"Alkmaar"	"NL"	94853
+"Delft"	"NL"	95060
+"Deventer"	"NL"	97331
+"Zwolle"	"NL"	111805
+"Zoetermeer"	"NL"	115845
+"Dordrecht"	"NL"	119260
+"Leiden"	"NL"	119713
+"Maastricht"	"NL"	122378
+"Hoofddorp"	"NL"	132734
+"'s-Hertogenbosch"	"NL"	134520
+"Apeldoorn"	"NL"	136670
+"Amersfoort"	"NL"	139914
+"Zaanstad"	"NL"	140085
+"Arnhem"	"NL"	141674
+"Haarlem"	"NL"	147590
+"Enschede"	"NL"	153655
+"Nijmegen"	"NL"	158732
+"Almere Stad"	"NL"	176432
+"Groningen"	"NL"	181194
+"Tilburg"	"NL"	199613
+"Eindhoven"	"NL"	209620
+"Utrecht"	"NL"	290529
+"The Hague"	"NL"	474292
+"Rotterdam"	"NL"	598199
+"Amsterdam"	"NL"	741636
+"Fredrikstad"	"NO"	72760
+"Drammen"	"NO"	90722
+"Trondheim"	"NO"	147139
+"Bergen"	"NO"	213585
+"Hetauda"	"NP"	84775
+"Mahendranagar"	"NP"	88381
+"Butwal"	"NP"	91733
+"Dhangarhi"	"NP"	92294
+"Janakpur"	"NP"	93767
+"Bharatpur"	"NP"	107157
+"Dharan Bazar"	"NP"	108600
+"Birganj"	"NP"	133238
+"Biratnagar"	"NP"	182324
+"Patan"	"NP"	183310
+"Kathmandu"	"NP"	1442271
+"Palmerston North"	"NZ"	75996
+"Lower Hutt"	"NZ"	101194
+"Tauranga"	"NZ"	110338
+"Dunedin"	"NZ"	114347
+"Hamilton"	"NZ"	152641
+"North Shore"	"NZ"	207865
+"Waitakere"	"NZ"	208100
+"Manukau City"	"NZ"	362000
+"Christchurch"	"NZ"	363926
+"Wellington"	"NZ"	381900
+"Auckland"	"NZ"	417910
+"Sur"	"OM"	71152
+"Nizwa"	"OM"	72076
+"Al Buraymi"	"OM"	73670
+"Rustaq"	"OM"	79383
+"Barka'"	"OM"	81647
+"Saham"	"OM"	89327
+"`Ibri"	"OM"	101640
+"As Suwayq"	"OM"	107143
+"Sohar"	"OM"	108274
+"Bawshar"	"OM"	159487
+"Salalah"	"OM"	163140
+"Seeb"	"OM"	237816
+"Muscat"	"OM"	797000
+"Las Cumbres"	"PA"	69102
+"Colon"	"PA"	76643
+"Arraijan"	"PA"	76815
+"David"	"PA"	82859
+"Tocumen"	"PA"	88543
+"San Miguelito"	"PA"	321501
+"Panama"	"PA"	408168
+"San Isidro"	"PE"	68309
+"Chulucanas"	"PE"	68835
+"Cerro de Pasco"	"PE"	78910
+"Huaraz"	"PE"	86934
+"Chosica"	"PE"	88606
+"Talara"	"PE"	99074
+"Tumbes"	"PE"	109223
+"Puno"	"PE"	116552
+"Cajamarca"	"PE"	135000
+"Ayacucho"	"PE"	140033
+"Huanuco"	"PE"	147959
+"Chincha Alta"	"PE"	153076
+"Sullana"	"PE"	160789
+"Juliaca"	"PE"	245675
+"Ica"	"PE"	246844
+"Santiago de Surco"	"PE"	251648
+"Tacna"	"PE"	280098
+"Pucallpa"	"PE"	310750
+"Cusco"	"PE"	312140
+"Chimbote"	"PE"	316966
+"Piura"	"PE"	325466
+"Huancayo"	"PE"	376657
+"Iquitos"	"PE"	437620
+"Chiclayo"	"PE"	577375
+"Trujillo"	"PE"	747450
+"Callao"	"PE"	813264
+"Arequipa"	"PE"	841130
+"Lima"	"PE"	7737002
+"Lae"	"PG"	76255
+"Port Moresby"	"PG"	283733
+"Dinalupihan"	"PH"	66670
+"City of Isabela"	"PH"	67336
+"Bislig"	"PH"	67567
+"Subic"	"PH"	67664
+"Calbayog City"	"PH"	67921
+"Catbalogan"	"PH"	68081
+"Tanauan"	"PH"	68456
+"Libon"	"PH"	68846
+"Magalang"	"PH"	68988
+"Danao"	"PH"	70270
+"Mariano"	"PH"	70516
+"Plaridel"	"PH"	70781
+"Bulacan"	"PH"	71274
+"Solana"	"PH"	71475
+"Sagay"	"PH"	72153
+"Ilagan"	"PH"	72363
+"Balanga"	"PH"	72954
+"Kawit"	"PH"	73210
+"Guiguinto"	"PH"	76613
+"Polangui"	"PH"	77122
+"Pulilan"	"PH"	77186
+"Apalit"	"PH"	77418
+"Daet"	"PH"	78142
+"Gapan"	"PH"	79064
+"Norzagaray"	"PH"	79508
+"Sorsogon"	"PH"	82730
+"San Fernando"	"PH"	83003
+"Marilao"	"PH"	83276
+"Valencia"	"PH"	83591
+"Binonga"	"PH"	83980
+"Mariveles"	"PH"	84567
+"Panabo"	"PH"	84749
+"Tagbilaran City"	"PH"	86411
+"Victorias"	"PH"	86510
+"Angono"	"PH"	87199
+"Surigao"	"PH"	87832
+"Arayat"	"PH"	87987
+"Mangaldan"	"PH"	88818
+"Calumpit"	"PH"	91815
+"Ozamiz City"	"PH"	93082
+"Dipolog"	"PH"	93549
+"Iriga City"	"PH"	94846
+"Los Banos"	"PH"	95750
+"General Trias"	"PH"	96022
+"Bocaue"	"PH"	98649
+"Jolo"	"PH"	101002
+"Urdaneta"	"PH"	101037
+"Pulong Santa Cruz"	"PH"	101914
+"Laoag"	"PH"	102105
+"Roxas City"	"PH"	102688
+"Tanza"	"PH"	105510
+"Mati"	"PH"	105908
+"Santa Cruz"	"PH"	108145
+"Santiago"	"PH"	108414
+"Dumaguete"	"PH"	113541
+"Tuguegarao"	"PH"	115105
+"Cavite City"	"PH"	115932
+"Digos"	"PH"	116122
+"San Jose"	"PH"	118807
+"Silang"	"PH"	119475
+"San Juan"	"PH"	121430
+"Hagonoy"	"PH"	123531
+"Koronadal"	"PH"	125502
+"Cadiz"	"PH"	129053
+"Bulaon"	"PH"	131818
+"Muricay"	"PH"	132094
+"Talisay"	"PH"	133148
+"San Mateo"	"PH"	134327
+"Rodriguez"	"PH"	134432
+"Baliuag"	"PH"	135679
+"Kabankalan"	"PH"	136483
+"Marawi City"	"PH"	143627
+"Bago City"	"PH"	150250
+"Guyong"	"PH"	155391
+"Toledo"	"PH"	156916
+"Naga"	"PH"	174931
+"Cotabato"	"PH"	179433
+"Legaspi"	"PH"	179481
+"Tarlac City"	"PH"	183930
+"Meycauayan"	"PH"	184839
+"Pagadian"	"PH"	186852
+"Mabalacat City"	"PH"	188050
+"Panalanoy"	"PH"	189090
+"Ormoc"	"PH"	191200
+"Malolos"	"PH"	198748
+"San Pablo"	"PH"	207577
+"Lipa City"	"PH"	212287
+"Imus"	"PH"	216099
+"Santa Rosa"	"PH"	216650
+"Binangonan"	"PH"	219204
+"Cabanatuan City"	"PH"	220250
+"Olongapo"	"PH"	221178
+"Puerto Princesa"	"PH"	222673
+"Lucena"	"PH"	228758
+"Taytay"	"PH"	231460
+"Magugpo"	"PH"	233254
+"Batangas"	"PH"	237370
+"Libertad"	"PH"	250353
+"San Fernando"	"PH"	251248
+"Mantampay"	"PH"	265032
+"San Pedro"	"PH"	270216
+"Baguio"	"PH"	272714
+"Cainta"	"PH"	283172
+"Santol"	"PH"	298976
+"Angeles City"	"PH"	299391
+"Mandaluyong City"	"PH"	305576
+"Butuan"	"PH"	309709
+"Iligan City"	"PH"	312323
+"Calamba"	"PH"	316612
+"Mandaue City"	"PH"	331320
+"Lapu-Lapu City"	"PH"	350467
+"Bacoor"	"PH"	356974
+"San Jose del Monte"	"PH"	357828
+"Iloilo"	"PH"	387681
+"Dasmarinas"	"PH"	441876
+"Cagayan de Oro"	"PH"	445103
+"Mansilingan"	"PH"	454150
+"Bacolod City"	"PH"	454898
+"Zamboanga"	"PH"	457623
+"Makati City"	"PH"	510383
+"Antipolo"	"PH"	549543
+"Pasig City"	"PH"	617301
+"Taguig"	"PH"	644473
+"General Santos"	"PH"	679588
+"Cebu City"	"PH"	798634
+"Malingao"	"PH"	1121974
+"Davao"	"PH"	1212504
+"Budta"	"PH"	1273715
+"Quezon City"	"PH"	2761720
+"Mansehra"	"PK"	66486
+"Shabqadar"	"PK"	66541
+"Shahdadpur"	"PK"	67249
+"Shorko"	"PK"	67439
+"Narowal"	"PK"	68291
+"Toba Tek Singh"	"PK"	69064
+"Chuhar Kana"	"PK"	69321
+"Kot Malik Barkhurdar"	"PK"	69359
+"Gujar Khan"	"PK"	69374
+"Kohror Pakka"	"PK"	69743
+"Pattoki"	"PK"	70436
+"Haru Zbad"	"PK"	72432
+"Tando Muhammad Khan"	"PK"	72659
+"Kotri"	"PK"	72672
+"Pano Aqil"	"PK"	72881
+"Badin"	"PK"	73569
+"Dipalpur"	"PK"	74640
+"Bhalwal"	"PK"	74744
+"Shahdad Kot"	"PK"	75411
+"Turbat"	"PK"	75694
+"Mian Channun"	"PK"	76226
+"Moro"	"PK"	76765
+"Kambar"	"PK"	77481
+"Layyah"	"PK"	78954
+"Kharian"	"PK"	81435
+"Chichawatni"	"PK"	82762
+"Attock City"	"PK"	85479
+"Bhai Pheru"	"PK"	86900
+"Arifwala"	"PK"	87360
+"Hasilpur"	"PK"	88031
+"Kandhkot"	"PK"	88468
+"Chaman"	"PK"	88568
+"Mianwali"	"PK"	89570
+"Jalalpur Jattan"	"PK"	93883
+"Charsadda"	"PK"	95319
+"Nowshera Cantonment"	"PK"	96766
+"Lodhran"	"PK"	97249
+"Swabi"	"PK"	97363
+"Chakwal"	"PK"	101200
+"Dera Ismail Khan"	"PK"	101616
+"Wazirabad"	"PK"	102444
+"Khushab"	"PK"	102793
+"Kot Addu"	"PK"	104217
+"Kamalia"	"PK"	112426
+"Vihari"	"PK"	112840
+"Ahmadpur East"	"PK"	116579
+"Jaranwala"	"PK"	119785
+"Chishtian"	"PK"	122199
+"Khairpur"	"PK"	124602
+"Tando Adam"	"PK"	125598
+"Bahawalnagar"	"PK"	126617
+"Bahawalnagar"	"PK"	126700
+"Pakpattan"	"PK"	126706
+"Daska Kalan"	"PK"	126924
+"Tando Allahyar"	"PK"	127202
+"Mandi Bahauddin"	"PK"	129733
+"Gojra"	"PK"	139726
+"Dadu"	"PK"	139784
+"Khuzdar"	"PK"	141227
+"Khanpur"	"PK"	142426
+"Kohat"	"PK"	151427
+"Hafizabad"	"PK"	153656
+"Shikarpur"	"PK"	156901
+"Jhelum"	"PK"	164080
+"Muridke"	"PK"	164246
+"Muzaffargarh"	"PK"	165192
+"Jacobabad"	"PK"	170588
+"Burewala"	"PK"	183915
+"Sadiqabad"	"PK"	189876
+"Kamoke"	"PK"	199531
+"Chiniot"	"PK"	201781
+"Mirpur Khas"	"PK"	215657
+"Okara"	"PK"	223648
+"Nawabshah"	"PK"	229504
+"Sahiwal"	"PK"	235695
+"Dera Ghazi Khan"	"PK"	236093
+"Mingora"	"PK"	279914
+"Kasur"	"PK"	290643
+"Mardan"	"PK"	300424
+"Gujrat"	"PK"	301506
+"Jhang Sadr"	"PK"	341210
+"Bhimbar"	"PK"	342900
+"Sheikhupura"	"PK"	361303
+"Larkana"	"PK"	364033
+"Sukkur"	"PK"	417767
+"Sialkot"	"PK"	477396
+"Sargodha"	"PK"	542603
+"Bahawalpur"	"PK"	552607
+"Islamabad"	"PK"	601600
+"Kotli"	"PK"	640000
+"Muzaffarabad"	"PK"	725000
+"Quetta"	"PK"	733675
+"Peshawar"	"PK"	1218773
+"Gujranwala"	"PK"	1384471
+"Hyderabad"	"PK"	1386330
+"Multan"	"PK"	1437230
+"Rawalpindi"	"PK"	1743101
+"Faisalabad"	"PK"	2506595
+"Lahore"	"PK"	6310888
+"Karachi"	"PK"	11624219
+"Stalowa Wola"	"PL"	66495
+"Przemysl"	"PL"	67013
+"Tomaszow Mazowiecki"	"PL"	67197
+"Chelm"	"PL"	68043
+"Glogow"	"PL"	68530
+"Gniezno"	"PL"	70269
+"Pabianice"	"PL"	70542
+"Stargard Szczecinski"	"PL"	71224
+"Ostrow Wielkopolski"	"PL"	72898
+"Siemianowice Slaskie"	"PL"	73121
+"Ostrowiec Swietokrzyski"	"PL"	73989
+"Myslowice"	"PL"	75281
+"Pila"	"PL"	75532
+"Siedlce"	"PL"	77185
+"Lubin"	"PL"	77532
+"Piotrkow Trybunalski"	"PL"	80128
+"Konin"	"PL"	81258
+"Nowy Sacz"	"PL"	84376
+"Jelenia Gora"	"PL"	87310
+"Bialoleka"	"PL"	89324
+"Ochota"	"PL"	93192
+"Jastrzebie Zdroj"	"PL"	95813
+"Jaworzno"	"PL"	96541
+"Slupsk"	"PL"	98608
+"Grudziadz"	"PL"	99486
+"Bemowo"	"PL"	102393
+"Legnica"	"PL"	106033
+"Koszalin"	"PL"	107450
+"Kalisz"	"PL"	108759
+"Chorzow"	"PL"	113430
+"Tarnow"	"PL"	117799
+"Zielona Gora"	"PL"	118433
+"Wloclawek"	"PL"	120339
+"Targowek"	"PL"	124316
+"Gorzow Wielkopolski"	"PL"	124430
+"Walbrzych"	"PL"	127431
+"Plock"	"PL"	127474
+"Elblag"	"PL"	127558
+"Opole"	"PL"	127676
+"Dabrowa Gornicza"	"PL"	130601
+"Srodmiescie"	"PL"	134306
+"Bielany"	"PL"	134854
+"Rybnik"	"PL"	142510
+"Wola"	"PL"	143996
+"Ruda Slaska"	"PL"	146189
+"Ursynow"	"PL"	147676
+"Rzeszow"	"PL"	158382
+"Olsztyn"	"PL"	171803
+"Bielsko-Biala"	"PL"	176515
+"Praga Poludnie"	"PL"	187845
+"Bytom"	"PL"	189186
+"Zabrze"	"PL"	192177
+"Gliwice"	"PL"	198835
+"Kielce"	"PL"	208598
+"Torun"	"PL"	208717
+"Mokotow"	"PL"	212670
+"Radom"	"PL"	226794
+"Sosnowiec"	"PL"	227295
+"Czestochowa"	"PL"	248125
+"Gdynia"	"PL"	253730
+"Bialystok"	"PL"	291855
+"Katowice"	"PL"	317316
+"Lublin"	"PL"	360044
+"Bydgoszcz"	"PL"	366452
+"Szczecin"	"PL"	407811
+"Gdansk"	"PL"	461865
+"Poznan"	"PL"	570352
+"Wroclaw"	"PL"	634893
+"Krakow"	"PL"	755050
+"Lodz"	"PL"	768755
+"Warsaw"	"PL"	1702139
+"Mayagueez"	"PR"	78647
+"Guaynabo"	"PR"	81360
+"Caguas"	"PR"	86804
+"Ponce"	"PR"	152634
+"Carolina"	"PR"	170404
+"Bayamon"	"PR"	203499
+"San Juan"	"PR"	418140
+"Rafah"	"PS"	126305
+"Nablus"	"PS"	130326
+"Hebron"	"PS"	160470
+"Jabalya"	"PS"	168568
+"Khan Yunis"	"PS"	173183
+"Gaza"	"PS"	410000
+"East Jerusalem"	"PS"	428304
+"Loures"	"PT"	66231
+"Vila Nova de Gaia"	"PT"	70811
+"Cacem"	"PT"	93982
+"Funchal"	"PT"	100847
+"Queluz"	"PT"	103399
+"Coimbra"	"PT"	106582
+"Setubal"	"PT"	117110
+"Braga"	"PT"	121394
+"Amadora"	"PT"	178858
+"Porto"	"PT"	249633
+"Lisbon"	"PT"	517802
+"Colonia Mariano Roque Alonso"	"PY"	72008
+"Encarnacion"	"PY"	74983
+"Pedro Juan Caballero"	"PY"	75109
+"Nemby"	"PY"	94641
+"Limpio"	"PY"	96143
+"Fernando de la Mora"	"PY"	120167
+"Lambare"	"PY"	126377
+"Capiata"	"PY"	198553
+"San Lorenzo"	"PY"	227876
+"Ciudad del Este"	"PY"	320782
+"Asuncion"	"PY"	1482200
+"Ar Rayyan"	"QA"	272465
+"Doha"	"QA"	344939
+"Le Tampon"	"RE"	69986
+"Saint-Pierre"	"RE"	76655
+"Saint-Paul"	"RE"	99307
+"Saint-Denis"	"RE"	137195
+"Deva"	"RO"	67802
+"Barlad"	"RO"	67818
+"Roman"	"RO"	67819
+"Giurgiu"	"RO"	69067
+"Hunedoara"	"RO"	69136
+"Vaslui"	"RO"	69225
+"Focsani"	"RO"	77313
+"Slatina"	"RO"	78988
+"Resita"	"RO"	81228
+"Bistrita"	"RO"	81318
+"Targoviste"	"RO"	88435
+"Tulcea"	"RO"	92475
+"Targu Jiu"	"RO"	97179
+"Drobeta-Turnu Severin"	"RO"	102346
+"Suceava"	"RO"	105796
+"Ramnicu Valcea"	"RO"	107558
+"Satu Mare"	"RO"	112490
+"Botosani"	"RO"	114783
+"Buzau"	"RO"	130954
+"Baia Mare"	"RO"	136553
+"Baia Mare"	"RO"	137976
+"Targu-Mures"	"RO"	146863
+"Sibiu"	"RO"	151894
+"Pitesti"	"RO"	167669
+"Arad"	"RO"	169065
+"Bacau"	"RO"	171396
+"Oradea"	"RO"	206614
+"Braila"	"RO"	213569
+"Sector 1"	"RO"	225453
+"Ploiesti"	"RO"	228851
+"Sector 5"	"RO"	271575
+"Brasov"	"RO"	276088
+"Sector 4"	"RO"	287828
+"Galati"	"RO"	294087
+"Constanta"	"RO"	303399
+"Craiova"	"RO"	304142
+"Timisoara"	"RO"	315053
+"Cluj-Napoca"	"RO"	316748
+"Iasi"	"RO"	318012
+"Sector 2"	"RO"	345370
+"Sector 6"	"RO"	367760
+"Sector 3"	"RO"	385439
+"Bucharest"	"RO"	1877155
+"Krusevac"	"RS"	75256
+"Pancevo"	"RS"	76654
+"Zrenjanin"	"RS"	79773
+"Kraljevo"	"RS"	82846
+"Novi Pazar"	"RS"	85996
+"Leskovac"	"RS"	94758
+"Cacak"	"RS"	117072
+"Kragujevac"	"RS"	147473
+"Zemun"	"RS"	155591
+"Novi Sad"	"RS"	215400
+"Belgrade"	"RS"	1273651
+"Sosnovka"	"RU"	66227
+"Leninogorsk"	"RU"	66263
+"Neryungri"	"RU"	66320
+"Klintsy"	"RU"	66336
+"Kungur"	"RU"	66389
+"Parnas"	"RU"	66693
+"Aleksin"	"RU"	66885
+"Kstovo"	"RU"	67242
+"Ishim"	"RU"	67762
+"Khanty-Mansiysk"	"RU"	67800
+"Belogorsk"	"RU"	67911
+"Budennovsk"	"RU"	67962
+"Dolgoprudnyy"	"RU"	68259
+"Sosnovyy Bor"	"RU"	68563
+"Borisoglebsk"	"RU"	68597
+"Lys'va"	"RU"	68660
+"Tuymazy"	"RU"	68829
+"Chapayevsk"	"RU"	70147
+"Adler"	"RU"	70200
+"Ishimbay"	"RU"	70421
+"Beloretsk"	"RU"	70468
+"Vol'sk"	"RU"	70500
+"Kurortnyy"	"RU"	70589
+"Kopeysk"	"RU"	70780
+"Grazhdanka"	"RU"	71128
+"Zelenogorsk"	"RU"	71354
+"Sunzha"	"RU"	71841
+"Finlyandskiy"	"RU"	72292
+"Naro-Fominsk"	"RU"	72632
+"Yelabuga"	"RU"	72643
+"Georgiyevsk"	"RU"	72649
+"Minusinsk"	"RU"	72781
+"Dachnoye"	"RU"	72822
+"Peterhof"	"RU"	73199
+"Asbest"	"RU"	74583
+"Chekhov"	"RU"	75643
+"Belovo"	"RU"	75764
+"Kamensk-Shakhtinskiy"	"RU"	75814
+"Birobidzhan"	"RU"	76146
+"Mineralnye Vody"	"RU"	76280
+"Voskresensk"	"RU"	77086
+"Alekseyevka"	"RU"	78000
+"Reutov"	"RU"	78370
+"Vyborg"	"RU"	78633
+"Shadrinsk"	"RU"	79479
+"Kropotkin"	"RU"	79599
+"Vorkuta"	"RU"	80039
+"Klin"	"RU"	80778
+"Yessentuki"	"RU"	81015
+"Ozersk"	"RU"	81023
+"Kaspiysk"	"RU"	81752
+"Troitsk"	"RU"	82338
+"Anzhero-Sudzhensk"	"RU"	82526
+"Komendantsky aerodrom"	"RU"	84052
+"Yurga"	"RU"	84220
+"Yegor'yevsk"	"RU"	85200
+"Svetlanovskiy"	"RU"	85508
+"Usol'ye-Sibirskoye"	"RU"	85900
+"Lianozovo"	"RU"	86000
+"Chaykovskiy"	"RU"	86712
+"Buzuluk"	"RU"	87714
+"Yeysk"	"RU"	87814
+"Sarov"	"RU"	88000
+"Biryulevo Zapadnoye"	"RU"	89000
+"Gatchina"	"RU"	89761
+"Berdsk"	"RU"	90250
+"Kirovo-Chepetsk"	"RU"	90252
+"Kuznetsk"	"RU"	90480
+"Yaroslavskiy"	"RU"	91000
+"Bugul'ma"	"RU"	91900
+"Pushkin"	"RU"	92889
+"Krasnogorsk"	"RU"	92932
+"Kineshma"	"RU"	92983
+"Michurinsk"	"RU"	93499
+"Zheleznogorsk"	"RU"	93834
+"Novoural'sk"	"RU"	93849
+"Novyy Urengoy"	"RU"	94212
+"Ozerki"	"RU"	95000
+"Magadan"	"RU"	95282
+"Ramenskoye"	"RU"	96000
+"Zhukovskiy"	"RU"	97200
+"Zheleznogorsk"	"RU"	97900
+"Balashov"	"RU"	98107
+"Serov"	"RU"	98438
+"Votkinsk"	"RU"	98633
+"Sarapul"	"RU"	98830
+"Novoshakhtinsk"	"RU"	99478
+"Zelenodolsk"	"RU"	99600
+"Ust'-Ilimsk"	"RU"	100271
+"Glazov"	"RU"	100676
+"Solikamsk"	"RU"	100812
+"Ryazanskiy"	"RU"	101000
+"Mezhdurechensk"	"RU"	101026
+"Kansk"	"RU"	101502
+"Shchukino"	"RU"	102000
+"Ukhta"	"RU"	102187
+"Artem"	"RU"	102300
+"Pushkino"	"RU"	102816
+"Bogorodskoye"	"RU"	103000
+"Velikiye Luki"	"RU"	103149
+"Akademicheskoe"	"RU"	103304
+"Derbent"	"RU"	105965
+"Novotroitsk"	"RU"	106186
+"Cheremushki"	"RU"	106587
+"Elista"	"RU"	106971
+"Obninsk"	"RU"	107392
+"Oktyabr'skiy"	"RU"	108200
+"Kyzyl"	"RU"	108240
+"Leninsk-Kuznetsky"	"RU"	109023
+"Sergiyev Posad"	"RU"	109252
+"Arzamas"	"RU"	109479
+"Seversk"	"RU"	109844
+"Bataysk"	"RU"	109962
+"Novokuybyshevsk"	"RU"	111800
+"Nefteyugansk"	"RU"	112632
+"Shchelkovo"	"RU"	113000
+"Tobol'sk"	"RU"	113800
+"Novo-Peredelkino"	"RU"	115536
+"Yelets"	"RU"	115688
+"Noginsk"	"RU"	115979
+"Taganskiy"	"RU"	116000
+"Cherkessk"	"RU"	116224
+"Achinsk"	"RU"	117634
+"Troparevo"	"RU"	118000
+"Zyuzino"	"RU"	121000
+"Veshnyaki"	"RU"	122000
+"Tsaritsyno"	"RU"	123000
+"Neftekamsk"	"RU"	126805
+"Khasavyurt"	"RU"	126829
+"Murom"	"RU"	126931
+"Orekhovo-Borisovo Severnoye"	"RU"	128000
+"Serpukhov"	"RU"	128158
+"Novocheboksarsk"	"RU"	128468
+"Kamyshin"	"RU"	128626
+"Zyablikovo"	"RU"	129000
+"Petrogradka"	"RU"	130455
+"Novomoskovsk"	"RU"	130982
+"Dimitrovgrad"	"RU"	132226
+"Kislovodsk"	"RU"	132771
+"Pervoural'sk"	"RU"	133600
+"Nevinnomyssk"	"RU"	134345
+"Odintsovo"	"RU"	137041
+"Kolpino"	"RU"	138979
+"Korolev"	"RU"	139798
+"Al'met'yevsk"	"RU"	140437
+"Norilsk"	"RU"	140800
+"Zheleznodorozhnyy"	"RU"	141648
+"Chertanovo Yuzhnoye"	"RU"	142000
+"Pyatigorsk"	"RU"	142865
+"Novyye Kuz'minki"	"RU"	143000
+"Maykop"	"RU"	144055
+"Elektrostal'"	"RU"	144387
+"Nakhodka"	"RU"	146920
+"Kolomna"	"RU"	147690
+"Balashikha"	"RU"	150103
+"Strogino"	"RU"	152000
+"Kovrov"	"RU"	154224
+"Lyubertsy"	"RU"	154650
+"Ussuriysk"	"RU"	157068
+"Admiralteisky"	"RU"	157897
+"Gol'yanovo"	"RU"	158000
+"Khoroshevo-Mnevniki"	"RU"	159000
+"Salavat"	"RU"	159893
+"Mytishchi"	"RU"	160542
+"Rubtsovsk"	"RU"	161065
+"Nazran'"	"RU"	164131
+"Novocherkassk"	"RU"	166974
+"Abakan"	"RU"	167289
+"Miass"	"RU"	167500
+"Volgodonsk"	"RU"	167731
+"Berezniki"	"RU"	167748
+"Lyublino"	"RU"	172000
+"Yuzhno-Sakhalinsk"	"RU"	176484
+"Podolsk"	"RU"	179400
+"Kamensk-Ural'skiy"	"RU"	182500
+"Petropavlovsk-Kamchatsky"	"RU"	187282
+"Syzran'"	"RU"	189338
+"Zlatoust"	"RU"	191366
+"Severodvinsk"	"RU"	194292
+"Engel's"	"RU"	196011
+"Armavir"	"RU"	199548
+"Balakovo"	"RU"	199572
+"Pskov"	"RU"	201990
+"Vasyl'evsky Ostrov"	"RU"	203058
+"Centralniy"	"RU"	214625
+"Velikiy Novgorod"	"RU"	215062
+"Biysk"	"RU"	215430
+"Zelenograd"	"RU"	215727
+"Vykhino-Zhulebino"	"RU"	216000
+"Rybinsk"	"RU"	216724
+"Prokop'yevsk"	"RU"	219000
+"Blagoveshchensk"	"RU"	221296
+"Shakhty"	"RU"	221312
+"Groznyy"	"RU"	226100
+"Staryy Oskol"	"RU"	226977
+"Syktyvkar"	"RU"	230139
+"Dzerzhinsk"	"RU"	233126
+"Nizhnekamsk"	"RU"	234297
+"Yakutsk"	"RU"	235600
+"Khimki"	"RU"	239967
+"Novorossiysk"	"RU"	241856
+"Mar'ino"	"RU"	243000
+"Angarsk"	"RU"	243158
+"Orsk"	"RU"	246836
+"Bratsk"	"RU"	256600
+"Petrozavodsk"	"RU"	265025
+"Sterlitamak"	"RU"	267231
+"Nal'chik"	"RU"	272800
+"Komsomolsk-on-Amur"	"RU"	275908
+"Kostroma"	"RU"	277656
+"Taganrog"	"RU"	279056
+"Yoshkar-Ola"	"RU"	279100
+"Tambov"	"RU"	290933
+"Surgut"	"RU"	300367
+"Saransk"	"RU"	303394
+"Chita"	"RU"	308500
+"Vladimir"	"RU"	310024
+"Vologda"	"RU"	314900
+"Cherepovets"	"RU"	315738
+"Vladikavkaz"	"RU"	317370
+"Murmansk"	"RU"	319263
+"Smolensk"	"RU"	320991
+"Volzhskiy"	"RU"	323293
+"Orel"	"RU"	324200
+"Sochi"	"RU"	327608
+"Krasnogvargeisky"	"RU"	337091
+"Kaluga"	"RU"	338978
+"Kurgan"	"RU"	343129
+"Belgorod"	"RU"	345289
+"Arkhangel'sk"	"RU"	356051
+"Ulan-Ude"	"RU"	360278
+"Stavropol'"	"RU"	363064
+"Nizhniy Tagil"	"RU"	381116
+"Tver"	"RU"	400212
+"Kursk"	"RU"	409431
+"Magnitogorsk"	"RU"	413351
+"Ivanovo"	"RU"	420839
+"Bryansk"	"RU"	427236
+"Kaliningrad"	"RU"	434954
+"Cheboksary"	"RU"	446781
+"Kirov"	"RU"	457383
+"Tula"	"RU"	468825
+"Kemerovo"	"RU"	477090
+"Tomsk"	"RU"	485519
+"Makhachkala"	"RU"	497959
+"Astrakhan"	"RU"	502533
+"Kalininskiy"	"RU"	504641
+"Naberezhnyye Chelny"	"RU"	509870
+"Penza"	"RU"	512602
+"Lipetsk"	"RU"	515655
+"Tyumen"	"RU"	519119
+"Ryazan'"	"RU"	520173
+"Novokuznetsk"	"RU"	539616
+"Orenburg"	"RU"	550204
+"Khabarovsk Vtoroy"	"RU"	578303
+"Khabarovsk"	"RU"	579000
+"Irkutsk"	"RU"	586695
+"Vladivostok"	"RU"	587022
+"Barnaul"	"RU"	599579
+"Yaroslavl"	"RU"	606730
+"Izhevsk"	"RU"	631038
+"Ulyanovsk"	"RU"	640680
+"Krasnodar"	"RU"	649851
+"Tol'yatti"	"RU"	702879
+"Voronezh"	"RU"	848752
+"Saratov"	"RU"	863725
+"Krasnoyarsk"	"RU"	927200
+"Perm"	"RU"	982419
+"Volgograd"	"RU"	1011417
+"Ufa"	"RU"	1033338
+"Chelyabinsk"	"RU"	1062919
+"Rostov-na-Donu"	"RU"	1074482
+"Kazan"	"RU"	1104738
+"Omsk"	"RU"	1129281
+"Samara"	"RU"	1134730
+"Nizhniy Novgorod"	"RU"	1284164
+"Yekaterinburg"	"RU"	1349772
+"Novosibirsk"	"RU"	1419007
+"Saint Petersburg"	"RU"	5028000
+"Moscow"	"RU"	10381222
+"Byumba"	"RW"	70593
+"Gisenyi"	"RW"	83623
+"Musanze"	"RW"	86685
+"Gitarama"	"RW"	87613
+"Butare"	"RW"	89600
+"Kigali"	"RW"	745261
+"Sayhat"	"SA"	66702
+"Ash Shafa"	"SA"	72190
+"Ar Rass"	"SA"	81728
+"Qal`at Bishah"	"SA"	81828
+"Tarut"	"SA"	85371
+"Al Bahah"	"SA"	88419
+"Dhahran"	"SA"	99540
+"Qurayyat"	"SA"	102903
+"Jizan"	"SA"	105198
+"Sakakah"	"SA"	128332
+"Arar"	"SA"	148540
+"Unaizah"	"SA"	163729
+"Khobar"	"SA"	165799
+"Yanbu"	"SA"	200161
+"Abha"	"SA"	210886
+"Al Jubayl"	"SA"	237274
+"Najran"	"SA"	258573
+"Ha'il"	"SA"	267005
+"Al Mubarraz"	"SA"	290802
+"Al Hufuf"	"SA"	293179
+"Khamis Mushait"	"SA"	387553
+"Buraydah"	"SA"	391336
+"Tabuk"	"SA"	455450
+"Ta'if"	"SA"	530848
+"Dammam"	"SA"	768602
+"Sultanah"	"SA"	946697
+"Medina"	"SA"	1300000
+"Mecca"	"SA"	1323624
+"Jeddah"	"SA"	2867446
+"Riyadh"	"SA"	4205961
+"Ad Douiem"	"SD"	87068
+"Kadugli"	"SD"	87666
+"Ed Damer"	"SD"	103941
+"Atbara"	"SD"	107930
+"An Nuhud"	"SD"	108008
+"Al Manaqil"	"SD"	128297
+"Sinnar"	"SD"	130122
+"Rabak"	"SD"	135281
+"Geneina"	"SD"	162981
+"Ad-Damazin"	"SD"	186051
+"El Fasher"	"SD"	252609
+"El Daein"	"SD"	264734
+"Wad Medani"	"SD"	332714
+"Kosti"	"SD"	345068
+"Al Qadarif"	"SD"	363945
+"El Obeid"	"SD"	393311
+"Kassala"	"SD"	401477
+"Port Sudan"	"SD"	489725
+"Khartoum"	"SD"	1974647
+"Solna"	"SE"	66909
+"Eskilstuna"	"SE"	67359
+"Kungsholmen"	"SE"	69363
+"Soedertaelje"	"SE"	70777
+"Boras"	"SE"	71700
+"Gaevle"	"SE"	74884
+"Haninge"	"SE"	74968
+"Umea"	"SE"	83249
+"Lund"	"SE"	87244
+"Huddinge"	"SE"	90182
+"Norrkoeping"	"SE"	93765
+"Joenkoeping"	"SE"	93797
+"Helsingborg"	"SE"	104250
+"Linkoeping"	"SE"	106502
+"OErebro"	"SE"	115765
+"Vaesteras"	"SE"	117746
+"Soedermalm"	"SE"	127323
+"Sollentuna"	"SE"	139606
+"Uppsala"	"SE"	149245
+"Malmoe"	"SE"	301706
+"Goeteborg"	"SE"	572799
+"Stockholm"	"SE"	1515017
+"Singapore"	"SG"	3547809
+"Maribor"	"SI"	95171
+"Ljubljana"	"SI"	272220
+"Trnava"	"SK"	69785
+"Banska Bystrica"	"SK"	82336
+"Zilina"	"SK"	85985
+"Nitra"	"SK"	86329
+"Presov"	"SK"	94718
+"Kosice"	"SK"	236563
+"Bratislava"	"SK"	423737
+"Makeni"	"SL"	87679
+"Kenema"	"SL"	143137
+"Bo"	"SL"	174354
+"Freetown"	"SL"	802639
+"Louga"	"SN"	67154
+"Mbake"	"SN"	74100
+"Tambacounda"	"SN"	78800
+"Tiebo"	"SN"	100289
+"Ziguinchor"	"SN"	159778
+"Kaolack"	"SN"	172305
+"Saint-Louis"	"SN"	176000
+"Thies Nones"	"SN"	252320
+"Touba"	"SN"	529176
+"Pikine"	"SN"	874062
+"Dakar"	"SN"	2476400
+"Bosaso"	"SO"	74287
+"Burao"	"SO"	99270
+"Baidoa"	"SO"	129839
+"Jamaame"	"SO"	185270
+"Marka"	"SO"	230100
+"Kismayo"	"SO"	234852
+"Berbera"	"SO"	242344
+"Hargeysa"	"SO"	477876
+"Mogadishu"	"SO"	2587183
+"Paramaribo"	"SR"	223757
+"Wau"	"SS"	127384
+"Malakal"	"SS"	160765
+"Delgado"	"SV"	71594
+"Apopa"	"SV"	112158
+"Santa Tecla"	"SV"	124694
+"Mejicanos"	"SV"	160317
+"San Miguel"	"SV"	161880
+"Santa Ana"	"SV"	176661
+"Soyapango"	"SV"	329708
+"San Salvador"	"SV"	525990
+"Manbij"	"SY"	68888
+"Darayya"	"SY"	71596
+"Al Hasakah"	"SY"	81539
+"Ath Thawrah"	"SY"	87880
+"Tartouss"	"SY"	89457
+"As Salamiyah"	"SY"	94887
+"As Safirah"	"SY"	95832
+"Dar'a"	"SY"	97969
+"Douma"	"SY"	111864
+"Idlib"	"SY"	128840
+"Al Bab"	"SY"	130745
+"Deir ez-Zor"	"SY"	242565
+"Latakia"	"SY"	340181
+"Hamah"	"SY"	460602
+"Homs"	"SY"	775404
+"Damascus"	"SY"	1569394
+"Aleppo"	"SY"	1602264
+"Mbabane"	"SZ"	76218
+"Manzini"	"SZ"	110537
+"Sagh"	"TD"	102528
+"Moundou"	"TD"	135167
+"N'Djamena"	"TD"	721081
+"Kpalime"	"TG"	75084
+"Atakpame"	"TG"	80683
+"Kara"	"TG"	104207
+"Sokode"	"TG"	117811
+"Lome"	"TG"	749700
+"Trang"	"TH"	66713
+"Saraburi"	"TH"	67763
+"Krathum Baen"	"TH"	72819
+"Bang Kruai"	"TH"	78305
+"Chiang Rai"	"TH"	78756
+"Phra Nakhon Si Ayutthaya"	"TH"	81962
+"Songkhla"	"TH"	84264
+"Ban Mai"	"TH"	86899
+"Phuket"	"TH"	89072
+"Nakhon Sawan"	"TH"	91802
+"Ratchaburi"	"TH"	92448
+"Yala"	"TH"	93558
+"Phatthaya"	"TH"	97296
+"Chanthaburi"	"TH"	99819
+"Phitsanulok"	"TH"	103427
+"Rayong"	"TH"	106737
+"Nakhon Pathom"	"TH"	117927
+"Khlong Luang"	"TH"	118551
+"Nakhon Si Thammarat"	"TH"	120836
+"Surat Thani"	"TH"	127201
+"Khon Kaen"	"TH"	147579
+"Lampang"	"TH"	156139
+"Phra Pradaeng"	"TH"	171333
+"Si Racha"	"TH"	178916
+"Pak Kret"	"TH"	182926
+"Hat Yai"	"TH"	191696
+"Chiang Mai"	"TH"	200952
+"Nakhon Ratchasima"	"TH"	208781
+"Chon Buri"	"TH"	219164
+"Udon Thani"	"TH"	247231
+"Mueang Nonthaburi"	"TH"	291555
+"Samut Prakan"	"TH"	388920
+"Bangkok"	"TH"	5104476
+"Kulob"	"TJ"	78786
+"Khujand"	"TJ"	144865
+"Dushanbe"	"TJ"	679400
+"Tejen"	"TM"	67294
+"Turkmenbasy"	"TM"	68292
+"Bayramaly"	"TM"	75797
+"Balkanabat"	"TM"	87822
+"Mary"	"TM"	114680
+"Dasoguz"	"TM"	166500
+"Turkmenabat"	"TM"	234817
+"Ashgabat"	"TM"	727700
+"La Mohammedia"	"TN"	66593
+"Monastir"	"TN"	71546
+"Ben Arous"	"TN"	74932
+"Zarzis"	"TN"	79316
+"La Goulette"	"TN"	79795
+"Kasserine"	"TN"	81987
+"Ariana"	"TN"	97687
+"Gabes"	"TN"	110075
+"Bizerte"	"TN"	115268
+"Kairouan"	"TN"	119794
+"Sousse"	"TN"	164123
+"Sfax"	"TN"	277278
+"Tunis"	"TN"	693210
+"OEdemis"	"TR"	67153
+"Ardesen"	"TR"	67965
+"Soeke"	"TR"	68230
+"Kadirli"	"TR"	70248
+"Kastamonu"	"TR"	70402
+"Gemlik"	"TR"	71063
+"Yalova"	"TR"	71289
+"Mardin"	"TR"	71373
+"Khanjarah"	"TR"	71379
+"Yuksekova"	"TR"	71729
+"Kahta"	"TR"	73105
+"Tatvan"	"TR"	73222
+"Belek"	"TR"	73260
+"Bismil"	"TR"	74493
+"Silopi"	"TR"	74798
+"Silifke"	"TR"	75315
+"Nevsehir"	"TR"	75527
+"Isparta"	"TR"	75721
+"Midyat"	"TR"	76268
+"Kars"	"TR"	77486
+"UEnye"	"TR"	77585
+"Hakkari"	"TR"	77699
+"Elbistan"	"TR"	80456
+"Bingol"	"TR"	80568
+"Cizre"	"TR"	80992
+"Fatsa"	"TR"	82160
+"Kilis"	"TR"	82301
+"Nizip"	"TR"	82308
+"Mus"	"TR"	82536
+"Amasya"	"TR"	82896
+"Cerkezkoey"	"TR"	84234
+"Akhisar"	"TR"	84659
+"Patnos"	"TR"	87451
+"Canakkale"	"TR"	87791
+"Yozgat"	"TR"	87881
+"Kozan"	"TR"	88115
+"Eregli"	"TR"	88848
+"Salihli"	"TR"	88906
+"Nusaybin"	"TR"	88977
+"Korfez"	"TR"	90580
+"Luleburgaz"	"TR"	90899
+"Nigde"	"TR"	91039
+"Ercis"	"TR"	91915
+"Agri"	"TR"	92022
+"Eregli"	"TR"	92117
+"Rize"	"TR"	92772
+"Bafra"	"TR"	92944
+"Polatli"	"TR"	93262
+"Kirsehir"	"TR"	94336
+"Ceyhan"	"TR"	96303
+"Bolu"	"TR"	96629
+"Karabuk"	"TR"	97481
+"Giresun"	"TR"	98864
+"Manavgat"	"TR"	99254
+"Zonguldak"	"TR"	100229
+"Mustafakemalpasa"	"TR"	101412
+"Turgutlu"	"TR"	103292
+"Bandirma"	"TR"	107631
+"Turhal"	"TR"	110884
+"Alanya"	"TR"	112969
+"Erzincan"	"TR"	114027
+"Siirt"	"TR"	114034
+"Ordu"	"TR"	116788
+"Nazilli"	"TR"	119370
+"Karaman"	"TR"	120399
+"Tekirdag"	"TR"	122287
+"Beylikduezue"	"TR"	122452
+"Edirne"	"TR"	126470
+"Tokat"	"TR"	129702
+"Inegol"	"TR"	133959
+"Afyonkarahisar"	"TR"	146136
+"Kiziltepe"	"TR"	150174
+"Aksaray"	"TR"	152201
+"Usak"	"TR"	152862
+"Viransehir"	"TR"	154163
+"Aydin"	"TR"	163022
+"Siverek"	"TR"	175341
+"Corum"	"TR"	183418
+"Kutahya"	"TR"	185008
+"Basaksehir"	"TR"	193750
+"Izmit"	"TR"	196571
+"Corlu"	"TR"	202578
+"Osmaniye"	"TR"	202837
+"Kirikkale"	"TR"	211138
+"Esenyurt"	"TR"	211330
+"Adiyaman"	"TR"	223744
+"Balikesir"	"TR"	238151
+"Sancaktepe"	"TR"	241000
+"Manisa"	"TR"	243971
+"Trabzon"	"TR"	244083
+"Tarsus"	"TR"	256482
+"Sivas"	"TR"	264022
+"Merkezefendi"	"TR"	280341
+"Gebze"	"TR"	281436
+"Sultanbeyli"	"TR"	286622
+"Adapazari"	"TR"	286787
+"Zeytinburnu"	"TR"	288743
+"Elazig"	"TR"	298004
+"Denizli"	"TR"	313238
+"Sisli"	"TR"	314684
+"Atasehir"	"TR"	361615
+"Van"	"TR"	371713
+"Kahramanmaras"	"TR"	376045
+"Batman"	"TR"	381990
+"Samsun"	"TR"	394050
+"Erzurum"	"TR"	420691
+"Maltepe"	"TR"	427040
+"Sultangazi"	"TR"	436935
+"Malatya"	"TR"	441805
+"Sanliurfa"	"TR"	449549
+"Karabaglar"	"TR"	458000
+"Eskisehir"	"TR"	514869
+"Esenler"	"TR"	520235
+"Mercin"	"TR"	537842
+"Umraniye"	"TR"	573265
+"Bahcelievler"	"TR"	576799
+"UEskuedar"	"TR"	582666
+"Kayseri"	"TR"	592840
+"Diyarbakir"	"TR"	644763
+"Bagcilar"	"TR"	724270
+"Antalya"	"TR"	758188
+"Cankaya"	"TR"	792189
+"Konya"	"TR"	875530
+"Gaziantep"	"TR"	1065975
+"Adana"	"TR"	1248988
+"Bursa"	"TR"	1412701
+"Izmir"	"TR"	2500603
+"Ankara"	"TR"	3517182
+"Istanbul"	"TR"	11174257
+"Laventille"	"TT"	157258
+"Daxi"	"TW"	84549
+"Puli"	"TW"	86406
+"Yilan"	"TW"	94188
+"Douliu"	"TW"	104723
+"Nantou"	"TW"	105682
+"Taitung City"	"TW"	109584
+"Hualien City"	"TW"	350468
+"Keelung"	"TW"	397515
+"Taoyuan City"	"TW"	402014
+"Hsinchu"	"TW"	404109
+"Banqiao"	"TW"	543342
+"Tainan"	"TW"	771235
+"Taichung"	"TW"	1040725
+"Kaohsiung"	"TW"	1519711
+"Taipei"	"TW"	7871900
+"Bukoba"	"TZ"	70628
+"Mpanda"	"TZ"	73338
+"Bagamoyo"	"TZ"	82426
+"Sumbawanga"	"TZ"	89161
+"Kilosa"	"TZ"	91889
+"Mtwara"	"TZ"	96602
+"Shinyanga"	"TZ"	107362
+"Katumba"	"TZ"	108558
+"Iringa"	"TZ"	111820
+"Musoma"	"TZ"	121119
+"Songea"	"TZ"	126449
+"Moshi"	"TZ"	156959
+"Kigoma"	"TZ"	164268
+"Dodoma"	"TZ"	180541
+"Tanga"	"TZ"	224876
+"Morogoro"	"TZ"	250902
+"Mbeya"	"TZ"	291649
+"Arusha"	"TZ"	341136
+"Zanzibar"	"TZ"	403658
+"Mwanza"	"TZ"	436801
+"Dar es Salaam"	"TZ"	2698652
+"Kovel'"	"UA"	66400
+"Smila"	"UA"	67530
+"Kalush"	"UA"	67698
+"Torez"	"UA"	68037
+"Krasnoarmiys'k"	"UA"	68263
+"Feodosiya"	"UA"	68562
+"Pervomays'k"	"UA"	70746
+"Novomoskovs'k"	"UA"	73100
+"Nizhyn"	"UA"	75499
+"Yalta"	"UA"	77003
+"Drohobych"	"UA"	79406
+"Artemivs'k"	"UA"	80500
+"Mukacheve"	"UA"	81633
+"Izmayil"	"UA"	82485
+"Stakhanov"	"UA"	84425
+"Shostka"	"UA"	85432
+"Berdychiv"	"UA"	86250
+"Uman'"	"UA"	87658
+"Brovary"	"UA"	88506
+"Krasnyy Luch"	"UA"	90005
+"Kostyantynivka"	"UA"	91259
+"Konotop"	"UA"	91798
+"Yenakiyeve"	"UA"	104101
+"Yevpatoriya"	"UA"	106202
+"Lysychans'k"	"UA"	111600
+"Uzhhorod"	"UA"	117878
+"Berdyans'k"	"UA"	118284
+"Sloviansk"	"UA"	124800
+"Nikopol'"	"UA"	130500
+"Kerch"	"UA"	148932
+"Kramators'k"	"UA"	173700
+"Bila Tserkva"	"UA"	199163
+"Ivano-Frankivs'k"	"UA"	204200
+"Luts'k"	"UA"	213661
+"Kremenchuk"	"UA"	227494
+"Ternopil'"	"UA"	235676
+"Chernivtsi"	"UA"	236250
+"Dniprodzerzhyns'k"	"UA"	248575
+"Kropyvnytskyi"	"UA"	249454
+"Rivne"	"UA"	255106
+"Horlivka"	"UA"	278550
+"Zhytomyr"	"UA"	282192
+"Sumy"	"UA"	294456
+"Cherkasy"	"UA"	297568
+"Chernihiv"	"UA"	307684
+"Poltava"	"UA"	317847
+"Kherson"	"UA"	320477
+"Simferopol"	"UA"	336460
+"Vinnytsya"	"UA"	352115
+"Makiyivka"	"UA"	376610
+"Khmel'nyts'kyy"	"UA"	398346
+"Sevastopol"	"UA"	416263
+"Luhansk"	"UA"	452000
+"Mariupol"	"UA"	481626
+"Mykolayiv"	"UA"	510840
+"Kryvyi Rih"	"UA"	652380
+"Lviv"	"UA"	717803
+"Zaporizhia"	"UA"	796217
+"Odessa"	"UA"	1001558
+"Donetsk"	"UA"	1024700
+"Dnipro"	"UA"	1032822
+"Kharkiv"	"UA"	1430885
+"Kiev"	"UA"	2797553
+"Kasese"	"UG"	67269
+"Mukono"	"UG"	67290
+"Bwizibwera"	"UG"	79157
+"Jinja"	"UG"	93061
+"Mbarara"	"UG"	97500
+"Lira"	"UG"	119323
+"Gulu"	"UG"	146858
+"Kampala"	"UG"	1353189
+"Delray Beach"	"US"	66255
+"Eagan"	"US"	66286
+"Bayonne"	"US"	66311
+"Homestead"	"US"	66498
+"North Little Rock"	"US"	66504
+"Oshkosh"	"US"	66555
+"South Jordan"	"US"	66648
+"Marysville"	"US"	66773
+"Casas Adobes"	"US"	66795
+"Palo Alto"	"US"	66853
+"Portland"	"US"	66881
+"Yuba City"	"US"	66941
+"Kenner"	"US"	67091
+"South San Francisco"	"US"	67271
+"Jacksonville"	"US"	67357
+"Gaithersburg"	"US"	67456
+"Camarillo"	"US"	67608
+"Glen Burnie"	"US"	67639
+"Davis"	"US"	67666
+"Waldorf"	"US"	67752
+"Eau Claire"	"US"	67778
+"Woodbury"	"US"	67855
+"Yorba Linda"	"US"	67973
+"Bossier City"	"US"	68094
+"Redondo Beach"	"US"	68166
+"Framingham"	"US"	68318
+"Maple Grove"	"US"	68385
+"Waterloo"	"US"	68460
+"Northridge"	"US"	68469
+"Dothan"	"US"	68567
+"Mount Vernon"	"US"	68628
+"Upland"	"US"	68910
+"Kissimmee"	"US"	69152
+"Union City"	"US"	69156
+"Palatine"	"US"	69308
+"Pittsburg"	"US"	69424
+"Frederick"	"US"	69479
+"Weston"	"US"	69959
+"Flagstaff"	"US"	70320
+"Cherry Hill"	"US"	70475
+"Rancho Cordova"	"US"	71017
+"Missoula"	"US"	71022
+"Redlands"	"US"	71035
+"Riverview"	"US"	71050
+"Passaic"	"US"	71085
+"Lafayette"	"US"	71111
+"Bismarck"	"US"	71167
+"Flower Mound"	"US"	71253
+"West Gulfport"	"US"	71329
+"Silver Spring"	"US"	71452
+"Rock Hill"	"US"	71548
+"Lauderhill"	"US"	71579
+"Pawtucket"	"US"	71591
+"Gulfport"	"US"	71856
+"Canton"	"US"	71885
+"Wilmington"	"US"	71948
+"Waukesha"	"US"	71970
+"Lynwood"	"US"	71989
+"Apple Valley"	"US"	72174
+"Franklin"	"US"	72639
+"New Britain"	"US"	72808
+"Saint George"	"US"	72897
+"Southfield"	"US"	73156
+"Decatur"	"US"	73254
+"Rochester Hills"	"US"	73424
+"Warner Robins"	"US"	73490
+"Jonesboro"	"US"	73907
+"Boynton Beach"	"US"	73966
+"Fort Myers"	"US"	74013
+"Shelby"	"US"	74099
+"Layton"	"US"	74143
+"Iowa City"	"US"	74220
+"Bolingbrook"	"US"	74306
+"Union City"	"US"	74494
+"Gastonia"	"US"	74543
+"Schaumburg"	"US"	74693
+"Albany"	"US"	74843
+"Bethlehem"	"US"	74892
+"Perris"	"US"	74971
+"Cheektowaga"	"US"	75178
+"Loveland"	"US"	75182
+"Wyoming"	"US"	75275
+"Kendall"	"US"	75371
+"Manteca"	"US"	75448
+"Waterford"	"US"	75737
+"Plymouth"	"US"	75907
+"Arlington Heights"	"US"	75926
+"Kalamazoo"	"US"	76041
+"Lake Charles"	"US"	76070
+"Camden"	"US"	76119
+"San Ramon"	"US"	76134
+"Baytown"	"US"	76335
+"Folsom"	"US"	76375
+"Saint Joseph"	"US"	76780
+"Fishers"	"US"	76794
+"Auburn"	"US"	77006
+"Baldwin Park"	"US"	77071
+"Scranton"	"US"	77118
+"Gary"	"US"	77156
+"Hammond"	"US"	77614
+"Racine"	"US"	77742
+"North Hollywood"	"US"	77848
+"Springdale"	"US"	77859
+"Alafaya"	"US"	78113
+"Bloomington"	"US"	78292
+"Chino Hills"	"US"	78309
+"San Pedro"	"US"	78405
+"Bellflower"	"US"	78441
+"Town 'n' Country"	"US"	78442
+"Alameda"	"US"	78630
+"Kennewick"	"US"	78896
+"Goodyear"	"US"	79003
+"Brooklyn Park"	"US"	79149
+"Pleasanton"	"US"	79510
+"Deerfield Beach"	"US"	79768
+"Medford"	"US"	79805
+"New Rochelle"	"US"	79846
+"Parma"	"US"	79937
+"Melbourne"	"US"	80127
+"Lawrence"	"US"	80231
+"Somerville"	"US"	80318
+"Napa"	"US"	80434
+"Mountain View"	"US"	80435
+"Tustin"	"US"	80583
+"Avondale"	"US"	80684
+"Largo"	"US"	81000
+"Cranston"	"US"	81073
+"Mount Pleasant"	"US"	81317
+"San Tan Valley"	"US"	81321
+"Farmington Hills"	"US"	81330
+"Warwick"	"US"	81699
+"Bryan"	"US"	82118
+"Merced"	"US"	82436
+"Sioux City"	"US"	82821
+"Fayetteville"	"US"	82830
+"Buena Park"	"US"	83270
+"Troy"	"US"	83280
+"Johns Creek"	"US"	83335
+"Hemet"	"US"	83861
+"Cicero"	"US"	83886
+"Bloomington"	"US"	84067
+"Santa Fe"	"US"	84099
+"Trenton"	"US"	84225
+"Sunrise"	"US"	84439
+"Edinburg"	"US"	84497
+"East Norwalk"	"US"	84530
+"Danbury"	"US"	84657
+"Hoover"	"US"	84848
+"O'Fallon"	"US"	85040
+"Bellingham"	"US"	85146
+"Redwood City"	"US"	85288
+"Ogden"	"US"	85444
+"Alhambra"	"US"	85551
+"Chino"	"US"	85595
+"Champaign"	"US"	86096
+"Duluth"	"US"	86110
+"Clifton"	"US"	86334
+"Germantown"	"US"	86395
+"Bloomington"	"US"	86435
+"Greenburgh"	"US"	86764
+"Lehigh Acres"	"US"	86784
+"Canton"	"US"	86825
+"Bend"	"US"	87014
+"Citrus Heights"	"US"	87056
+"Tracy"	"US"	87075
+"Newport Beach"	"US"	87127
+"Menifee"	"US"	87174
+"Kirkland"	"US"	87281
+"Whittier"	"US"	87438
+"Sandy"	"US"	87461
+"Rio Rancho"	"US"	87521
+"Indio"	"US"	87533
+"Reading"	"US"	87879
+"Nashua"	"US"	87970
+"Irvine"	"US"	88126
+"Suffolk"	"US"	88161
+"Fort Smith"	"US"	88194
+"Hawthorne"	"US"	88451
+"Deltona"	"US"	88474
+"Waukegan"	"US"	88475
+"Norwalk"	"US"	88485
+"Asheville"	"US"	88512
+"Fall River"	"US"	88777
+"Toms River"	"US"	88791
+"Newton"	"US"	88817
+"Sandy Hills"	"US"	89575
+"Nampa"	"US"	89839
+"Edmond"	"US"	90092
+"Chico"	"US"	90316
+"Greenville"	"US"	90597
+"San Leandro"	"US"	90712
+"Meridian"	"US"	90739
+"Macon"	"US"	91351
+"Redding"	"US"	91582
+"Santa Barbara"	"US"	91842
+"Longmont"	"US"	92088
+"Westminster"	"US"	92114
+"Arden-Arcade"	"US"	92186
+"Miami Beach"	"US"	92312
+"Lynn"	"US"	92457
+"Plantation"	"US"	92560
+"Boyle Heights"	"US"	92785
+"San Marcos"	"US"	92931
+"Santa Monica"	"US"	93220
+"Boca Raton"	"US"	93235
+"Carson"	"US"	93281
+"Quincy"	"US"	93618
+"Yakima"	"US"	93701
+"West Albany"	"US"	93794
+"Lawrence"	"US"	93917
+"Yuma"	"US"	94139
+"Rio Rancho"	"US"	94171
+"Orem"	"US"	94457
+"Roswell"	"US"	94501
+"Livonia"	"US"	94635
+"Spokane Valley"	"US"	94919
+"New Bedford"	"US"	94958
+"Lee's Summit"	"US"	95094
+"Brockton"	"US"	95314
+"Sparks"	"US"	96094
+"South Gate"	"US"	96401
+"Beaverton"	"US"	96577
+"Lawton"	"US"	96655
+"Highlands Ranch"	"US"	96713
+"Mission Viejo"	"US"	97156
+"Allen"	"US"	98143
+"Flint"	"US"	98310
+"Tuscaloosa"	"US"	98332
+"Compton"	"US"	98462
+"Albany"	"US"	98469
+"Spring Hill"	"US"	98621
+"Erie"	"US"	99475
+"Columbia"	"US"	99615
+"Clinton"	"US"	99753
+"Kenosha"	"US"	99858
+"Renton"	"US"	100242
+"San Angelo"	"US"	100450
+"Davie"	"US"	100882
+"Greeley"	"US"	100883
+"South Bend"	"US"	101516
+"Las Cruces"	"US"	101643
+"Hillsboro"	"US"	102347
+"Edison"	"US"	102548
+"Davenport"	"US"	102582
+"Rialto"	"US"	103132
+"Brandon"	"US"	103483
+"San Mateo"	"US"	103536
+"El Cajon"	"US"	103679
+"Clovis"	"US"	104180
+"Lakeland"	"US"	104401
+"Santa Maria"	"US"	105093
+"Green Bay"	"US"	105207
+"Burbank"	"US"	105319
+"Sandy Springs"	"US"	105330
+"Daly City"	"US"	106562
+"Broken Arrow"	"US"	106563
+"West Palm Beach"	"US"	106779
+"Norwalk"	"US"	107140
+"Boulder"	"US"	107349
+"Pompano Beach"	"US"	107762
+"Palm Bay"	"US"	107888
+"College Station"	"US"	107889
+"Everett"	"US"	108010
+"North Charleston"	"US"	108304
+"Enterprise"	"US"	108481
+"West Covina"	"US"	108484
+"Waterbury"	"US"	108802
+"Pueblo"	"US"	109412
+"Richmond"	"US"	109708
+"Centennial"	"US"	109741
+"Murrieta"	"US"	109830
+"Manchester"	"US"	110229
+"Billings"	"US"	110263
+"High Point"	"US"	110268
+"Cambridge"	"US"	110402
+"Antioch"	"US"	110542
+"East Independence"	"US"	110675
+"Lowell"	"US"	110699
+"Inglewood"	"US"	111666
+"West Jordan"	"US"	111946
+"Temecula"	"US"	112011
+"Elgin"	"US"	112111
+"Rochester"	"US"	112225
+"Fairfield"	"US"	112970
+"Clearwater"	"US"	113003
+"North Peoria"	"US"	113004
+"Westminster"	"US"	113130
+"Miami Gardens"	"US"	113187
+"Costa Mesa"	"US"	113204
+"Carlsbad"	"US"	113453
+"Downey"	"US"	114219
+"Lansing"	"US"	115056
+"Peoria"	"US"	115070
+"Provo"	"US"	115264
+"Arvada"	"US"	115368
+"Wilmington"	"US"	115933
+"Springfield"	"US"	116565
+"Athens"	"US"	116714
+"El Monte"	"US"	116732
+"Ann Arbor"	"US"	117070
+"Independence"	"US"	117255
+"Beaumont"	"US"	118129
+"Fargo"	"US"	118523
+"Odessa"	"US"	118968
+"Columbia"	"US"	119108
+"Evansville"	"US"	119943
+"Allentown"	"US"	120207
+"Norman"	"US"	120284
+"Berkeley"	"US"	120972
+"North Stamford"	"US"	121230
+"Abilene"	"US"	121721
+"Amherst"	"US"	122366
+"Hartford"	"US"	124006
+"Murfreesboro"	"US"	126118
+"Santa Clara"	"US"	126215
+"East Los Angeles"	"US"	126496
+"Simi Valley"	"US"	126788
+"Kent"	"US"	126952
+"Topeka"	"US"	127265
+"Lafayette"	"US"	127657
+"Surprise"	"US"	128422
+"Concord"	"US"	128667
+"Stamford"	"US"	128874
+"Elizabeth"	"US"	129007
+"Thousand Oaks"	"US"	129339
+"Coral Springs"	"US"	129485
+"Gainesville"	"US"	130128
+"Roseville"	"US"	130269
+"New Haven"	"US"	130322
+"Cedar Rapids"	"US"	130405
+"Denton"	"US"	131044
+"Sterling Heights"	"US"	132052
+"Charleston"	"US"	132609
+"Midland"	"US"	132950
+"Carrollton"	"US"	133168
+"Thornton"	"US"	133451
+"Columbia"	"US"	133803
+"Warren"	"US"	134056
+"West Valley City"	"US"	136208
+"Miramar"	"US"	137132
+"Metairie"	"US"	138481
+"Bellevue"	"US"	139820
+"Dayton"	"US"	140599
+"Fullerton"	"US"	140847
+"Orange"	"US"	140992
+"Pasadena"	"US"	142250
+"Metairie Terrace"	"US"	142489
+"Syracuse"	"US"	144142
+"Savannah"	"US"	145674
+"Boise"	"US"	145987
+"Naperville"	"US"	147100
+"Bridgeport"	"US"	147629
+"Paterson"	"US"	147754
+"Joliet"	"US"	147861
+"Rockford"	"US"	148278
+"Torrance"	"US"	148475
+"Clarksville"	"US"	149176
+"Hollywood"	"US"	149728
+"Kansas City"	"US"	151306
+"Escondido"	"US"	151451
+"Sunnyvale"	"US"	151754
+"Lakewood"	"US"	152597
+"Pomona"	"US"	153266
+"East Chattanooga"	"US"	154024
+"Springfield"	"US"	154341
+"Frisco"	"US"	154407
+"Salinas"	"US"	157380
+"Hayward"	"US"	158289
+"Palmdale"	"US"	158351
+"Tempe Junction"	"US"	158368
+"Cary"	"US"	159769
+"Fort Collins"	"US"	161175
+"Eugene"	"US"	163460
+"Corona"	"US"	164226
+"Salem"	"US"	164549
+"Port Saint Lucie"	"US"	164603
+"Pembroke Pines"	"US"	166611
+"Springfield"	"US"	166810
+"Elk Grove"	"US"	166913
+"Hollywood"	"US"	167664
+"Jackson"	"US"	170674
+"Ontario"	"US"	171214
+"Peoria"	"US"	171237
+"Sioux Falls"	"US"	171544
+"Vancouver"	"US"	172860
+"East New York"	"US"	173198
+"Cape Coral"	"US"	175229
+"Rancho Cucamonga"	"US"	175236
+"Garden Grove"	"US"	175393
+"Oceanside"	"US"	175691
+"Tempe"	"US"	175826
+"Chattanooga"	"US"	176588
+"Spring Valley"	"US"	178395
+"Fort Lauderdale"	"US"	178590
+"Providence"	"US"	179207
+"Santa Clarita"	"US"	182371
+"Brownsville"	"US"	183887
+"Worcester"	"US"	184815
+"Knoxville"	"US"	185291
+"Overland Park"	"US"	186515
+"Oxnard Shores"	"US"	187235
+"Grand Prairie"	"US"	187809
+"Sunrise Manor"	"US"	189372
+"Tallahassee"	"US"	189907
+"Huntsville"	"US"	190582
+"Salt Lake City"	"US"	192672
+"Mobile"	"US"	194288
+"Grand Rapids"	"US"	195097
+"Shreveport"	"US"	197204
+"Akron"	"US"	197542
+"Little Rock"	"US"	197992
+"Amarillo"	"US"	198645
+"Columbus"	"US"	200579
+"Montgomery"	"US"	200602
+"Aurora"	"US"	200661
+"Glendale"	"US"	201020
+"Yonkers"	"US"	201116
+"Huntington Beach"	"US"	201899
+"Fayetteville"	"US"	201963
+"North Glendale"	"US"	203201
+"Moreno Valley"	"US"	204198
+"Oxnard"	"US"	207254
+"Fontana"	"US"	207460
+"Tacoma"	"US"	207948
+"Rochester"	"US"	209802
+"Des Moines"	"US"	210330
+"Modesto"	"US"	211266
+"Birmingham"	"US"	212461
+"Spokane"	"US"	213272
+"San Bernardino"	"US"	216108
+"Jamaica"	"US"	216866
+"Paradise"	"US"	223167
+"Lexington"	"US"	225366
+"Baton Rouge"	"US"	228590
+"Fremont"	"US"	232206
+"North Las Vegas"	"US"	234807
+"Scottsdale"	"US"	236839
+"Garland"	"US"	236897
+"Hialeah"	"US"	237069
+"Glendale"	"US"	240126
+"Winston-Salem"	"US"	241218
+"Reno"	"US"	241445
+"Louisville"	"US"	243639
+"Gilbert"	"US"	247542
+"Madison"	"US"	248951
+"Lubbock"	"US"	249042
+"St. Petersburg"	"US"	257083
+"Durham"	"US"	257636
+"Buffalo"	"US"	258071
+"Fort Wayne"	"US"	260326
+"Chandler"	"US"	260828
+"Jersey City"	"US"	264290
+"Chula Vista"	"US"	265757
+"Orlando"	"US"	270934
+"Lincoln"	"US"	277348
+"Toledo"	"US"	279789
+"Newark"	"US"	281944
+"Saint Paul"	"US"	285068
+"Greensboro"	"US"	285342
+"Henderson"	"US"	285667
+"Ironville"	"US"	288649
+"Cincinnati"	"US"	296943
+"Anchorage"	"US"	298695
+"Pittsburgh"	"US"	304391
+"Stockton"	"US"	305658
+"Lexington-Fayette"	"US"	314488
+"St. Louis"	"US"	315685
+"Riverside"	"US"	322424
+"Corpus Christi"	"US"	324074
+"Santa Ana"	"US"	335400
+"West Raleigh"	"US"	338759
+"Anaheim"	"US"	350742
+"Aurora"	"US"	359407
+"Tampa"	"US"	369075
+"Honolulu"	"US"	371657
+"Bakersfield"	"US"	373640
+"Cleveland"	"US"	388072
+"Arlington"	"US"	388125
+"New Orleans"	"US"	389617
+"Wichita"	"US"	389965
+"Tulsa"	"US"	403505
+"Minneapolis"	"US"	410939
+"Oakland"	"US"	419267
+"Miami"	"US"	441003
+"Omaha"	"US"	443885
+"Raleigh"	"US"	451066
+"Virginia Beach"	"US"	452745
+"Colorado Springs"	"US"	456568
+"Atlanta"	"US"	463878
+"Staten Island"	"US"	468730
+"Mesa"	"US"	471825
+"Long Beach"	"US"	474140
+"Kansas City"	"US"	475378
+"Sacramento"	"US"	490712
+"Fresno"	"US"	520052
+"Nashville"	"US"	530852
+"Tucson"	"US"	531641
+"Albuquerque"	"US"	559121
+"South Boston"	"US"	571281
+"Milwaukee"	"US"	600155
+"Washington, D.C."	"US"	601723
+"Baltimore"	"US"	621849
+"Las Vegas"	"US"	623747
+"Oklahoma City"	"US"	631346
+"Portland"	"US"	632309
+"New South Memphis"	"US"	641608
+"Memphis"	"US"	655770
+"Boston"	"US"	667137
+"Detroit"	"US"	677116
+"El Paso"	"US"	681124
+"Denver"	"US"	682545
+"Seattle"	"US"	684451
+"Charlotte"	"US"	827097
+"Indianapolis"	"US"	829718
+"Fort Worth"	"US"	833319
+"Columbus"	"US"	850106
+"San Francisco"	"US"	864816
+"Jacksonville"	"US"	868031
+"Austin"	"US"	931830
+"San Jose"	"US"	1026908
+"Dallas"	"US"	1300092
+"The Bronx"	"US"	1385108
+"San Diego"	"US"	1394928
+"Manhattan"	"US"	1487536
+"Phoenix"	"US"	1563025
+"Philadelphia"	"US"	1567442
+"Borough of Queens"	"US"	2272771
+"Houston"	"US"	2296224
+"Brooklyn"	"US"	2300664
+"Chicago"	"US"	2720546
+"Los Angeles"	"US"	3971883
+"New York City"	"US"	8175133
+"Las Piedras"	"UY"	69682
+"Paysandu"	"UY"	73249
+"Salto"	"UY"	99823
+"Montevideo"	"UY"	1270737
+"Bekobod"	"UZ"	86259
+"Olmaliq"	"UZ"	121207
+"Navoiy"	"UZ"	125800
+"Angren"	"UZ"	126957
+"Navoiy"	"UZ"	129725
+"Marg`ilon"	"UZ"	133490
+"Urganch"	"UZ"	150110
+"Jizzax"	"UZ"	152642
+"Fergana"	"UZ"	164322
+"Chirchiq"	"UZ"	167842
+"Qo`qon"	"UZ"	187477
+"Qarshi"	"UZ"	222898
+"Nukus"	"UZ"	230006
+"Bukhara"	"UZ"	247644
+"Andijon"	"UZ"	318419
+"Samarqand"	"UZ"	319366
+"Namangan"	"UZ"	432456
+"Tashkent"	"UZ"	1978028
+"Guigue"	"VE"	71530
+"Araure"	"VE"	73054
+"Villa de Cura"	"VE"	76614
+"San Felipe"	"VE"	76766
+"San Carlos"	"VE"	77192
+"San Fernando de Apure"	"VE"	78779
+"El Cafetal"	"VE"	80029
+"Tinaquillo"	"VE"	82145
+"La Victoria"	"VE"	87045
+"Porlamar"	"VE"	87120
+"San Juan de los Morros"	"VE"	87739
+"Valle de La Pascua"	"VE"	89080
+"Yaritagua"	"VE"	89662
+"Valera"	"VE"	93756
+"Carora"	"VE"	93788
+"Mariara"	"VE"	105486
+"Catia La Mar"	"VE"	106822
+"Ejido"	"VE"	106915
+"Carupano"	"VE"	112082
+"Guanare"	"VE"	112286
+"Calabozo"	"VE"	117132
+"Anaco"	"VE"	117596
+"Cagua"	"VE"	119033
+"Palo Negro"	"VE"	128875
+"Charallave"	"VE"	129182
+"Punto Fijo"	"VE"	131784
+"Los Teques"	"VE"	140617
+"Acarigua"	"VE"	143704
+"El Limon"	"VE"	148247
+"El Tigre"	"VE"	150999
+"Guacara"	"VE"	151752
+"Ocumare del Tuy"	"VE"	166072
+"Puerto Cabello"	"VE"	174000
+"Guarenas"	"VE"	181612
+"Cua"	"VE"	182558
+"Guatire"	"VE"	191903
+"Coro"	"VE"	195227
+"Cabimas"	"VE"	200818
+"Mucumpiz"	"VE"	215259
+"Baruta"	"VE"	244216
+"San Cristobal"	"VE"	246583
+"Cumana"	"VE"	257783
+"Santa Teresa"	"VE"	278890
+"Alto Barinas"	"VE"	284289
+"Ciudad Bolivar"	"VE"	338000
+"Turmero"	"VE"	344700
+"Barinas"	"VE"	353442
+"Petare"	"VE"	364684
+"Maturin"	"VE"	410972
+"Barcelona"	"VE"	424795
+"Ciudad Guayana"	"VE"	746535
+"Barquisimeto"	"VE"	809490
+"Valencia"	"VE"	1385083
+"Maracay"	"VE"	1754256
+"Maracaibo"	"VE"	2225000
+"Caracas"	"VE"	3000000
+"Tuy Hoa"	"VN"	69596
+"Cho Dok"	"VN"	70239
+"Mong Cai"	"VN"	72960
+"Phan Rang-Thap Cham"	"VN"	91520
+"Viet Tri"	"VN"	93475
+"Song Cau"	"VN"	94066
+"Yen Bai"	"VN"	96540
+"Vinh Long"	"VN"	103314
+"Thanh Pho Hoa Binh"	"VN"	105260
+"Yen Vinh"	"VN"	107082
+"Thanh pho Bac Lieu"	"VN"	107911
+"Ca Mau"	"VN"	111894
+"Thanh Hoa"	"VN"	112473
+"Pleiku"	"VN"	114225
+"Soc Trang"	"VN"	114453
+"My Tho"	"VN"	122310
+"Thanh Pho Thai Nguyen"	"VN"	133877
+"Cam Pha Mines"	"VN"	135477
+"Sa Pa"	"VN"	138622
+"Cam Ranh"	"VN"	146771
+"Buon Ma Thuot"	"VN"	146975
+"Thanh Pho Ha Long"	"VN"	148066
+"Bao Loc"	"VN"	151915
+"Can Giuoc"	"VN"	152200
+"Long Xuyen"	"VN"	158153
+"Phan Thiet"	"VN"	160652
+"GJuc Trong"	"VN"	161232
+"Vinh"	"VN"	163759
+"Thanh Pho Nam Dinh"	"VN"	193499
+"Da Lat"	"VN"	197000
+"Vung Tau"	"VN"	209683
+"Qui Nhon"	"VN"	210338
+"Rach Gia"	"VN"	228356
+"Can Tho"	"VN"	259598
+"Nha Trang"	"VN"	283441
+"Hue"	"VN"	287217
+"Bien Hoa"	"VN"	407208
+"Haiphong"	"VN"	602695
+"Da Nang"	"VN"	752493
+"Hanoi"	"VN"	1431270
+"Ho Chi Minh City"	"VN"	3467331
+"Suva Reka"	"XK"	72229
+"Peje"	"XK"	81800
+"Gjakove"	"XK"	94158
+"Mitrovice"	"XK"	107045
+"Prizren"	"XK"	171464
+"Sayyan"	"YE"	69404
+"'Amran"	"YE"	90792
+"Dhamar"	"YE"	160114
+"Ibb"	"YE"	234837
+"Al Mukalla"	"YE"	258132
+"Aden"	"YE"	550602
+"Ta`izz"	"YE"	615222
+"Al Hudaydah"	"YE"	617871
+"Sanaa"	"YE"	1937451
+"Barberton"	"ZA"	67927
+"Saldanha"	"ZA"	68284
+"Knysna"	"ZA"	68659
+"Ga-Rankuwa"	"ZA"	68767
+"Schweizer-Reneke"	"ZA"	70214
+"Parys"	"ZA"	71319
+"Bothaville"	"ZA"	71934
+"Standerton"	"ZA"	74021
+"Mmabatho"	"ZA"	76754
+"Sasolburg"	"ZA"	77016
+"Mthatha"	"ZA"	78663
+"Bethlehem"	"ZA"	83654
+"Phuthaditjhaba"	"ZA"	84258
+"Piet Retief"	"ZA"	84349
+"Dundee"	"ZA"	84413
+"Louis Trichardt"	"ZA"	86854
+"Warmbaths"	"ZA"	90210
+"Grahamstown"	"ZA"	91548
+"Delmas"	"ZA"	92046
+"Stilfontein"	"ZA"	93110
+"Stellenbosch"	"ZA"	94263
+"Kutloanong"	"ZA"	95008
+"Mabopane"	"ZA"	97417
+"Mokopane"	"ZA"	101090
+"Bethal"	"ZA"	101919
+"Kroonstad"	"ZA"	103992
+"Queenstown"	"ZA"	105309
+"Phalaborwa"	"ZA"	109468
+"Nelspruit"	"ZA"	110159
+"Brits"	"ZA"	122497
+"Virginia"	"ZA"	122502
+"Potchefstroom"	"ZA"	123669
+"Polokwane"	"ZA"	123749
+"Rustenburg"	"ZA"	124064
+"Worcester"	"ZA"	127597
+"Randfontein"	"ZA"	133654
+"Bhisho"	"ZA"	137287
+"Mpumalanga"	"ZA"	140121
+"Nigel"	"ZA"	140644
+"eMbalenhle"	"ZA"	141741
+"Kimberley"	"ZA"	142089
+"Orkney"	"ZA"	145801
+"Vryheid"	"ZA"	150012
+"Middelburg"	"ZA"	154706
+"Westonaria"	"ZA"	156831
+"Midrand"	"ZA"	173009
+"Klerksdorp"	"ZA"	178921
+"Carletonville"	"ZA"	182304
+"Springs"	"ZA"	186394
+"Roodepoort"	"ZA"	225000
+"Uitenhage"	"ZA"	228912
+"Centurion"	"ZA"	233386
+"Vanderbijlpark"	"ZA"	246754
+"Witbank"	"ZA"	262491
+"Brakpan"	"ZA"	305692
+"Botshabelo"	"ZA"	309714
+"Krugersdorp"	"ZA"	378821
+"Newcastle"	"ZA"	404838
+"Welkom"	"ZA"	431944
+"Boksburg"	"ZA"	445168
+"Bloemfontein"	"ZA"	463064
+"Vereeniging"	"ZA"	474681
+"East London"	"ZA"	478676
+"Tembisa"	"ZA"	511655
+"Benoni"	"ZA"	605344
+"Pietermaritzburg"	"ZA"	750845
+"Port Elizabeth"	"ZA"	967677
+"Pretoria"	"ZA"	1619438
+"Soweto"	"ZA"	1695047
+"Johannesburg"	"ZA"	2026469
+"Durban"	"ZA"	3120282
+"Cape Town"	"ZA"	3433441
+"Kalulushi"	"ZM"	66575
+"Chipata"	"ZM"	85963
+"Livingstone"	"ZM"	109203
+"Luanshya"	"ZM"	113365
+"Mufulira"	"ZM"	120500
+"Chingola"	"ZM"	148564
+"Kabwe"	"ZM"	188979
+"Ndola"	"ZM"	394518
+"Kitwe"	"ZM"	400914
+"Lusaka"	"ZM"	1267440
+"Masvingo"	"ZW"	76290
+"Kadoma"	"ZW"	79174
+"Kwekwe"	"ZW"	99149
+"Epworth"	"ZW"	123250
+"Gweru"	"ZW"	146073
+"Mutare"	"ZW"	184205
+"Chitungwiza"	"ZW"	340360
+"Bulawayo"	"ZW"	699385
+"Harare"	"ZW"	1542813
