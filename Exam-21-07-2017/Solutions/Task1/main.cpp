@@ -2,10 +2,16 @@
 #include<string>
 #include<sstream>
 
+#pragma GCC optimize ("O3")
+
 const int MEASUREMENTS = 500;
 
 int main()
 {
+	// Tweaks for faster cin execution
+    std::cin.sync_with_stdio(false);
+    std::cin.tie(nullptr);
+	
     int measure_one[MEASUREMENTS] = {};
     int result[MEASUREMENTS] = {};
 

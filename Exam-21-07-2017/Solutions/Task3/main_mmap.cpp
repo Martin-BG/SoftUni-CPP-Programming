@@ -2,7 +2,6 @@
 #include <string>
 #include <map>
 #include <sstream>
-#include <vector>
 
 #pragma GCC optimize ("O3")
 
@@ -50,7 +49,7 @@ int main()
     }
 
 
-    for( multimap<int,string>::reverse_iterator it=mails.rbegin(); it!=mails.rend() && pages > 0; ++it)
+    for (multimap<int,string>::reverse_iterator it=mails.rbegin(); it!=mails.rend() && pages > 0; ++it)
     {
         cout << (*it).second << endl;
         pages--;
