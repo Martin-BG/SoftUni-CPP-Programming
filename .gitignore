@@ -6,6 +6,11 @@
 *.7z
 *.rar
 
+#CLion folders and files
+**/.idea/
+**/cmake-build-debug/
+CMakeLists.txt
+
 # Prerequisites
 *.d
 
