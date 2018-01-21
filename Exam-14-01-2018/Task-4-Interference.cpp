@@ -13,7 +13,8 @@ int main()
 
     typedef std::pair<int, std::string> decoded;
 
-    auto decoded_comparator = [](const decoded &lhs, const decoded &rhs) {
+    auto decoded_comparator = [](const decoded &lhs, const decoded &rhs)
+    {
         return lhs.first <= rhs.first;
     };
 
