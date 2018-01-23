@@ -31,11 +31,9 @@ int main()
                 main_value = value;
                 main_key_found = true;
             }
-            else
-            {
-                elements.push(key);
-                elements.push(value);
-            }
+
+            elements.push(key);
+            elements.push(value);
         }
 
         if (main_key_found)
