@@ -9,8 +9,8 @@ std::string changeLetters(std::string s, std::unordered_map<char, char> letterCh
 
 int main()
 {
-    std::cout.sync_with_stdio(false);
-    std::cin.sync_with_stdio(false);
+    std::ostream::sync_with_stdio(false);
+    std::istream::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
     std::unordered_map<std::string, std::vector<std::string> > encrypted; // first word, vector of messages starting with it

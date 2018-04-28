@@ -6,8 +6,8 @@
 
 int main()
 {
-    std::cout.sync_with_stdio(false);
-    std::cin.sync_with_stdio(false);
+    std::ostream::sync_with_stdio(false);
+    std::istream::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
     std::ostringstream output;
