@@ -9,7 +9,8 @@
 #CLion folders and files
 **/.idea/
 **/cmake-build-debug/
-CMakeLists.txt
+**/cmake-build-release/
+#CMakeLists.txt
 
 # Prerequisites
 *.d
