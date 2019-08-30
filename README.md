@@ -1,4 +1,3 @@
-# SoftUni-CPP-Programming
-C++ Programming Course at SoftUni - February 2017
+# C++ Programming
 
-https://softuni.bg/trainings/1573/cpp-programming-february-2017
+[**C++ Programming** course at SoftUni - Feb 2017](https://softuni.bg/trainings/1573/cpp-programming-february-2017)
